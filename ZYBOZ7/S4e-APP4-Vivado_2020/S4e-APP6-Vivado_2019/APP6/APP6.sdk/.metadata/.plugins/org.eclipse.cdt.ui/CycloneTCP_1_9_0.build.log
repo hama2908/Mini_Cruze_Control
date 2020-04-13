@@ -1,0 +1,114 @@
+01:01:09 **** Incremental Build of configuration Default for project CycloneTCP_1_9_0 ****
+make -k -j8 all 
+'Building file: ../cyclone_tcp/std_services/echo.c'
+'Building file: ../cyclone_tcp/ipv4/arp.c'
+'Building file: ../cyclone_tcp/ipv4/ipv4.c'
+'Building file: ../cyclone_tcp/drivers/eth/enc624j600_driver.c'
+'Building file: ../cyclone_tcp/core/ethernet.c'
+'Building file: ../cyclone_tcp/core/ip.c'
+'Building file: ../cyclone_tcp/core/net.c'
+'Building file: ../cyclone_tcp/core/net_mem.c'
+'Invoking: MicroBlaze g++ compiler'
+'Invoking: MicroBlaze g++ compiler'
+'Invoking: MicroBlaze g++ compiler'
+'Invoking: MicroBlaze g++ compiler'
+'Invoking: MicroBlaze g++ compiler'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\common" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\standalone_bsp_0\microblaze_0\include" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\cyclone_tcp" -c -fmessage-length=0 -MT"cyclone_tcp/std_services/echo.o" -mlittle-endian -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"cyclone_tcp/std_services/echo.d" -MT"cyclone_tcp/std_services/echo.o" -o "cyclone_tcp/std_services/echo.o" "../cyclone_tcp/std_services/echo.c"
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\common" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\standalone_bsp_0\microblaze_0\include" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\cyclone_tcp" -c -fmessage-length=0 -MT"cyclone_tcp/ipv4/arp.o" -mlittle-endian -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"cyclone_tcp/ipv4/arp.d" -MT"cyclone_tcp/ipv4/arp.o" -o "cyclone_tcp/ipv4/arp.o" "../cyclone_tcp/ipv4/arp.c"
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\common" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\standalone_bsp_0\microblaze_0\include" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\cyclone_tcp" -c -fmessage-length=0 -MT"cyclone_tcp/ipv4/ipv4.o" -mlittle-endian -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"cyclone_tcp/ipv4/ipv4.d" -MT"cyclone_tcp/ipv4/ipv4.o" -o "cyclone_tcp/ipv4/ipv4.o" "../cyclone_tcp/ipv4/ipv4.c"
+mb-g++ -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\common" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\standalone_bsp_0\microblaze_0\include" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\cyclone_tcp" -c -fmessage-length=0 -MT"cyclone_tcp/drivers/eth/enc624j600_driver.o" -mlittle-endian -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"cyclone_tcp/drivers/eth/enc624j600_driver.d" -MT"cyclone_tcp/drivers/eth/enc624j600_driver.o" -o "cyclone_tcp/drivers/eth/enc624j600_driver.o" "../cyclone_tcp/drivers/eth/enc624j600_driver.c"
+mb-g++ -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\common" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\standalone_bsp_0\microblaze_0\include" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\cyclone_tcp" -c -fmessage-length=0 -MT"cyclone_tcp/core/ethernet.o" -mlittle-endian -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"cyclone_tcp/core/ethernet.d" -MT"cyclone_tcp/core/ethernet.o" -o "cyclone_tcp/core/ethernet.o" "../cyclone_tcp/core/ethernet.c"
+mb-g++ -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\common" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\standalone_bsp_0\microblaze_0\include" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\cyclone_tcp" -c -fmessage-length=0 -MT"cyclone_tcp/core/ip.o" -mlittle-endian -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"cyclone_tcp/core/ip.d" -MT"cyclone_tcp/core/ip.o" -o "cyclone_tcp/core/ip.o" "../cyclone_tcp/core/ip.c"
+mb-g++ -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\common" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\standalone_bsp_0\microblaze_0\include" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\cyclone_tcp" -c -fmessage-length=0 -MT"cyclone_tcp/core/net.o" -mlittle-endian -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"cyclone_tcp/core/net.d" -MT"cyclone_tcp/core/net.o" -o "cyclone_tcp/core/net.o" "../cyclone_tcp/core/net.c"
+mb-g++ -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\common" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\standalone_bsp_0\microblaze_0\include" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\cyclone_tcp" -c -fmessage-length=0 -MT"cyclone_tcp/core/net_mem.o" -mlittle-endian -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"cyclone_tcp/core/net_mem.d" -MT"cyclone_tcp/core/net_mem.o" -o "cyclone_tcp/core/net_mem.o" "../cyclone_tcp/core/net_mem.c"
+../cyclone_tcp/drivers/eth/enc624j600_driver.c: In function 'error_t enc624j600UpdateMacConfig(_NetInterface*)':
+../cyclone_tcp/drivers/eth/enc624j600_driver.c:565:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+'Finished building: ../cyclone_tcp/std_services/echo.c'
+' '
+'Building file: ../cyclone_tcp/core/nic.c'
+'Finished building: ../cyclone_tcp/core/ip.c'
+'Invoking: MicroBlaze g++ compiler'
+'Finished building: ../cyclone_tcp/ipv4/arp.c'
+'Finished building: ../cyclone_tcp/drivers/eth/enc624j600_driver.c'
+mb-g++ -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\common" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\standalone_bsp_0\microblaze_0\include" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\cyclone_tcp" -c -fmessage-length=0 -MT"cyclone_tcp/core/nic.o" -mlittle-endian -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"cyclone_tcp/core/nic.d" -MT"cyclone_tcp/core/nic.o" -o "cyclone_tcp/core/nic.o" "../cyclone_tcp/core/nic.c"
+'Finished building: ../cyclone_tcp/core/net_mem.c'
+' '
+'Finished building: ../cyclone_tcp/core/net.c'
+'Finished building: ../cyclone_tcp/core/ethernet.c'
+'Finished building: ../cyclone_tcp/ipv4/ipv4.c'
+' '
+' '
+' '
+'Building file: ../cyclone_tcp/core/socket.c'
+' '
+' '
+' '
+'Building file: ../cyclone_tcp/core/udp.c'
+'Building file: ../cyclone_tcp/ext_int_driver.c'
+'Invoking: MicroBlaze g++ compiler'
+'Building file: ../cyclone_tcp/spi_driver.c'
+'Building file: ../cyclone_tcp/main.c'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\common" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\standalone_bsp_0\microblaze_0\include" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\cyclone_tcp" -c -fmessage-length=0 -MT"cyclone_tcp/core/socket.o" -mlittle-endian -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"cyclone_tcp/core/socket.d" -MT"cyclone_tcp/core/socket.o" -o "cyclone_tcp/core/socket.o" "../cyclone_tcp/core/socket.c"
+'Invoking: MicroBlaze g++ compiler'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\common" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\standalone_bsp_0\microblaze_0\include" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\cyclone_tcp" -c -fmessage-length=0 -MT"cyclone_tcp/core/udp.o" -mlittle-endian -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"cyclone_tcp/core/udp.d" -MT"cyclone_tcp/core/udp.o" -o "cyclone_tcp/core/udp.o" "../cyclone_tcp/core/udp.c"
+mb-g++ -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\common" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\standalone_bsp_0\microblaze_0\include" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\cyclone_tcp" -c -fmessage-length=0 -MT"cyclone_tcp/ext_int_driver.o" -mlittle-endian -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"cyclone_tcp/ext_int_driver.d" -MT"cyclone_tcp/ext_int_driver.o" -o "cyclone_tcp/ext_int_driver.o" "../cyclone_tcp/ext_int_driver.c"
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\common" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\standalone_bsp_0\microblaze_0\include" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\cyclone_tcp" -c -fmessage-length=0 -MT"cyclone_tcp/main.o" -mlittle-endian -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"cyclone_tcp/main.d" -MT"cyclone_tcp/main.o" -o "cyclone_tcp/main.o" "../cyclone_tcp/main.c"
+mb-g++ -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\common" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\standalone_bsp_0\microblaze_0\include" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\CycloneTCP_1_9_0\cyclone_tcp" -c -fmessage-length=0 -MT"cyclone_tcp/spi_driver.o" -mlittle-endian -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"cyclone_tcp/spi_driver.d" -MT"cyclone_tcp/spi_driver.o" -o "cyclone_tcp/spi_driver.o" "../cyclone_tcp/spi_driver.c"
+'Finished building: ../cyclone_tcp/core/nic.c'
+' '
+../cyclone_tcp/core/socket.c: In function 'error_t getHostByName(_NetInterface*, const char_t*, IpAddr*, uint_t)':
+../cyclone_tcp/core/socket.c:1071:21: warning: variable 'protocol' set but not used [-Wunused-but-set-variable]
+    HostnameResolver protocol = HOST_NAME_RESOLVER_ANY;
+                     ^~~~~~~~
+../cyclone_tcp/ext_int_driver.c: In function 'void ENC_Int_Handler(void*)':
+../cyclone_tcp/ext_int_driver.c:93:22: warning: unused variable 'status' [-Wunused-variable]
+    volatile uint32_t status;
+                      ^~~~~~
+../cyclone_tcp/main.c: In function 'void systemInit()':
+../cyclone_tcp/main.c:88:12: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+    error_t error;
+            ^~~~~
+../cyclone_tcp/main.c: In function 'int SetupInterruptSystem()':
+../cyclone_tcp/main.c:170:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../cyclone_tcp/main.c: In function 'void uartInit()':
+../cyclone_tcp/main.c:228:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../cyclone_tcp/main.c:229:15: warning: unused variable 'SentCount' [-Wunused-variable]
+  unsigned int SentCount;
+               ^~~~~~~~~
+../cyclone_tcp/main.c:230:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+../cyclone_tcp/main.c: In function 'int_t main()':
+../cyclone_tcp/main.c:256:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+'Finished building: ../cyclone_tcp/ext_int_driver.c'
+' '
+'Finished building: ../cyclone_tcp/spi_driver.c'
+'Finished building: ../cyclone_tcp/main.c'
+' '
+'Finished building: ../cyclone_tcp/core/socket.c'
+'Finished building: ../cyclone_tcp/core/udp.c'
+' '
+' '
+' '
+'Building target: CycloneTCP_1_9_0.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -L"C:\Users\jbm\Desktop\S4e-APP6-Vivado\APP6\APP6.sdk\standalone_bsp_0\microblaze_0\lib" -Wl,-M=output.map -Wl,-T -Wl,../CycloneTCP_1_9_0.ld -mlittle-endian -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "CycloneTCP_1_9_0.elf"  ./cyclone_tcp/std_services/echo.o  ./cyclone_tcp/ipv4/arp.o ./cyclone_tcp/ipv4/ipv4.o  ./cyclone_tcp/drivers/eth/enc624j600_driver.o  ./cyclone_tcp/core/ethernet.o ./cyclone_tcp/core/ip.o ./cyclone_tcp/core/net.o ./cyclone_tcp/core/net_mem.o ./cyclone_tcp/core/nic.o ./cyclone_tcp/core/socket.o ./cyclone_tcp/core/udp.o  ./cyclone_tcp/ext_int_driver.o ./cyclone_tcp/main.o ./cyclone_tcp/spi_driver.o  ./common/cpu_endian.o ./common/date_time.o ./common/os_port_none.o   -lc -lgcc -lgloss -lm -lxil
+'Finished building target: CycloneTCP_1_9_0.elf'
+' '
+
+01:01:11 Build Finished (took 1s.802ms)
+

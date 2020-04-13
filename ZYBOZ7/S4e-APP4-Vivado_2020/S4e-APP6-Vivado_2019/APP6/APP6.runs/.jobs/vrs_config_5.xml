@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_myip_0_0_synth_1" LaunchDir="C:/ZYBO/Work-2018.2/APP6-GE/Pbmatique-Polling-Ex2/APP6/APP6.runs/design_1_myip_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

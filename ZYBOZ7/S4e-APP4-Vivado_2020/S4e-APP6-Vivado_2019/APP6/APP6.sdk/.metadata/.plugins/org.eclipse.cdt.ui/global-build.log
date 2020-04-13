@@ -1,0 +1,1342 @@
+13:06:54 **** Incremental Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/main.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/main.d" -MT"src/cyclone_tcp/main.o" -o "src/cyclone_tcp/main.o" "../src/cyclone_tcp/main.c"
+../src/cyclone_tcp/main.c: In function 'systemInit':
+../src/cyclone_tcp/main.c:88:12: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+    error_t error;
+            ^~~~~
+../src/cyclone_tcp/main.c: In function 'SetupInterruptSystem':
+../src/cyclone_tcp/main.c:170:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'uartInit':
+../src/cyclone_tcp/main.c:230:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+../src/cyclone_tcp/main.c:229:15: warning: unused variable 'SentCount' [-Wunused-variable]
+  unsigned int SentCount;
+               ^~~~~~~~~
+../src/cyclone_tcp/main.c:228:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: At top level:
+../src/cyclone_tcp/main.c:251:1: error: unknown type name 'bool'; did you mean 'bool_t'?
+ bool udpSocketUp = false;
+ ^~~~
+ bool_t
+../src/cyclone_tcp/main.c:251:20: error: 'false' undeclared here (not in a function); did you mean 'flsl'?
+ bool udpSocketUp = false;
+                    ^~~~~
+                    flsl
+../src/cyclone_tcp/main.c: In function 'main':
+../src/cyclone_tcp/main.c:288:22: error: 'true' undeclared (first use in this function); did you mean 'free'?
+        udpSocketUp = true;
+                      ^~~~
+                      free
+../src/cyclone_tcp/main.c:288:22: note: each undeclared identifier is reported only once for each function it appears in
+../src/cyclone_tcp/main.c:256:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+make: *** [src/cyclone_tcp/subdir.mk:26: src/cyclone_tcp/main.o] Error 1
+13:07:59 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/main.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/main.d" -MT"src/cyclone_tcp/main.o" -o "src/cyclone_tcp/main.o" "../src/cyclone_tcp/main.c"
+../src/cyclone_tcp/main.c: In function 'systemInit':
+../src/cyclone_tcp/main.c:89:12: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+    error_t error;
+            ^~~~~
+../src/cyclone_tcp/main.c: In function 'SetupInterruptSystem':
+../src/cyclone_tcp/main.c:171:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'uartInit':
+../src/cyclone_tcp/main.c:231:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+../src/cyclone_tcp/main.c:230:15: warning: unused variable 'SentCount' [-Wunused-variable]
+  unsigned int SentCount;
+               ^~~~~~~~~
+../src/cyclone_tcp/main.c:229:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'main':
+../src/cyclone_tcp/main.c:257:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+'Finished building: ../src/cyclone_tcp/main.c'
+' '
+'Building file: ../src/cyclone_tcp/spi_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/spi_driver.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/spi_driver.d" -MT"src/cyclone_tcp/spi_driver.o" -o "src/cyclone_tcp/spi_driver.o" "../src/cyclone_tcp/spi_driver.c"
+'Finished building: ../src/cyclone_tcp/spi_driver.c'
+' '
+'Building file: ../src/common/cpu_endian.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/cpu_endian.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/cpu_endian.d" -MT"src/common/cpu_endian.o" -o "src/common/cpu_endian.o" "../src/common/cpu_endian.c"
+'Finished building: ../src/common/cpu_endian.c'
+' '
+'Building file: ../src/common/date_time.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/date_time.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/date_time.d" -MT"src/common/date_time.o" -o "src/common/date_time.o" "../src/common/date_time.c"
+'Finished building: ../src/common/date_time.c'
+' '
+'Building file: ../src/common/os_port_none.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/os_port_none.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/os_port_none.d" -MT"src/common/os_port_none.o" -o "src/common/os_port_none.o" "../src/common/os_port_none.c"
+'Finished building: ../src/common/os_port_none.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: APP6_2019.elf section `.rodata' will not fit in region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem'
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem' overflowed by 9848 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:43: APP6_2019.elf] Error 1
+13:13:02 **** Clean-only build of configuration Debug for project APP6_2019 ****
+make clean 
+rm -rf  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o  ./src/cyclone_tcp/std_services/echo.d  ./src/cyclone_tcp/ipv4/arp.d ./src/cyclone_tcp/ipv4/ipv4.d  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.d  ./src/cyclone_tcp/core/ethernet.d ./src/cyclone_tcp/core/ip.d ./src/cyclone_tcp/core/net.d ./src/cyclone_tcp/core/net_mem.d ./src/cyclone_tcp/core/nic.d ./src/cyclone_tcp/core/socket.d ./src/cyclone_tcp/core/udp.d  ./src/cyclone_tcp/ext_int_driver.d ./src/cyclone_tcp/main.d ./src/cyclone_tcp/spi_driver.d  ./src/common/cpu_endian.d ./src/common/date_time.d ./src/common/os_port_none.d  APP6_2019.elf.size  APP6_2019.elf
+' '
+13:13:02 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/std_services/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/std_services/echo.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -MMD -MP -MF"src/cyclone_tcp/std_services/echo.d" -MT"src/cyclone_tcp/std_services/echo.o" -o "src/cyclone_tcp/std_services/echo.o" "../src/cyclone_tcp/std_services/echo.c"
+'Finished building: ../src/cyclone_tcp/std_services/echo.c'
+' '
+'Building file: ../src/cyclone_tcp/ipv4/arp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/arp.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -MMD -MP -MF"src/cyclone_tcp/ipv4/arp.d" -MT"src/cyclone_tcp/ipv4/arp.o" -o "src/cyclone_tcp/ipv4/arp.o" "../src/cyclone_tcp/ipv4/arp.c"
+'Finished building: ../src/cyclone_tcp/ipv4/arp.c'
+' '
+'Building file: ../src/cyclone_tcp/ipv4/ipv4.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/ipv4.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -MMD -MP -MF"src/cyclone_tcp/ipv4/ipv4.d" -MT"src/cyclone_tcp/ipv4/ipv4.o" -o "src/cyclone_tcp/ipv4/ipv4.o" "../src/cyclone_tcp/ipv4/ipv4.c"
+'Finished building: ../src/cyclone_tcp/ipv4/ipv4.c'
+' '
+'Building file: ../src/cyclone_tcp/drivers/eth/enc624j600_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/drivers/eth/enc624j600_driver.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -MMD -MP -MF"src/cyclone_tcp/drivers/eth/enc624j600_driver.d" -MT"src/cyclone_tcp/drivers/eth/enc624j600_driver.o" -o "src/cyclone_tcp/drivers/eth/enc624j600_driver.o" "../src/cyclone_tcp/drivers/eth/enc624j600_driver.c"
+../src/cyclone_tcp/drivers/eth/enc624j600_driver.c: In function 'enc624j600UpdateMacConfig':
+../src/cyclone_tcp/drivers/eth/enc624j600_driver.c:565:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/cyclone_tcp/drivers/eth/enc624j600_driver.c'
+' '
+'Building file: ../src/cyclone_tcp/core/ethernet.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/ethernet.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -MMD -MP -MF"src/cyclone_tcp/core/ethernet.d" -MT"src/cyclone_tcp/core/ethernet.o" -o "src/cyclone_tcp/core/ethernet.o" "../src/cyclone_tcp/core/ethernet.c"
+'Finished building: ../src/cyclone_tcp/core/ethernet.c'
+' '
+'Building file: ../src/cyclone_tcp/core/ip.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/ip.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -MMD -MP -MF"src/cyclone_tcp/core/ip.d" -MT"src/cyclone_tcp/core/ip.o" -o "src/cyclone_tcp/core/ip.o" "../src/cyclone_tcp/core/ip.c"
+'Finished building: ../src/cyclone_tcp/core/ip.c'
+' '
+'Building file: ../src/cyclone_tcp/core/net.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/net.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -MMD -MP -MF"src/cyclone_tcp/core/net.d" -MT"src/cyclone_tcp/core/net.o" -o "src/cyclone_tcp/core/net.o" "../src/cyclone_tcp/core/net.c"
+'Finished building: ../src/cyclone_tcp/core/net.c'
+' '
+'Building file: ../src/cyclone_tcp/core/net_mem.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/net_mem.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -MMD -MP -MF"src/cyclone_tcp/core/net_mem.d" -MT"src/cyclone_tcp/core/net_mem.o" -o "src/cyclone_tcp/core/net_mem.o" "../src/cyclone_tcp/core/net_mem.c"
+'Finished building: ../src/cyclone_tcp/core/net_mem.c'
+' '
+'Building file: ../src/cyclone_tcp/core/nic.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/nic.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -MMD -MP -MF"src/cyclone_tcp/core/nic.d" -MT"src/cyclone_tcp/core/nic.o" -o "src/cyclone_tcp/core/nic.o" "../src/cyclone_tcp/core/nic.c"
+'Finished building: ../src/cyclone_tcp/core/nic.c'
+' '
+'Building file: ../src/cyclone_tcp/core/socket.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/socket.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -MMD -MP -MF"src/cyclone_tcp/core/socket.d" -MT"src/cyclone_tcp/core/socket.o" -o "src/cyclone_tcp/core/socket.o" "../src/cyclone_tcp/core/socket.c"
+../src/cyclone_tcp/core/socket.c: In function 'getHostByName':
+../src/cyclone_tcp/core/socket.c:1071:21: warning: variable 'protocol' set but not used [-Wunused-but-set-variable]
+    HostnameResolver protocol = HOST_NAME_RESOLVER_ANY;
+                     ^~~~~~~~
+'Finished building: ../src/cyclone_tcp/core/socket.c'
+' '
+'Building file: ../src/cyclone_tcp/core/udp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/udp.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -MMD -MP -MF"src/cyclone_tcp/core/udp.d" -MT"src/cyclone_tcp/core/udp.o" -o "src/cyclone_tcp/core/udp.o" "../src/cyclone_tcp/core/udp.c"
+'Finished building: ../src/cyclone_tcp/core/udp.c'
+' '
+'Building file: ../src/cyclone_tcp/ext_int_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ext_int_driver.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -MMD -MP -MF"src/cyclone_tcp/ext_int_driver.d" -MT"src/cyclone_tcp/ext_int_driver.o" -o "src/cyclone_tcp/ext_int_driver.o" "../src/cyclone_tcp/ext_int_driver.c"
+../src/cyclone_tcp/ext_int_driver.c: In function 'ENC_Int_Handler':
+../src/cyclone_tcp/ext_int_driver.c:93:22: warning: unused variable 'status' [-Wunused-variable]
+    volatile uint32_t status;
+                      ^~~~~~
+'Finished building: ../src/cyclone_tcp/ext_int_driver.c'
+' '
+'Building file: ../src/cyclone_tcp/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/main.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -MMD -MP -MF"src/cyclone_tcp/main.d" -MT"src/cyclone_tcp/main.o" -o "src/cyclone_tcp/main.o" "../src/cyclone_tcp/main.c"
+../src/cyclone_tcp/main.c: In function 'systemInit':
+../src/cyclone_tcp/main.c:89:12: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+    error_t error;
+            ^~~~~
+../src/cyclone_tcp/main.c: In function 'SetupInterruptSystem':
+../src/cyclone_tcp/main.c:171:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'uartInit':
+../src/cyclone_tcp/main.c:231:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+../src/cyclone_tcp/main.c:230:15: warning: unused variable 'SentCount' [-Wunused-variable]
+  unsigned int SentCount;
+               ^~~~~~~~~
+../src/cyclone_tcp/main.c:229:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'main':
+../src/cyclone_tcp/main.c:257:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+'Finished building: ../src/cyclone_tcp/main.c'
+' '
+'Building file: ../src/cyclone_tcp/spi_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/spi_driver.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -MMD -MP -MF"src/cyclone_tcp/spi_driver.d" -MT"src/cyclone_tcp/spi_driver.o" -o "src/cyclone_tcp/spi_driver.o" "../src/cyclone_tcp/spi_driver.c"
+'Finished building: ../src/cyclone_tcp/spi_driver.c'
+' '
+'Building file: ../src/common/cpu_endian.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/cpu_endian.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -MMD -MP -MF"src/common/cpu_endian.d" -MT"src/common/cpu_endian.o" -o "src/common/cpu_endian.o" "../src/common/cpu_endian.c"
+'Finished building: ../src/common/cpu_endian.c'
+' '
+'Building file: ../src/common/date_time.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/date_time.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -MMD -MP -MF"src/common/date_time.d" -MT"src/common/date_time.o" -o "src/common/date_time.o" "../src/common/date_time.c"
+'Finished building: ../src/common/date_time.c'
+' '
+'Building file: ../src/common/os_port_none.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/os_port_none.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -MMD -MP -MF"src/common/os_port_none.d" -MT"src/common/os_port_none.o" -o "src/common/os_port_none.o" "../src/common/os_port_none.c"
+'Finished building: ../src/common/os_port_none.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: APP6_2019.elf section `.text' will not fit in region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem'
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem' overflowed by 15312 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:43: APP6_2019.elf] Error 1
+13:13:27 **** Clean-only build of configuration Debug for project APP6_2019 ****
+make clean 
+rm -rf  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o  ./src/cyclone_tcp/std_services/echo.d  ./src/cyclone_tcp/ipv4/arp.d ./src/cyclone_tcp/ipv4/ipv4.d  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.d  ./src/cyclone_tcp/core/ethernet.d ./src/cyclone_tcp/core/ip.d ./src/cyclone_tcp/core/net.d ./src/cyclone_tcp/core/net_mem.d ./src/cyclone_tcp/core/nic.d ./src/cyclone_tcp/core/socket.d ./src/cyclone_tcp/core/udp.d  ./src/cyclone_tcp/ext_int_driver.d ./src/cyclone_tcp/main.d ./src/cyclone_tcp/spi_driver.d  ./src/common/cpu_endian.d ./src/common/date_time.d ./src/common/os_port_none.d  APP6_2019.elf.size  APP6_2019.elf
+' '
+13:13:28 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/std_services/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/std_services/echo.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/std_services/echo.d" -MT"src/cyclone_tcp/std_services/echo.o" -o "src/cyclone_tcp/std_services/echo.o" "../src/cyclone_tcp/std_services/echo.c"
+'Finished building: ../src/cyclone_tcp/std_services/echo.c'
+' '
+'Building file: ../src/cyclone_tcp/ipv4/arp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/arp.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ipv4/arp.d" -MT"src/cyclone_tcp/ipv4/arp.o" -o "src/cyclone_tcp/ipv4/arp.o" "../src/cyclone_tcp/ipv4/arp.c"
+'Finished building: ../src/cyclone_tcp/ipv4/arp.c'
+' '
+'Building file: ../src/cyclone_tcp/ipv4/ipv4.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/ipv4.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ipv4/ipv4.d" -MT"src/cyclone_tcp/ipv4/ipv4.o" -o "src/cyclone_tcp/ipv4/ipv4.o" "../src/cyclone_tcp/ipv4/ipv4.c"
+'Finished building: ../src/cyclone_tcp/ipv4/ipv4.c'
+' '
+'Building file: ../src/cyclone_tcp/drivers/eth/enc624j600_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/drivers/eth/enc624j600_driver.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/drivers/eth/enc624j600_driver.d" -MT"src/cyclone_tcp/drivers/eth/enc624j600_driver.o" -o "src/cyclone_tcp/drivers/eth/enc624j600_driver.o" "../src/cyclone_tcp/drivers/eth/enc624j600_driver.c"
+../src/cyclone_tcp/drivers/eth/enc624j600_driver.c: In function 'enc624j600UpdateMacConfig':
+../src/cyclone_tcp/drivers/eth/enc624j600_driver.c:565:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/cyclone_tcp/drivers/eth/enc624j600_driver.c'
+' '
+'Building file: ../src/cyclone_tcp/core/ethernet.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/ethernet.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/ethernet.d" -MT"src/cyclone_tcp/core/ethernet.o" -o "src/cyclone_tcp/core/ethernet.o" "../src/cyclone_tcp/core/ethernet.c"
+'Finished building: ../src/cyclone_tcp/core/ethernet.c'
+' '
+'Building file: ../src/cyclone_tcp/core/ip.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/ip.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/ip.d" -MT"src/cyclone_tcp/core/ip.o" -o "src/cyclone_tcp/core/ip.o" "../src/cyclone_tcp/core/ip.c"
+'Finished building: ../src/cyclone_tcp/core/ip.c'
+' '
+'Building file: ../src/cyclone_tcp/core/net.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/net.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/net.d" -MT"src/cyclone_tcp/core/net.o" -o "src/cyclone_tcp/core/net.o" "../src/cyclone_tcp/core/net.c"
+'Finished building: ../src/cyclone_tcp/core/net.c'
+' '
+'Building file: ../src/cyclone_tcp/core/net_mem.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/net_mem.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/net_mem.d" -MT"src/cyclone_tcp/core/net_mem.o" -o "src/cyclone_tcp/core/net_mem.o" "../src/cyclone_tcp/core/net_mem.c"
+'Finished building: ../src/cyclone_tcp/core/net_mem.c'
+' '
+'Building file: ../src/cyclone_tcp/core/nic.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/nic.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/nic.d" -MT"src/cyclone_tcp/core/nic.o" -o "src/cyclone_tcp/core/nic.o" "../src/cyclone_tcp/core/nic.c"
+'Finished building: ../src/cyclone_tcp/core/nic.c'
+' '
+'Building file: ../src/cyclone_tcp/core/socket.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/socket.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/socket.d" -MT"src/cyclone_tcp/core/socket.o" -o "src/cyclone_tcp/core/socket.o" "../src/cyclone_tcp/core/socket.c"
+../src/cyclone_tcp/core/socket.c: In function 'getHostByName':
+../src/cyclone_tcp/core/socket.c:1071:21: warning: variable 'protocol' set but not used [-Wunused-but-set-variable]
+    HostnameResolver protocol = HOST_NAME_RESOLVER_ANY;
+                     ^~~~~~~~
+'Finished building: ../src/cyclone_tcp/core/socket.c'
+' '
+'Building file: ../src/cyclone_tcp/core/udp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/udp.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/udp.d" -MT"src/cyclone_tcp/core/udp.o" -o "src/cyclone_tcp/core/udp.o" "../src/cyclone_tcp/core/udp.c"
+'Finished building: ../src/cyclone_tcp/core/udp.c'
+' '
+'Building file: ../src/cyclone_tcp/ext_int_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ext_int_driver.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ext_int_driver.d" -MT"src/cyclone_tcp/ext_int_driver.o" -o "src/cyclone_tcp/ext_int_driver.o" "../src/cyclone_tcp/ext_int_driver.c"
+../src/cyclone_tcp/ext_int_driver.c: In function 'ENC_Int_Handler':
+../src/cyclone_tcp/ext_int_driver.c:93:22: warning: unused variable 'status' [-Wunused-variable]
+    volatile uint32_t status;
+                      ^~~~~~
+'Finished building: ../src/cyclone_tcp/ext_int_driver.c'
+' '
+'Building file: ../src/cyclone_tcp/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/main.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/main.d" -MT"src/cyclone_tcp/main.o" -o "src/cyclone_tcp/main.o" "../src/cyclone_tcp/main.c"
+../src/cyclone_tcp/main.c: In function 'systemInit':
+../src/cyclone_tcp/main.c:89:12: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+    error_t error;
+            ^~~~~
+../src/cyclone_tcp/main.c: In function 'SetupInterruptSystem':
+../src/cyclone_tcp/main.c:171:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'uartInit':
+../src/cyclone_tcp/main.c:231:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+../src/cyclone_tcp/main.c:230:15: warning: unused variable 'SentCount' [-Wunused-variable]
+  unsigned int SentCount;
+               ^~~~~~~~~
+../src/cyclone_tcp/main.c:229:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'main':
+../src/cyclone_tcp/main.c:257:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+'Finished building: ../src/cyclone_tcp/main.c'
+' '
+'Building file: ../src/cyclone_tcp/spi_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/spi_driver.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/spi_driver.d" -MT"src/cyclone_tcp/spi_driver.o" -o "src/cyclone_tcp/spi_driver.o" "../src/cyclone_tcp/spi_driver.c"
+'Finished building: ../src/cyclone_tcp/spi_driver.c'
+' '
+'Building file: ../src/common/cpu_endian.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/cpu_endian.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/cpu_endian.d" -MT"src/common/cpu_endian.o" -o "src/common/cpu_endian.o" "../src/common/cpu_endian.c"
+'Finished building: ../src/common/cpu_endian.c'
+' '
+'Building file: ../src/common/date_time.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/date_time.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/date_time.d" -MT"src/common/date_time.o" -o "src/common/date_time.o" "../src/common/date_time.c"
+'Finished building: ../src/common/date_time.c'
+' '
+'Building file: ../src/common/os_port_none.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/os_port_none.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/os_port_none.d" -MT"src/common/os_port_none.o" -o "src/common/os_port_none.o" "../src/common/os_port_none.c"
+'Finished building: ../src/common/os_port_none.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP6_2019.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP6_2019.elf  |tee "APP6_2019.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 112004	   1856	   6860	 120720	  1d790	APP6_2019.elf
+'Finished building: APP6_2019.elf.size'
+' '
+13:19:45 **** Clean-only build of configuration Debug for project APP6_2019 ****
+make clean 
+rm -rf  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o  ./src/cyclone_tcp/std_services/echo.d  ./src/cyclone_tcp/ipv4/arp.d ./src/cyclone_tcp/ipv4/ipv4.d  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.d  ./src/cyclone_tcp/core/ethernet.d ./src/cyclone_tcp/core/ip.d ./src/cyclone_tcp/core/net.d ./src/cyclone_tcp/core/net_mem.d ./src/cyclone_tcp/core/nic.d ./src/cyclone_tcp/core/socket.d ./src/cyclone_tcp/core/udp.d  ./src/cyclone_tcp/ext_int_driver.d ./src/cyclone_tcp/main.d ./src/cyclone_tcp/spi_driver.d  ./src/common/cpu_endian.d ./src/common/date_time.d ./src/common/os_port_none.d  APP6_2019.elf.size  APP6_2019.elf
+' '
+13:19:45 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/std_services/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/std_services/echo.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/std_services/echo.d" -MT"src/cyclone_tcp/std_services/echo.o" -o "src/cyclone_tcp/std_services/echo.o" "../src/cyclone_tcp/std_services/echo.c"
+'Finished building: ../src/cyclone_tcp/std_services/echo.c'
+' '
+'Building file: ../src/cyclone_tcp/ipv4/arp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/arp.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ipv4/arp.d" -MT"src/cyclone_tcp/ipv4/arp.o" -o "src/cyclone_tcp/ipv4/arp.o" "../src/cyclone_tcp/ipv4/arp.c"
+'Finished building: ../src/cyclone_tcp/ipv4/arp.c'
+' '
+'Building file: ../src/cyclone_tcp/ipv4/ipv4.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/ipv4.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ipv4/ipv4.d" -MT"src/cyclone_tcp/ipv4/ipv4.o" -o "src/cyclone_tcp/ipv4/ipv4.o" "../src/cyclone_tcp/ipv4/ipv4.c"
+'Finished building: ../src/cyclone_tcp/ipv4/ipv4.c'
+' '
+'Building file: ../src/cyclone_tcp/drivers/eth/enc624j600_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/drivers/eth/enc624j600_driver.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/drivers/eth/enc624j600_driver.d" -MT"src/cyclone_tcp/drivers/eth/enc624j600_driver.o" -o "src/cyclone_tcp/drivers/eth/enc624j600_driver.o" "../src/cyclone_tcp/drivers/eth/enc624j600_driver.c"
+../src/cyclone_tcp/drivers/eth/enc624j600_driver.c: In function 'enc624j600UpdateMacConfig':
+../src/cyclone_tcp/drivers/eth/enc624j600_driver.c:565:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/cyclone_tcp/drivers/eth/enc624j600_driver.c'
+' '
+'Building file: ../src/cyclone_tcp/core/ethernet.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/ethernet.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/ethernet.d" -MT"src/cyclone_tcp/core/ethernet.o" -o "src/cyclone_tcp/core/ethernet.o" "../src/cyclone_tcp/core/ethernet.c"
+'Finished building: ../src/cyclone_tcp/core/ethernet.c'
+' '
+'Building file: ../src/cyclone_tcp/core/ip.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/ip.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/ip.d" -MT"src/cyclone_tcp/core/ip.o" -o "src/cyclone_tcp/core/ip.o" "../src/cyclone_tcp/core/ip.c"
+'Finished building: ../src/cyclone_tcp/core/ip.c'
+' '
+'Building file: ../src/cyclone_tcp/core/net.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/net.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/net.d" -MT"src/cyclone_tcp/core/net.o" -o "src/cyclone_tcp/core/net.o" "../src/cyclone_tcp/core/net.c"
+'Finished building: ../src/cyclone_tcp/core/net.c'
+' '
+'Building file: ../src/cyclone_tcp/core/net_mem.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/net_mem.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/net_mem.d" -MT"src/cyclone_tcp/core/net_mem.o" -o "src/cyclone_tcp/core/net_mem.o" "../src/cyclone_tcp/core/net_mem.c"
+'Finished building: ../src/cyclone_tcp/core/net_mem.c'
+' '
+'Building file: ../src/cyclone_tcp/core/nic.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/nic.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/nic.d" -MT"src/cyclone_tcp/core/nic.o" -o "src/cyclone_tcp/core/nic.o" "../src/cyclone_tcp/core/nic.c"
+'Finished building: ../src/cyclone_tcp/core/nic.c'
+' '
+'Building file: ../src/cyclone_tcp/core/socket.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/socket.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/socket.d" -MT"src/cyclone_tcp/core/socket.o" -o "src/cyclone_tcp/core/socket.o" "../src/cyclone_tcp/core/socket.c"
+../src/cyclone_tcp/core/socket.c: In function 'getHostByName':
+../src/cyclone_tcp/core/socket.c:1071:21: warning: variable 'protocol' set but not used [-Wunused-but-set-variable]
+    HostnameResolver protocol = HOST_NAME_RESOLVER_ANY;
+                     ^~~~~~~~
+'Finished building: ../src/cyclone_tcp/core/socket.c'
+' '
+'Building file: ../src/cyclone_tcp/core/udp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/udp.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/udp.d" -MT"src/cyclone_tcp/core/udp.o" -o "src/cyclone_tcp/core/udp.o" "../src/cyclone_tcp/core/udp.c"
+'Finished building: ../src/cyclone_tcp/core/udp.c'
+' '
+'Building file: ../src/cyclone_tcp/ext_int_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ext_int_driver.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ext_int_driver.d" -MT"src/cyclone_tcp/ext_int_driver.o" -o "src/cyclone_tcp/ext_int_driver.o" "../src/cyclone_tcp/ext_int_driver.c"
+../src/cyclone_tcp/ext_int_driver.c: In function 'ENC_Int_Handler':
+../src/cyclone_tcp/ext_int_driver.c:93:22: warning: unused variable 'status' [-Wunused-variable]
+    volatile uint32_t status;
+                      ^~~~~~
+'Finished building: ../src/cyclone_tcp/ext_int_driver.c'
+' '
+'Building file: ../src/cyclone_tcp/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/main.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/main.d" -MT"src/cyclone_tcp/main.o" -o "src/cyclone_tcp/main.o" "../src/cyclone_tcp/main.c"
+../src/cyclone_tcp/main.c: In function 'systemInit':
+../src/cyclone_tcp/main.c:89:12: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+    error_t error;
+            ^~~~~
+../src/cyclone_tcp/main.c: In function 'SetupInterruptSystem':
+../src/cyclone_tcp/main.c:171:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'uartInit':
+../src/cyclone_tcp/main.c:231:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+../src/cyclone_tcp/main.c:230:15: warning: unused variable 'SentCount' [-Wunused-variable]
+  unsigned int SentCount;
+               ^~~~~~~~~
+../src/cyclone_tcp/main.c:229:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'main':
+../src/cyclone_tcp/main.c:257:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+'Finished building: ../src/cyclone_tcp/main.c'
+' '
+'Building file: ../src/cyclone_tcp/spi_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/spi_driver.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/spi_driver.d" -MT"src/cyclone_tcp/spi_driver.o" -o "src/cyclone_tcp/spi_driver.o" "../src/cyclone_tcp/spi_driver.c"
+'Finished building: ../src/cyclone_tcp/spi_driver.c'
+' '
+'Building file: ../src/common/cpu_endian.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/cpu_endian.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/cpu_endian.d" -MT"src/common/cpu_endian.o" -o "src/common/cpu_endian.o" "../src/common/cpu_endian.c"
+'Finished building: ../src/common/cpu_endian.c'
+' '
+'Building file: ../src/common/date_time.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/date_time.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/date_time.d" -MT"src/common/date_time.o" -o "src/common/date_time.o" "../src/common/date_time.c"
+'Finished building: ../src/common/date_time.c'
+' '
+'Building file: ../src/common/os_port_none.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/os_port_none.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/os_port_none.d" -MT"src/common/os_port_none.o" -o "src/common/os_port_none.o" "../src/common/os_port_none.c"
+'Finished building: ../src/common/os_port_none.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Xlinker -Wl,-Map=output.map -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: unrecognized option '-Wl,-Map=output.map'
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:43: APP6_2019.elf] Error 1
+13:20:11 **** Clean-only build of configuration Debug for project APP6_2019 ****
+make clean 
+rm -rf  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o  ./src/cyclone_tcp/std_services/echo.d  ./src/cyclone_tcp/ipv4/arp.d ./src/cyclone_tcp/ipv4/ipv4.d  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.d  ./src/cyclone_tcp/core/ethernet.d ./src/cyclone_tcp/core/ip.d ./src/cyclone_tcp/core/net.d ./src/cyclone_tcp/core/net_mem.d ./src/cyclone_tcp/core/nic.d ./src/cyclone_tcp/core/socket.d ./src/cyclone_tcp/core/udp.d  ./src/cyclone_tcp/ext_int_driver.d ./src/cyclone_tcp/main.d ./src/cyclone_tcp/spi_driver.d  ./src/common/cpu_endian.d ./src/common/date_time.d ./src/common/os_port_none.d  APP6_2019.elf.size  APP6_2019.elf
+' '
+13:20:12 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/std_services/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/std_services/echo.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/std_services/echo.d" -MT"src/cyclone_tcp/std_services/echo.o" -o "src/cyclone_tcp/std_services/echo.o" "../src/cyclone_tcp/std_services/echo.c"
+'Finished building: ../src/cyclone_tcp/std_services/echo.c'
+' '
+'Building file: ../src/cyclone_tcp/ipv4/arp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/arp.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ipv4/arp.d" -MT"src/cyclone_tcp/ipv4/arp.o" -o "src/cyclone_tcp/ipv4/arp.o" "../src/cyclone_tcp/ipv4/arp.c"
+'Finished building: ../src/cyclone_tcp/ipv4/arp.c'
+' '
+'Building file: ../src/cyclone_tcp/ipv4/ipv4.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/ipv4.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ipv4/ipv4.d" -MT"src/cyclone_tcp/ipv4/ipv4.o" -o "src/cyclone_tcp/ipv4/ipv4.o" "../src/cyclone_tcp/ipv4/ipv4.c"
+'Finished building: ../src/cyclone_tcp/ipv4/ipv4.c'
+' '
+'Building file: ../src/cyclone_tcp/drivers/eth/enc624j600_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/drivers/eth/enc624j600_driver.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/drivers/eth/enc624j600_driver.d" -MT"src/cyclone_tcp/drivers/eth/enc624j600_driver.o" -o "src/cyclone_tcp/drivers/eth/enc624j600_driver.o" "../src/cyclone_tcp/drivers/eth/enc624j600_driver.c"
+../src/cyclone_tcp/drivers/eth/enc624j600_driver.c: In function 'enc624j600UpdateMacConfig':
+../src/cyclone_tcp/drivers/eth/enc624j600_driver.c:565:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/cyclone_tcp/drivers/eth/enc624j600_driver.c'
+' '
+'Building file: ../src/cyclone_tcp/core/ethernet.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/ethernet.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/ethernet.d" -MT"src/cyclone_tcp/core/ethernet.o" -o "src/cyclone_tcp/core/ethernet.o" "../src/cyclone_tcp/core/ethernet.c"
+'Finished building: ../src/cyclone_tcp/core/ethernet.c'
+' '
+'Building file: ../src/cyclone_tcp/core/ip.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/ip.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/ip.d" -MT"src/cyclone_tcp/core/ip.o" -o "src/cyclone_tcp/core/ip.o" "../src/cyclone_tcp/core/ip.c"
+'Finished building: ../src/cyclone_tcp/core/ip.c'
+' '
+'Building file: ../src/cyclone_tcp/core/net.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/net.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/net.d" -MT"src/cyclone_tcp/core/net.o" -o "src/cyclone_tcp/core/net.o" "../src/cyclone_tcp/core/net.c"
+'Finished building: ../src/cyclone_tcp/core/net.c'
+' '
+'Building file: ../src/cyclone_tcp/core/net_mem.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/net_mem.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/net_mem.d" -MT"src/cyclone_tcp/core/net_mem.o" -o "src/cyclone_tcp/core/net_mem.o" "../src/cyclone_tcp/core/net_mem.c"
+'Finished building: ../src/cyclone_tcp/core/net_mem.c'
+' '
+'Building file: ../src/cyclone_tcp/core/nic.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/nic.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/nic.d" -MT"src/cyclone_tcp/core/nic.o" -o "src/cyclone_tcp/core/nic.o" "../src/cyclone_tcp/core/nic.c"
+'Finished building: ../src/cyclone_tcp/core/nic.c'
+' '
+'Building file: ../src/cyclone_tcp/core/socket.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/socket.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/socket.d" -MT"src/cyclone_tcp/core/socket.o" -o "src/cyclone_tcp/core/socket.o" "../src/cyclone_tcp/core/socket.c"
+../src/cyclone_tcp/core/socket.c: In function 'getHostByName':
+../src/cyclone_tcp/core/socket.c:1071:21: warning: variable 'protocol' set but not used [-Wunused-but-set-variable]
+    HostnameResolver protocol = HOST_NAME_RESOLVER_ANY;
+                     ^~~~~~~~
+'Finished building: ../src/cyclone_tcp/core/socket.c'
+' '
+'Building file: ../src/cyclone_tcp/core/udp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/udp.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/udp.d" -MT"src/cyclone_tcp/core/udp.o" -o "src/cyclone_tcp/core/udp.o" "../src/cyclone_tcp/core/udp.c"
+'Finished building: ../src/cyclone_tcp/core/udp.c'
+' '
+'Building file: ../src/cyclone_tcp/ext_int_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ext_int_driver.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ext_int_driver.d" -MT"src/cyclone_tcp/ext_int_driver.o" -o "src/cyclone_tcp/ext_int_driver.o" "../src/cyclone_tcp/ext_int_driver.c"
+../src/cyclone_tcp/ext_int_driver.c: In function 'ENC_Int_Handler':
+../src/cyclone_tcp/ext_int_driver.c:93:22: warning: unused variable 'status' [-Wunused-variable]
+    volatile uint32_t status;
+                      ^~~~~~
+'Finished building: ../src/cyclone_tcp/ext_int_driver.c'
+' '
+'Building file: ../src/cyclone_tcp/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/main.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/main.d" -MT"src/cyclone_tcp/main.o" -o "src/cyclone_tcp/main.o" "../src/cyclone_tcp/main.c"
+../src/cyclone_tcp/main.c: In function 'systemInit':
+../src/cyclone_tcp/main.c:89:12: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+    error_t error;
+            ^~~~~
+../src/cyclone_tcp/main.c: In function 'SetupInterruptSystem':
+../src/cyclone_tcp/main.c:171:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'uartInit':
+../src/cyclone_tcp/main.c:231:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+../src/cyclone_tcp/main.c:230:15: warning: unused variable 'SentCount' [-Wunused-variable]
+  unsigned int SentCount;
+               ^~~~~~~~~
+../src/cyclone_tcp/main.c:229:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'main':
+../src/cyclone_tcp/main.c:257:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+'Finished building: ../src/cyclone_tcp/main.c'
+' '
+'Building file: ../src/cyclone_tcp/spi_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/spi_driver.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/spi_driver.d" -MT"src/cyclone_tcp/spi_driver.o" -o "src/cyclone_tcp/spi_driver.o" "../src/cyclone_tcp/spi_driver.c"
+'Finished building: ../src/cyclone_tcp/spi_driver.c'
+' '
+'Building file: ../src/common/cpu_endian.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/cpu_endian.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/cpu_endian.d" -MT"src/common/cpu_endian.o" -o "src/common/cpu_endian.o" "../src/common/cpu_endian.c"
+'Finished building: ../src/common/cpu_endian.c'
+' '
+'Building file: ../src/common/date_time.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/date_time.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/date_time.d" -MT"src/common/date_time.o" -o "src/common/date_time.o" "../src/common/date_time.c"
+'Finished building: ../src/common/date_time.c'
+' '
+'Building file: ../src/common/os_port_none.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/os_port_none.o" -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/os_port_none.d" -MT"src/common/os_port_none.o" -o "src/common/os_port_none.o" "../src/common/os_port_none.c"
+'Finished building: ../src/common/os_port_none.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Xlinker -Map=output.map -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP6_2019.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP6_2019.elf  |tee "APP6_2019.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 112004	   1856	   6860	 120720	  1d790	APP6_2019.elf
+'Finished building: APP6_2019.elf.size'
+' '
+13:29:12 **** Clean-only build of configuration Debug for project APP6_2019 ****
+make clean 
+rm -rf  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o  ./src/cyclone_tcp/std_services/echo.d  ./src/cyclone_tcp/ipv4/arp.d ./src/cyclone_tcp/ipv4/ipv4.d  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.d  ./src/cyclone_tcp/core/ethernet.d ./src/cyclone_tcp/core/ip.d ./src/cyclone_tcp/core/net.d ./src/cyclone_tcp/core/net_mem.d ./src/cyclone_tcp/core/nic.d ./src/cyclone_tcp/core/socket.d ./src/cyclone_tcp/core/udp.d  ./src/cyclone_tcp/ext_int_driver.d ./src/cyclone_tcp/main.d ./src/cyclone_tcp/spi_driver.d  ./src/common/cpu_endian.d ./src/common/date_time.d ./src/common/os_port_none.d  APP6_2019.elf.size  APP6_2019.elf
+' '
+13:29:12 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/std_services/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/std_services/echo.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/std_services/echo.d" -MT"src/cyclone_tcp/std_services/echo.o" -o "src/cyclone_tcp/std_services/echo.o" "../src/cyclone_tcp/std_services/echo.c"
+'Finished building: ../src/cyclone_tcp/std_services/echo.c'
+' '
+'Building file: ../src/cyclone_tcp/ipv4/arp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/arp.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ipv4/arp.d" -MT"src/cyclone_tcp/ipv4/arp.o" -o "src/cyclone_tcp/ipv4/arp.o" "../src/cyclone_tcp/ipv4/arp.c"
+'Finished building: ../src/cyclone_tcp/ipv4/arp.c'
+' '
+'Building file: ../src/cyclone_tcp/ipv4/ipv4.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/ipv4.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ipv4/ipv4.d" -MT"src/cyclone_tcp/ipv4/ipv4.o" -o "src/cyclone_tcp/ipv4/ipv4.o" "../src/cyclone_tcp/ipv4/ipv4.c"
+'Finished building: ../src/cyclone_tcp/ipv4/ipv4.c'
+' '
+'Building file: ../src/cyclone_tcp/drivers/eth/enc624j600_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/drivers/eth/enc624j600_driver.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/drivers/eth/enc624j600_driver.d" -MT"src/cyclone_tcp/drivers/eth/enc624j600_driver.o" -o "src/cyclone_tcp/drivers/eth/enc624j600_driver.o" "../src/cyclone_tcp/drivers/eth/enc624j600_driver.c"
+../src/cyclone_tcp/drivers/eth/enc624j600_driver.c: In function 'enc624j600UpdateMacConfig':
+../src/cyclone_tcp/drivers/eth/enc624j600_driver.c:565:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/cyclone_tcp/drivers/eth/enc624j600_driver.c'
+' '
+'Building file: ../src/cyclone_tcp/core/ethernet.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/ethernet.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/ethernet.d" -MT"src/cyclone_tcp/core/ethernet.o" -o "src/cyclone_tcp/core/ethernet.o" "../src/cyclone_tcp/core/ethernet.c"
+'Finished building: ../src/cyclone_tcp/core/ethernet.c'
+' '
+'Building file: ../src/cyclone_tcp/core/ip.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/ip.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/ip.d" -MT"src/cyclone_tcp/core/ip.o" -o "src/cyclone_tcp/core/ip.o" "../src/cyclone_tcp/core/ip.c"
+'Finished building: ../src/cyclone_tcp/core/ip.c'
+' '
+'Building file: ../src/cyclone_tcp/core/net.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/net.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/net.d" -MT"src/cyclone_tcp/core/net.o" -o "src/cyclone_tcp/core/net.o" "../src/cyclone_tcp/core/net.c"
+'Finished building: ../src/cyclone_tcp/core/net.c'
+' '
+'Building file: ../src/cyclone_tcp/core/net_mem.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/net_mem.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/net_mem.d" -MT"src/cyclone_tcp/core/net_mem.o" -o "src/cyclone_tcp/core/net_mem.o" "../src/cyclone_tcp/core/net_mem.c"
+'Finished building: ../src/cyclone_tcp/core/net_mem.c'
+' '
+'Building file: ../src/cyclone_tcp/core/nic.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/nic.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/nic.d" -MT"src/cyclone_tcp/core/nic.o" -o "src/cyclone_tcp/core/nic.o" "../src/cyclone_tcp/core/nic.c"
+'Finished building: ../src/cyclone_tcp/core/nic.c'
+' '
+'Building file: ../src/cyclone_tcp/core/socket.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/socket.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/socket.d" -MT"src/cyclone_tcp/core/socket.o" -o "src/cyclone_tcp/core/socket.o" "../src/cyclone_tcp/core/socket.c"
+../src/cyclone_tcp/core/socket.c: In function 'getHostByName':
+../src/cyclone_tcp/core/socket.c:1071:21: warning: variable 'protocol' set but not used [-Wunused-but-set-variable]
+    HostnameResolver protocol = HOST_NAME_RESOLVER_ANY;
+                     ^~~~~~~~
+'Finished building: ../src/cyclone_tcp/core/socket.c'
+' '
+'Building file: ../src/cyclone_tcp/core/udp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/udp.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/udp.d" -MT"src/cyclone_tcp/core/udp.o" -o "src/cyclone_tcp/core/udp.o" "../src/cyclone_tcp/core/udp.c"
+'Finished building: ../src/cyclone_tcp/core/udp.c'
+' '
+'Building file: ../src/cyclone_tcp/ext_int_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ext_int_driver.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ext_int_driver.d" -MT"src/cyclone_tcp/ext_int_driver.o" -o "src/cyclone_tcp/ext_int_driver.o" "../src/cyclone_tcp/ext_int_driver.c"
+../src/cyclone_tcp/ext_int_driver.c: In function 'ENC_Int_Handler':
+../src/cyclone_tcp/ext_int_driver.c:93:22: warning: unused variable 'status' [-Wunused-variable]
+    volatile uint32_t status;
+                      ^~~~~~
+'Finished building: ../src/cyclone_tcp/ext_int_driver.c'
+' '
+'Building file: ../src/cyclone_tcp/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/main.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/main.d" -MT"src/cyclone_tcp/main.o" -o "src/cyclone_tcp/main.o" "../src/cyclone_tcp/main.c"
+../src/cyclone_tcp/main.c: In function 'systemInit':
+../src/cyclone_tcp/main.c:89:12: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+    error_t error;
+            ^~~~~
+../src/cyclone_tcp/main.c: In function 'SetupInterruptSystem':
+../src/cyclone_tcp/main.c:171:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'uartInit':
+../src/cyclone_tcp/main.c:231:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+../src/cyclone_tcp/main.c:230:15: warning: unused variable 'SentCount' [-Wunused-variable]
+  unsigned int SentCount;
+               ^~~~~~~~~
+../src/cyclone_tcp/main.c:229:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'main':
+../src/cyclone_tcp/main.c:257:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+'Finished building: ../src/cyclone_tcp/main.c'
+' '
+'Building file: ../src/cyclone_tcp/spi_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/spi_driver.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/spi_driver.d" -MT"src/cyclone_tcp/spi_driver.o" -o "src/cyclone_tcp/spi_driver.o" "../src/cyclone_tcp/spi_driver.c"
+'Finished building: ../src/cyclone_tcp/spi_driver.c'
+' '
+'Building file: ../src/common/cpu_endian.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/cpu_endian.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/cpu_endian.d" -MT"src/common/cpu_endian.o" -o "src/common/cpu_endian.o" "../src/common/cpu_endian.c"
+'Finished building: ../src/common/cpu_endian.c'
+' '
+'Building file: ../src/common/date_time.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/date_time.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/date_time.d" -MT"src/common/date_time.o" -o "src/common/date_time.o" "../src/common/date_time.c"
+'Finished building: ../src/common/date_time.c'
+' '
+'Building file: ../src/common/os_port_none.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\jbm\Desktop\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/os_port_none.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/os_port_none.d" -MT"src/common/os_port_none.o" -o "src/common/os_port_none.o" "../src/common/os_port_none.c"
+'Finished building: ../src/common/os_port_none.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Xlinker -Map=output.map -Xlinker -flto -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP6_2019.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP6_2019.elf  |tee "APP6_2019.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 103088	   1856	   6848	 111792	  1b4b0	APP6_2019.elf
+'Finished building: APP6_2019.elf.size'
+' '
+14:24:28 **** Auto Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/myip_v1_0/src"
+make -C microblaze_0/libsrc/myip_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/myip_v1_0/src"
+make -C microblaze_0/libsrc/myip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling myip..."
+myip_selftest.c: In function 'MYIP_Reg_SelfTest':
+myip_selftest.c:52:53: warning: comparison of integer expressions of different signedness: 'u32' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+    if ( MYIP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                     ^~
+myip_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+14:24:40 **** Clean-only build of configuration Debug for project APP6_2019 ****
+make clean 
+rm -rf  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o  ./src/cyclone_tcp/std_services/echo.d  ./src/cyclone_tcp/ipv4/arp.d ./src/cyclone_tcp/ipv4/ipv4.d  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.d  ./src/cyclone_tcp/core/ethernet.d ./src/cyclone_tcp/core/ip.d ./src/cyclone_tcp/core/net.d ./src/cyclone_tcp/core/net_mem.d ./src/cyclone_tcp/core/nic.d ./src/cyclone_tcp/core/socket.d ./src/cyclone_tcp/core/udp.d  ./src/cyclone_tcp/ext_int_driver.d ./src/cyclone_tcp/main.d ./src/cyclone_tcp/spi_driver.d  ./src/common/cpu_endian.d ./src/common/date_time.d ./src/common/os_port_none.d  APP6_2019.elf.size  APP6_2019.elf
+' '
+14:24:40 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/std_services/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/std_services/echo.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/std_services/echo.d" -MT"src/cyclone_tcp/std_services/echo.o" -o "src/cyclone_tcp/std_services/echo.o" "../src/cyclone_tcp/std_services/echo.c"
+'Finished building: ../src/cyclone_tcp/std_services/echo.c'
+' '
+'Building file: ../src/cyclone_tcp/ipv4/arp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/arp.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ipv4/arp.d" -MT"src/cyclone_tcp/ipv4/arp.o" -o "src/cyclone_tcp/ipv4/arp.o" "../src/cyclone_tcp/ipv4/arp.c"
+'Finished building: ../src/cyclone_tcp/ipv4/arp.c'
+' '
+'Building file: ../src/cyclone_tcp/ipv4/ipv4.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/ipv4.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ipv4/ipv4.d" -MT"src/cyclone_tcp/ipv4/ipv4.o" -o "src/cyclone_tcp/ipv4/ipv4.o" "../src/cyclone_tcp/ipv4/ipv4.c"
+'Finished building: ../src/cyclone_tcp/ipv4/ipv4.c'
+' '
+'Building file: ../src/cyclone_tcp/drivers/eth/enc624j600_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/drivers/eth/enc624j600_driver.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/drivers/eth/enc624j600_driver.d" -MT"src/cyclone_tcp/drivers/eth/enc624j600_driver.o" -o "src/cyclone_tcp/drivers/eth/enc624j600_driver.o" "../src/cyclone_tcp/drivers/eth/enc624j600_driver.c"
+../src/cyclone_tcp/drivers/eth/enc624j600_driver.c: In function 'enc624j600UpdateMacConfig':
+../src/cyclone_tcp/drivers/eth/enc624j600_driver.c:565:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/cyclone_tcp/drivers/eth/enc624j600_driver.c'
+' '
+'Building file: ../src/cyclone_tcp/core/ethernet.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/ethernet.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/ethernet.d" -MT"src/cyclone_tcp/core/ethernet.o" -o "src/cyclone_tcp/core/ethernet.o" "../src/cyclone_tcp/core/ethernet.c"
+'Finished building: ../src/cyclone_tcp/core/ethernet.c'
+' '
+'Building file: ../src/cyclone_tcp/core/ip.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/ip.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/ip.d" -MT"src/cyclone_tcp/core/ip.o" -o "src/cyclone_tcp/core/ip.o" "../src/cyclone_tcp/core/ip.c"
+'Finished building: ../src/cyclone_tcp/core/ip.c'
+' '
+'Building file: ../src/cyclone_tcp/core/net.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/net.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/net.d" -MT"src/cyclone_tcp/core/net.o" -o "src/cyclone_tcp/core/net.o" "../src/cyclone_tcp/core/net.c"
+'Finished building: ../src/cyclone_tcp/core/net.c'
+' '
+'Building file: ../src/cyclone_tcp/core/net_mem.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/net_mem.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/net_mem.d" -MT"src/cyclone_tcp/core/net_mem.o" -o "src/cyclone_tcp/core/net_mem.o" "../src/cyclone_tcp/core/net_mem.c"
+'Finished building: ../src/cyclone_tcp/core/net_mem.c'
+' '
+'Building file: ../src/cyclone_tcp/core/nic.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/nic.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/nic.d" -MT"src/cyclone_tcp/core/nic.o" -o "src/cyclone_tcp/core/nic.o" "../src/cyclone_tcp/core/nic.c"
+'Finished building: ../src/cyclone_tcp/core/nic.c'
+' '
+'Building file: ../src/cyclone_tcp/core/socket.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/socket.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/socket.d" -MT"src/cyclone_tcp/core/socket.o" -o "src/cyclone_tcp/core/socket.o" "../src/cyclone_tcp/core/socket.c"
+../src/cyclone_tcp/core/socket.c: In function 'getHostByName':
+../src/cyclone_tcp/core/socket.c:1071:21: warning: variable 'protocol' set but not used [-Wunused-but-set-variable]
+    HostnameResolver protocol = HOST_NAME_RESOLVER_ANY;
+                     ^~~~~~~~
+'Finished building: ../src/cyclone_tcp/core/socket.c'
+' '
+'Building file: ../src/cyclone_tcp/core/udp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/udp.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/udp.d" -MT"src/cyclone_tcp/core/udp.o" -o "src/cyclone_tcp/core/udp.o" "../src/cyclone_tcp/core/udp.c"
+'Finished building: ../src/cyclone_tcp/core/udp.c'
+' '
+'Building file: ../src/cyclone_tcp/ext_int_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ext_int_driver.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ext_int_driver.d" -MT"src/cyclone_tcp/ext_int_driver.o" -o "src/cyclone_tcp/ext_int_driver.o" "../src/cyclone_tcp/ext_int_driver.c"
+../src/cyclone_tcp/ext_int_driver.c: In function 'ENC_Int_Handler':
+../src/cyclone_tcp/ext_int_driver.c:93:22: warning: unused variable 'status' [-Wunused-variable]
+    volatile uint32_t status;
+                      ^~~~~~
+'Finished building: ../src/cyclone_tcp/ext_int_driver.c'
+' '
+'Building file: ../src/cyclone_tcp/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/main.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/main.d" -MT"src/cyclone_tcp/main.o" -o "src/cyclone_tcp/main.o" "../src/cyclone_tcp/main.c"
+../src/cyclone_tcp/main.c: In function 'systemInit':
+../src/cyclone_tcp/main.c:89:12: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+    error_t error;
+            ^~~~~
+../src/cyclone_tcp/main.c: In function 'SetupInterruptSystem':
+../src/cyclone_tcp/main.c:171:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'uartInit':
+../src/cyclone_tcp/main.c:231:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+../src/cyclone_tcp/main.c:230:15: warning: unused variable 'SentCount' [-Wunused-variable]
+  unsigned int SentCount;
+               ^~~~~~~~~
+../src/cyclone_tcp/main.c:229:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'main':
+../src/cyclone_tcp/main.c:257:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+'Finished building: ../src/cyclone_tcp/main.c'
+' '
+'Building file: ../src/cyclone_tcp/spi_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/spi_driver.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/spi_driver.d" -MT"src/cyclone_tcp/spi_driver.o" -o "src/cyclone_tcp/spi_driver.o" "../src/cyclone_tcp/spi_driver.c"
+'Finished building: ../src/cyclone_tcp/spi_driver.c'
+' '
+'Building file: ../src/common/cpu_endian.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/cpu_endian.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/cpu_endian.d" -MT"src/common/cpu_endian.o" -o "src/common/cpu_endian.o" "../src/common/cpu_endian.c"
+'Finished building: ../src/common/cpu_endian.c'
+' '
+'Building file: ../src/common/date_time.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/date_time.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/date_time.d" -MT"src/common/date_time.o" -o "src/common/date_time.o" "../src/common/date_time.c"
+'Finished building: ../src/common/date_time.c'
+' '
+'Building file: ../src/common/os_port_none.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/os_port_none.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/os_port_none.d" -MT"src/common/os_port_none.o" -o "src/common/os_port_none.o" "../src/common/os_port_none.c"
+'Finished building: ../src/common/os_port_none.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Xlinker -Map=output.map -Xlinker -flto -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP6_2019.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP6_2019.elf  |tee "APP6_2019.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 103240	   1856	   6848	 111944	  1b548	APP6_2019.elf
+'Finished building: APP6_2019.elf.size'
+' '
+14:32:29 **** Clean-only build of configuration Debug for project APP6_2019 ****
+make clean 
+rm -rf  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o  ./src/cyclone_tcp/std_services/echo.d  ./src/cyclone_tcp/ipv4/arp.d ./src/cyclone_tcp/ipv4/ipv4.d  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.d  ./src/cyclone_tcp/core/ethernet.d ./src/cyclone_tcp/core/ip.d ./src/cyclone_tcp/core/net.d ./src/cyclone_tcp/core/net_mem.d ./src/cyclone_tcp/core/nic.d ./src/cyclone_tcp/core/socket.d ./src/cyclone_tcp/core/udp.d  ./src/cyclone_tcp/ext_int_driver.d ./src/cyclone_tcp/main.d ./src/cyclone_tcp/spi_driver.d  ./src/common/cpu_endian.d ./src/common/date_time.d ./src/common/os_port_none.d  APP6_2019.elf.size  APP6_2019.elf
+' '
+14:32:30 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/std_services/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/std_services/echo.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/std_services/echo.d" -MT"src/cyclone_tcp/std_services/echo.o" -o "src/cyclone_tcp/std_services/echo.o" "../src/cyclone_tcp/std_services/echo.c"
+'Finished building: ../src/cyclone_tcp/std_services/echo.c'
+' '
+'Building file: ../src/cyclone_tcp/ipv4/arp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/arp.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ipv4/arp.d" -MT"src/cyclone_tcp/ipv4/arp.o" -o "src/cyclone_tcp/ipv4/arp.o" "../src/cyclone_tcp/ipv4/arp.c"
+'Finished building: ../src/cyclone_tcp/ipv4/arp.c'
+' '
+'Building file: ../src/cyclone_tcp/ipv4/ipv4.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/ipv4.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ipv4/ipv4.d" -MT"src/cyclone_tcp/ipv4/ipv4.o" -o "src/cyclone_tcp/ipv4/ipv4.o" "../src/cyclone_tcp/ipv4/ipv4.c"
+'Finished building: ../src/cyclone_tcp/ipv4/ipv4.c'
+' '
+'Building file: ../src/cyclone_tcp/drivers/eth/enc624j600_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/drivers/eth/enc624j600_driver.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/drivers/eth/enc624j600_driver.d" -MT"src/cyclone_tcp/drivers/eth/enc624j600_driver.o" -o "src/cyclone_tcp/drivers/eth/enc624j600_driver.o" "../src/cyclone_tcp/drivers/eth/enc624j600_driver.c"
+../src/cyclone_tcp/drivers/eth/enc624j600_driver.c: In function 'enc624j600UpdateMacConfig':
+../src/cyclone_tcp/drivers/eth/enc624j600_driver.c:565:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/cyclone_tcp/drivers/eth/enc624j600_driver.c'
+' '
+'Building file: ../src/cyclone_tcp/core/ethernet.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/ethernet.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/ethernet.d" -MT"src/cyclone_tcp/core/ethernet.o" -o "src/cyclone_tcp/core/ethernet.o" "../src/cyclone_tcp/core/ethernet.c"
+'Finished building: ../src/cyclone_tcp/core/ethernet.c'
+' '
+'Building file: ../src/cyclone_tcp/core/ip.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/ip.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/ip.d" -MT"src/cyclone_tcp/core/ip.o" -o "src/cyclone_tcp/core/ip.o" "../src/cyclone_tcp/core/ip.c"
+'Finished building: ../src/cyclone_tcp/core/ip.c'
+' '
+'Building file: ../src/cyclone_tcp/core/net.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/net.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/net.d" -MT"src/cyclone_tcp/core/net.o" -o "src/cyclone_tcp/core/net.o" "../src/cyclone_tcp/core/net.c"
+'Finished building: ../src/cyclone_tcp/core/net.c'
+' '
+'Building file: ../src/cyclone_tcp/core/net_mem.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/net_mem.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/net_mem.d" -MT"src/cyclone_tcp/core/net_mem.o" -o "src/cyclone_tcp/core/net_mem.o" "../src/cyclone_tcp/core/net_mem.c"
+'Finished building: ../src/cyclone_tcp/core/net_mem.c'
+' '
+'Building file: ../src/cyclone_tcp/core/nic.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/nic.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/nic.d" -MT"src/cyclone_tcp/core/nic.o" -o "src/cyclone_tcp/core/nic.o" "../src/cyclone_tcp/core/nic.c"
+'Finished building: ../src/cyclone_tcp/core/nic.c'
+' '
+'Building file: ../src/cyclone_tcp/core/socket.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/socket.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/socket.d" -MT"src/cyclone_tcp/core/socket.o" -o "src/cyclone_tcp/core/socket.o" "../src/cyclone_tcp/core/socket.c"
+../src/cyclone_tcp/core/socket.c: In function 'getHostByName':
+../src/cyclone_tcp/core/socket.c:1071:21: warning: variable 'protocol' set but not used [-Wunused-but-set-variable]
+    HostnameResolver protocol = HOST_NAME_RESOLVER_ANY;
+                     ^~~~~~~~
+'Finished building: ../src/cyclone_tcp/core/socket.c'
+' '
+'Building file: ../src/cyclone_tcp/core/udp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/udp.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/udp.d" -MT"src/cyclone_tcp/core/udp.o" -o "src/cyclone_tcp/core/udp.o" "../src/cyclone_tcp/core/udp.c"
+'Finished building: ../src/cyclone_tcp/core/udp.c'
+' '
+'Building file: ../src/cyclone_tcp/ext_int_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ext_int_driver.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ext_int_driver.d" -MT"src/cyclone_tcp/ext_int_driver.o" -o "src/cyclone_tcp/ext_int_driver.o" "../src/cyclone_tcp/ext_int_driver.c"
+../src/cyclone_tcp/ext_int_driver.c: In function 'ENC_Int_Handler':
+../src/cyclone_tcp/ext_int_driver.c:93:22: warning: unused variable 'status' [-Wunused-variable]
+    volatile uint32_t status;
+                      ^~~~~~
+'Finished building: ../src/cyclone_tcp/ext_int_driver.c'
+' '
+'Building file: ../src/cyclone_tcp/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/main.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/main.d" -MT"src/cyclone_tcp/main.o" -o "src/cyclone_tcp/main.o" "../src/cyclone_tcp/main.c"
+../src/cyclone_tcp/main.c: In function 'systemInit':
+../src/cyclone_tcp/main.c:89:12: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+    error_t error;
+            ^~~~~
+../src/cyclone_tcp/main.c: In function 'SetupInterruptSystem':
+../src/cyclone_tcp/main.c:171:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'uartInit':
+../src/cyclone_tcp/main.c:231:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+../src/cyclone_tcp/main.c:230:15: warning: unused variable 'SentCount' [-Wunused-variable]
+  unsigned int SentCount;
+               ^~~~~~~~~
+../src/cyclone_tcp/main.c:229:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'main':
+../src/cyclone_tcp/main.c:257:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+'Finished building: ../src/cyclone_tcp/main.c'
+' '
+'Building file: ../src/cyclone_tcp/spi_driver.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/spi_driver.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/spi_driver.d" -MT"src/cyclone_tcp/spi_driver.o" -o "src/cyclone_tcp/spi_driver.o" "../src/cyclone_tcp/spi_driver.c"
+'Finished building: ../src/cyclone_tcp/spi_driver.c'
+' '
+'Building file: ../src/common/cpu_endian.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/cpu_endian.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/cpu_endian.d" -MT"src/common/cpu_endian.o" -o "src/common/cpu_endian.o" "../src/common/cpu_endian.c"
+'Finished building: ../src/common/cpu_endian.c'
+' '
+'Building file: ../src/common/date_time.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/date_time.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/date_time.d" -MT"src/common/date_time.o" -o "src/common/date_time.o" "../src/common/date_time.c"
+'Finished building: ../src/common/date_time.c'
+' '
+'Building file: ../src/common/os_port_none.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/common/os_port_none.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/os_port_none.d" -MT"src/common/os_port_none.o" -o "src/common/os_port_none.o" "../src/common/os_port_none.c"
+'Finished building: ../src/common/os_port_none.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Xlinker -Map=output.map -Xlinker -flto -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP6_2019.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP6_2019.elf  |tee "APP6_2019.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 103240	   1856	  14016	 119112	  1d148	APP6_2019.elf
+'Finished building: APP6_2019.elf.size'
+' '
+14:32:56 **** Incremental Build of configuration Debug for project APP6_2019 ****
+make all 
+make: Nothing to be done for 'all'.
+14:33:43 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/std_services/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/std_services/echo.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/std_services/echo.d" -MT"src/cyclone_tcp/std_services/echo.o" -o "src/cyclone_tcp/std_services/echo.o" "../src/cyclone_tcp/std_services/echo.c"
+'Finished building: ../src/cyclone_tcp/std_services/echo.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Xlinker -Map=output.map -Xlinker -flto -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP6_2019.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP6_2019.elf  |tee "APP6_2019.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 103272	   1856	  14016	 119144	  1d168	APP6_2019.elf
+'Finished building: APP6_2019.elf.size'
+' '
+14:34:04 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/std_services/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/std_services/echo.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/std_services/echo.d" -MT"src/cyclone_tcp/std_services/echo.o" -o "src/cyclone_tcp/std_services/echo.o" "../src/cyclone_tcp/std_services/echo.c"
+'Finished building: ../src/cyclone_tcp/std_services/echo.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Xlinker -Map=output.map -Xlinker -flto -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP6_2019.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP6_2019.elf  |tee "APP6_2019.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 103272	   1856	  14016	 119144	  1d168	APP6_2019.elf
+'Finished building: APP6_2019.elf.size'
+' '
+14:35:05 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/std_services/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/std_services/echo.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/std_services/echo.d" -MT"src/cyclone_tcp/std_services/echo.o" -o "src/cyclone_tcp/std_services/echo.o" "../src/cyclone_tcp/std_services/echo.c"
+../src/cyclone_tcp/std_services/echo.c:52:8: error: unknown type name 'XUartLite'
+ extern XUartLite UartLite;
+        ^~~~~~~~~
+make: *** [src/cyclone_tcp/std_services/subdir.mk:20: src/cyclone_tcp/std_services/echo.o] Error 1
+14:35:25 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/std_services/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/std_services/echo.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/std_services/echo.d" -MT"src/cyclone_tcp/std_services/echo.o" -o "src/cyclone_tcp/std_services/echo.o" "../src/cyclone_tcp/std_services/echo.c"
+'Finished building: ../src/cyclone_tcp/std_services/echo.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Xlinker -Map=output.map -Xlinker -flto -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP6_2019.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP6_2019.elf  |tee "APP6_2019.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 103272	   1856	  14016	 119144	  1d168	APP6_2019.elf
+'Finished building: APP6_2019.elf.size'
+' '
+14:35:39 **** Incremental Build of configuration Debug for project APP6_2019 ****
+make all 
+make: Nothing to be done for 'all'.
+14:36:32 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/std_services/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/std_services/echo.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/std_services/echo.d" -MT"src/cyclone_tcp/std_services/echo.o" -o "src/cyclone_tcp/std_services/echo.o" "../src/cyclone_tcp/std_services/echo.c"
+'Finished building: ../src/cyclone_tcp/std_services/echo.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Xlinker -Map=output.map -Xlinker -flto -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP6_2019.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP6_2019.elf  |tee "APP6_2019.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 103288	   1856	  14016	 119160	  1d178	APP6_2019.elf
+'Finished building: APP6_2019.elf.size'
+' '
+14:36:43 **** Incremental Build of configuration Debug for project APP6_2019 ****
+make all 
+make: Nothing to be done for 'all'.
+14:39:15 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/core/udp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/udp.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/udp.d" -MT"src/cyclone_tcp/core/udp.o" -o "src/cyclone_tcp/core/udp.o" "../src/cyclone_tcp/core/udp.c"
+'Finished building: ../src/cyclone_tcp/core/udp.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Xlinker -Map=output.map -Xlinker -flto -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP6_2019.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP6_2019.elf  |tee "APP6_2019.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 103112	   1856	  14016	 118984	  1d0c8	APP6_2019.elf
+'Finished building: APP6_2019.elf.size'
+' '
+14:39:21 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/core/socket.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/socket.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/socket.d" -MT"src/cyclone_tcp/core/socket.o" -o "src/cyclone_tcp/core/socket.o" "../src/cyclone_tcp/core/socket.c"
+../src/cyclone_tcp/core/socket.c: In function 'getHostByName':
+../src/cyclone_tcp/core/socket.c:1071:21: warning: variable 'protocol' set but not used [-Wunused-but-set-variable]
+    HostnameResolver protocol = HOST_NAME_RESOLVER_ANY;
+                     ^~~~~~~~
+'Finished building: ../src/cyclone_tcp/core/socket.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Xlinker -Map=output.map -Xlinker -flto -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP6_2019.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP6_2019.elf  |tee "APP6_2019.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 103032	   1856	  14016	 118904	  1d078	APP6_2019.elf
+'Finished building: APP6_2019.elf.size'
+' '
+14:39:27 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/core/nic.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/nic.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/nic.d" -MT"src/cyclone_tcp/core/nic.o" -o "src/cyclone_tcp/core/nic.o" "../src/cyclone_tcp/core/nic.c"
+'Finished building: ../src/cyclone_tcp/core/nic.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Xlinker -Map=output.map -Xlinker -flto -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP6_2019.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP6_2019.elf  |tee "APP6_2019.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102976	   1856	  14016	 118848	  1d040	APP6_2019.elf
+'Finished building: APP6_2019.elf.size'
+' '
+14:39:33 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/core/ethernet.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/ethernet.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/ethernet.d" -MT"src/cyclone_tcp/core/ethernet.o" -o "src/cyclone_tcp/core/ethernet.o" "../src/cyclone_tcp/core/ethernet.c"
+'Finished building: ../src/cyclone_tcp/core/ethernet.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Xlinker -Map=output.map -Xlinker -flto -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP6_2019.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP6_2019.elf  |tee "APP6_2019.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102896	   1856	  14016	 118768	  1cff0	APP6_2019.elf
+'Finished building: APP6_2019.elf.size'
+' '
+14:39:51 **** Incremental Build of configuration Debug for project APP6_2019 ****
+make all 
+make: Nothing to be done for 'all'.
+14:41:57 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/ipv4/ipv4.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/ipv4.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ipv4/ipv4.d" -MT"src/cyclone_tcp/ipv4/ipv4.o" -o "src/cyclone_tcp/ipv4/ipv4.o" "../src/cyclone_tcp/ipv4/ipv4.c"
+'Finished building: ../src/cyclone_tcp/ipv4/ipv4.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Xlinker -Map=output.map -Xlinker -flto -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP6_2019.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP6_2019.elf  |tee "APP6_2019.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102720	   1856	  14016	 118592	  1cf40	APP6_2019.elf
+'Finished building: APP6_2019.elf.size'
+' '
+14:42:04 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/ipv4/arp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/arp.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ipv4/arp.d" -MT"src/cyclone_tcp/ipv4/arp.o" -o "src/cyclone_tcp/ipv4/arp.o" "../src/cyclone_tcp/ipv4/arp.c"
+'Finished building: ../src/cyclone_tcp/ipv4/arp.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Xlinker -Map=output.map -Xlinker -flto -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP6_2019.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP6_2019.elf  |tee "APP6_2019.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102700	   1856	  14020	 118576	  1cf30	APP6_2019.elf
+'Finished building: APP6_2019.elf.size'
+' '
+14:42:18 **** Incremental Build of configuration Debug for project APP6_2019 ****
+make all 
+make: Nothing to be done for 'all'.
+14:43:54 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/core/ip.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/ip.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/ip.d" -MT"src/cyclone_tcp/core/ip.o" -o "src/cyclone_tcp/core/ip.o" "../src/cyclone_tcp/core/ip.c"
+'Finished building: ../src/cyclone_tcp/core/ip.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Xlinker -Map=output.map -Xlinker -flto -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP6_2019.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP6_2019.elf  |tee "APP6_2019.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102676	   1856	  14020	 118552	  1cf18	APP6_2019.elf
+'Finished building: APP6_2019.elf.size'
+' '
+14:44:06 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/ipv4/ipv4.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Users\rhev2401\Downloads\S4e-APP6-Vivado_2019\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/ipv4.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ipv4/ipv4.d" -MT"src/cyclone_tcp/ipv4/ipv4.o" -o "src/cyclone_tcp/ipv4/ipv4.o" "../src/cyclone_tcp/ipv4/ipv4.c"
+'Finished building: ../src/cyclone_tcp/ipv4/ipv4.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Xlinker -Map=output.map -Xlinker -flto -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP6_2019.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP6_2019.elf  |tee "APP6_2019.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102660	   1856	  14020	 118536	  1cf08	APP6_2019.elf
+'Finished building: APP6_2019.elf.size'
+' '
+14:44:13 **** Incremental Build of configuration Debug for project APP6_2019 ****
+make all 
+make: Nothing to be done for 'all'.
