@@ -220,11 +220,10 @@ void main() {
                 zmoy = 0;
                }             
             }
-            //LCD_WriteStringAtPos(lcd_heure,0,0);
-                sprintf(acc, "%f", sousracine);
-                sprintf(lcd_heure,"%02d:%02d:%02d",hour,min,sec);
 
-            LCD_WriteStringAtPos("2020:02:11",1,0);
-            LCD_WriteStringAtPos(lcd_heure,0,0);
+//donne la valeur de lecture du senseur
+                sprintf(lcd_heure,"%04d",adc);
+
+            
         }
     }

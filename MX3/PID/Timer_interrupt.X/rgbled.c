@@ -42,27 +42,27 @@ volatile unsigned char bColR, bColG, bColB;
 **      Carry bit is cleared in the accumulator.
 **          
 */
-void __ISR(_TIMER_5_VECTOR, ipl2) Timer5ISR(void) 
-{  
-   static unsigned short sAccR = 0, sAccG = 0, sAccB = 0;
-    
-    // add 8 bit color values over the accumulators
-    sAccR += bColR;
-    sAccG += bColG;
-    sAccB += bColB;
-
-    // take the 9'th bit (addition carry) as the PDM
-    lat_LED8_R = (sAccR & 0x100) ? 1: 0;    
-    lat_LED8_G = (sAccG & 0x100) ? 1: 0;
-    lat_LED8_B = (sAccB & 0x100) ? 1: 0;
-    
-    // filter only 8 bits in the accumulator
-    sAccR &= 0xFF;
-    sAccG &= 0xFF;
-    sAccB &= 0xFF;
-    
-    IFS0bits.T5IF = 0;     // clear interrupt flag
-}
+//void __ISR(_TIMER_5_VECTOR, ipl2) Timer5ISR(void) 
+//{  
+//   static unsigned short sAccR = 0, sAccG = 0, sAccB = 0;
+//    
+//    // add 8 bit color values over the accumulators
+//    sAccR += bColR;
+//    sAccG += bColG;
+//    sAccB += bColB;
+//
+//    // take the 9'th bit (addition carry) as the PDM
+//    lat_LED8_R = (sAccR & 0x100) ? 1: 0;    
+//    lat_LED8_G = (sAccG & 0x100) ? 1: 0;
+//    lat_LED8_B = (sAccB & 0x100) ? 1: 0;
+//    
+//    // filter only 8 bits in the accumulator
+//    sAccR &= 0xFF;
+//    sAccG &= 0xFF;
+//    sAccB &= 0xFF;
+//    
+//    IFS0bits.T5IF = 0;     // clear interrupt flag
+//}
 
 // Timer period in seconds
 #define TMR_TIME    0.0003 // 300 us for each tick
