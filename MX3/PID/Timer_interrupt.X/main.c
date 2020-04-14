@@ -44,7 +44,7 @@ char accy[4];
 char accz[4];
 char acc[4];
 char raclcd[4];
-char lcd_heure[10];
+char lcd1[10];
 char heure[4];
 //FLOAT
 float rgACLGVals[3]; 
@@ -220,10 +220,11 @@ void main() {
                 zmoy = 0;
                }             
             }
+            //LCD_WriteStringAtPos(lcd_heure,0,0);
+//                sprintf(acc, "%f", sousracine);
+                sprintf(lcd1,"%04d",adc);
 
-//donne la valeur de lecture du senseur
-                sprintf(lcd_heure,"%04d",adc);
-//test git pi verifier ce que j'ai changé
-            
+            LCD_WriteStringAtPos("retour_sensor_1",1,0);
+            LCD_WriteStringAtPos(lcd1,0,0);
         }
     }
