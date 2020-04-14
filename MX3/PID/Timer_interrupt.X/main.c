@@ -223,7 +223,7 @@ void main() {
 
 //donne la valeur de lecture du senseur
                 sprintf(lcd_heure,"%04d",adc);
-
+//test git pi verifier ce que j'ai changé
             
         }
     }
