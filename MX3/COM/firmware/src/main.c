@@ -68,14 +68,9 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include "string.h"
 #include <stdio.h>
 #include "rgbled.h"
-#include "uart.h"
-#include "config.h"
-#include <sys/attribs.h>
-#include <xc.h>
 // *****************************************************************************
 // *****************************************************************************
 // Section: Global Data Definitions
-#define BAUD_RATE 9600
 // *****************************************************************************
 // *****************************************************************************
 
@@ -194,8 +189,6 @@ void MAIN_Initialize ( void )
     SSD_Init();
     UDP_Initialize();
     LCD_Init();
-    ADC_Init();
-    UART_Init(BAUD_RATE);   // Configure UART with interrupt 
     ACL_Init();
     RGBLED_Init();
 

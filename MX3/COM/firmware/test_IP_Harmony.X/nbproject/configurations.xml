@@ -11,6 +11,9 @@
           <itemPath>../src/accel.h</itemPath>
           <itemPath>../src/i2c.h</itemPath>
           <itemPath>../src/lcd.h</itemPath>
+          <itemPath>../src/adc.h</itemPath>
+          <itemPath>../src/pmods.h</itemPath>
+          <itemPath>../src/uart.h</itemPath>
         </logicalFolder>
         <logicalFolder name="f1" displayName="system_config" projectFiles="true">
           <logicalFolder name="f1" displayName="default" projectFiles="true">
@@ -1226,10 +1229,6 @@
         <itemPath>../src/global_event.h</itemPath>
         <itemPath>../src/main.h</itemPath>
         <itemPath>../src/rgbled.h</itemPath>
-        <itemPath>adc.h</itemPath>
-        <itemPath>uart.h</itemPath>
-        <itemPath>pmods.h</itemPath>
-        <itemPath>config.h</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
@@ -1246,6 +1245,9 @@
           <itemPath>../src/accel.c</itemPath>
           <itemPath>../src/i2c.c</itemPath>
           <itemPath>../src/lcd.c</itemPath>
+          <itemPath>../src/adc.c</itemPath>
+          <itemPath>../src/pmods.c</itemPath>
+          <itemPath>../src/uart.c</itemPath>
         </logicalFolder>
         <logicalFolder name="f1" displayName="system_config" projectFiles="true">
           <logicalFolder name="f1" displayName="default" projectFiles="true">
@@ -1392,9 +1394,6 @@
         <itemPath>../src/global_event.c</itemPath>
         <itemPath>../src/main.c</itemPath>
         <itemPath>../src/rgbled.c</itemPath>
-        <itemPath>adc.c</itemPath>
-        <itemPath>uart.c</itemPath>
-        <itemPath>pmods.c</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
