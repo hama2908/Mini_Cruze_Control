@@ -374,5 +374,4 @@ build/default/production/_ext/1360937237/main.o:  \
 ../src/ssd.h  \
  ../src/accel.h  \
 ../src/lcd.h  \
-../src/app_commands.h  \
-../src/rgbled.h 
+../src/app_commands.h 

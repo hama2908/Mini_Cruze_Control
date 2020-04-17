@@ -65,9 +65,6 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include "accel.h"
 #include "lcd.h"
 #include "app_commands.h"
-#include "string.h"
-#include <stdio.h>
-#include "rgbled.h"
 // *****************************************************************************
 // *****************************************************************************
 // Section: Global Data Definitions
@@ -190,7 +187,6 @@ void MAIN_Initialize ( void )
     UDP_Initialize();
     LCD_Init();
     ACL_Init();
-    RGBLED_Init();
 
     /* TODO: Initialize your application's state machine and other
      * parameters.
@@ -256,10 +252,8 @@ int main(void) {
     MAIN_Initialize();
     
     while (1) {
-        
         SYS_Tasks();
         MAIN_Tasks();
-        
     };
 
     return 0;
