@@ -1388,6 +1388,9 @@
         <itemPath>../src/global_event.c</itemPath>
         <itemPath>../src/main.c</itemPath>
         <itemPath>../src/rgbled.c</itemPath>
+        <itemPath>adc.c</itemPath>
+        <itemPath>pmods.c</itemPath>
+        <itemPath>uart.c</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
