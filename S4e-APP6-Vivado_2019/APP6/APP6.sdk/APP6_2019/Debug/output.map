@@ -1,0 +1,1362 @@
+Archive member included to satisfy reference by file (symbol)
+
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio.o)
+                              ./src/cyclone_tcp/main.o (symbol from plugin) (XGpio_SetDataDirection)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio_sinit.o)
+                              ./src/cyclone_tcp/main.o (symbol from plugin) (XGpio_Initialize)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_intr.o)
+                              ./src/cyclone_tcp/main.o (symbol from plugin) (XIntc_InterruptHandler)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_l.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_intr.o) (XIntc_DeviceInterruptHandler)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+                              ./src/cyclone_tcp/main.o (symbol from plugin) (XIntc_Initialize)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi.o)
+                              ./src/cyclone_tcp/spi_driver.o (symbol from plugin) (XSpi_CfgInitialize)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi_sinit.o)
+                              ./src/cyclone_tcp/spi_driver.o (symbol from plugin) (XSpi_LookupConfig)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi_g.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi_sinit.o) (XSpi_ConfigTable)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(print.o)
+                              ./src/cyclone_tcp/std_services/echo.o (symbol from plugin) (print)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_assert.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio.o) (Xil_Assert)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_interrupt_handler.o)
+                              c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o (_interrupt_handler)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_printf.o)
+                              ./src/cyclone_tcp/main.o (symbol from plugin) (xil_printf)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(outbyte.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libxil.a(print.o) (outbyte)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_exception.o)
+                              ./src/cyclone_tcp/main.o (symbol from plugin) (Xil_ExceptionInit)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_enable_exceptions.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_exception.o) (microblaze_enable_exceptions)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_enable_interrupts.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_exception.o) (microblaze_enable_interrupts)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_disable_exceptions.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_exception.o) (microblaze_disable_exceptions)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_disable_interrupts.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_exception.o) (microblaze_disable_interrupts)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(hw_exception_handler.o)
+                              c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o (_hw_exception_handler)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_selftest.o)
+                              ./src/cyclone_tcp/main.o (symbol from plugin) (XUartLite_SelfTest)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_l.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libxil.a(outbyte.o) (XUartLite_SendByte)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_selftest.o) (XUartLite_ResetFifos)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_sinit.o)
+                              ./src/cyclone_tcp/main.o (symbol from plugin) (XUartLite_Initialize)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio_g.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio_sinit.o) (XGpio_ConfigTable)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_g.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_l.o) (XIntc_ConfigTable)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_interrupts_g.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_interrupt_handler.o) (MB_InterruptVectorTable)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_stats.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite.o) (XUartLite_ClearStats)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_g.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_sinit.o) (XUartLite_ConfigTable)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-exit.o)
+                              c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o (exit)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-impure.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-exit.o) (_global_impure_ptr)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-locale.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_printf.o) (__locale_ctype_ptr)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mbtowc_r.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-locale.o) (__ascii_mbtowc)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-strcmp.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-locale.o) (strcmp)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-strlen.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_printf.o) (strlen)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-wctomb_r.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-locale.o) (__ascii_wctomb)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-__call_atexit.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-exit.o) (__call_exitprocs)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-ctype_.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-locale.o) (_ctype_b)
+../../standalone_bsp_0/microblaze_0/lib\libgloss.a(_exception_handler.o)
+                              c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o (_exception_handler)
+../../standalone_bsp_0/microblaze_0/lib\libgloss.a(_program_clean.o)
+                              c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crtinit.o (_program_clean)
+../../standalone_bsp_0/microblaze_0/lib\libgloss.a(_program_init.o)
+                              c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crtinit.o (_program_init)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-malloc.o)
+                              C:\Users\rhev2401\AppData\Local\Temp\ccwdkPkO.ltrans0.ltrans.o (malloc)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mallocr.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-malloc.o) (_malloc_r)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memcmp.o)
+                              C:\Users\rhev2401\AppData\Local\Temp\ccwdkPkO.ltrans0.ltrans.o (memcmp)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memcpy.o)
+                              C:\Users\rhev2401\AppData\Local\Temp\ccwdkPkO.ltrans0.ltrans.o (memcpy)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memset.o)
+                              C:\Users\rhev2401\AppData\Local\Temp\ccwdkPkO.ltrans0.ltrans.o (memset)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mlock.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mallocr.o) (__malloc_lock)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-sbrkr.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mallocr.o) (_sbrk_r)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-sprintf.o)
+                              C:\Users\rhev2401\AppData\Local\Temp\ccwdkPkO.ltrans0.ltrans.o (sprintf)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-strncpy.o)
+                              C:\Users\rhev2401\AppData\Local\Temp\ccwdkPkO.ltrans0.ltrans.o (strncpy)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-sprintf.o) (_svfprintf_r)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-dtoa.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (_dtoa_r)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-freer.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-malloc.o) (_free_r)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-localeconv.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (_localeconv_r)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memchr.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (memchr)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mprec.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-dtoa.o) (_Balloc)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-reent.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-sbrkr.o) (errno)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-s_frexp.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (frexp)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfiprintf.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (__ssprint_r)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-callocr.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mprec.o) (_calloc_r)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memmove.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfiprintf.o) (memmove)
+../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-reallocr.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfiprintf.o) (_realloc_r)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_udivdi3.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (__udivdi3)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_umoddi3.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (__umoddi3)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_addsub_df.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-dtoa.o) (__adddf3)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_mul_df.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (__muldf3)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_div_df.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (__divdf3)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_eq_df.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (__eqdf2)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_ne_df.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (__nedf2)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_gt_df.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (__gtdf2)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_lt_df.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (__ltdf2)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_le_df.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (__ledf2)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unord_df.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (__unorddf2)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_si_to_df.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (__floatsidf)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_df_to_si.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (__fixdfsi)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_thenan_df.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_addsub_df.o) (__thenan_df)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_usi_to_df.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-dtoa.o) (__floatunsidf)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(divsi3.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (__divsi3)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(modsi3.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o) (__modsi3)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(udivsi3.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-dtoa.o) (__udivsi3)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(umodsi3.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_udivdi3.o) (__umodsi3)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_muldi3.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_mul_df.o) (__muldi3)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clz.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_udivdi3.o) (__clz_tab)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clzsi2.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_si_to_df.o) (__clzsi2)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_pack_df.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_addsub_df.o) (__pack_d)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unpack_df.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_addsub_df.o) (__unpack_d)
+../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_fpcmp_parts_df.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_eq_df.o) (__fpcmp_parts_d)
+../../standalone_bsp_0/microblaze_0/lib\libgloss.a(sbrk.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-sbrkr.o) (sbrk)
+../../standalone_bsp_0/microblaze_0/lib\libxil.a(errno.o)
+                              ../../standalone_bsp_0/microblaze_0/lib\libgloss.a(sbrk.o) (__errno)
+
+Allocating common symbols
+Common symbol       size              file
+
+UartLite            0x4c              ./src/cyclone_tcp/main.o (symbol from plugin)
+netTaskHandle       0x4               ./src/cyclone_tcp/core/net.o (symbol from plugin)
+arpTickCounter      0x4               ./src/cyclone_tcp/ipv4/arp.o (symbol from plugin)
+errno               0x4               ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-reent.o)
+XIntc_BitPosMask    0x80              ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+netEvent            0x4               ./src/cyclone_tcp/core/net.o (symbol from plugin)
+ipv4Addr            0x4               ./src/cyclone_tcp/main.o (symbol from plugin)
+nicTickCounter      0x4               ./src/cyclone_tcp/core/nic.o (symbol from plugin)
+outputLED           0x10              ./src/cyclone_tcp/main.o (symbol from plugin)
+netMutex            0x4               ./src/cyclone_tcp/core/net.o (symbol from plugin)
+udpCallbackTable    0xa0              ./src/cyclone_tcp/core/udp.o (symbol from plugin)
+context             0x5e0             ./src/cyclone_tcp/std_services/echo.o (symbol from plugin)
+udpCallbackMutex    0x4               ./src/cyclone_tcp/core/udp.o (symbol from plugin)
+Xil_AssertStatus    0x4               ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_assert.o)
+InterruptController
+                    0x14              ./src/cyclone_tcp/ext_int_driver.o (symbol from plugin)
+RecvBuffer          0x10              ./src/cyclone_tcp/main.o (symbol from plugin)
+netInterface        0x334             ./src/cyclone_tcp/core/net.o (symbol from plugin)
+socketTable         0x2d0             ./src/cyclone_tcp/core/socket.o (symbol from plugin)
+SpiDeviceInst       0x5c              ./src/cyclone_tcp/spi_driver.o (symbol from plugin)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .text          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crti.o
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crti.o
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crti.o
+ .data          0x0000000000000000        0x8 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtbegin.o
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crtinit.o
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crtinit.o
+ .sbss2         0x0000000000000000        0x0 C:\Users\rhev2401\AppData\Local\Temp\cc0axkTndebugobj
+ .sbss          0x0000000000000000        0x0 C:\Users\rhev2401\AppData\Local\Temp\cc0axkTndebugobj
+ .bss           0x0000000000000000        0x0 C:\Users\rhev2401\AppData\Local\Temp\cc0axkTndebugobj
+ .heap          0x0000000000000000        0x0 C:\Users\rhev2401\AppData\Local\Temp\cc0axkTndebugobj
+ .stack         0x0000000000000000      0x400 C:\Users\rhev2401\AppData\Local\Temp\cc0axkTndebugobj
+ .debug_info    0x0000000000000000    0x1fa00 C:\Users\rhev2401\AppData\Local\Temp\cc0axkTndebugobj
+ .debug_abbrev  0x0000000000000000     0x2a00 C:\Users\rhev2401\AppData\Local\Temp\cc0axkTndebugobj
+ .debug_line    0x0000000000000000     0x3ed1 C:\Users\rhev2401\AppData\Local\Temp\cc0axkTndebugobj
+ .debug_str     0x0000000000000000    0x2046d C:\Users\rhev2401\AppData\Local\Temp\cc0axkTndebugobj
+ .data          0x0000000000000000        0x0 C:\Users\rhev2401\AppData\Local\Temp\ccwdkPkO.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio.o)
+ .text.XGpio_GetDataDirection
+                0x0000000000000000       0xf8 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio_sinit.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio_sinit.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio_sinit.o)
+ .text.XGpio_LookupConfig
+                0x0000000000000000       0x20 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio_sinit.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_intr.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_intr.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_intr.o)
+ .text.XIntc_VoidInterruptHandler
+                0x0000000000000000       0x20 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_intr.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_l.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_l.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_l.o)
+ .text.XIntc_LowLevelInterruptHandler
+                0x0000000000000000       0x20 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_l.o)
+ .text.XIntc_SetIntrSvcOption
+                0x0000000000000000       0x24 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_l.o)
+ .text.XIntc_RegisterHandler
+                0x0000000000000000       0xbc ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_l.o)
+ .text.XIntc_RegisterFastHandler
+                0x0000000000000000      0x198 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_l.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+ .text.XIntc_Stop
+                0x0000000000000000       0x90 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+ .text.XIntc_Disconnect
+                0x0000000000000000      0x10c ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+ .text.XIntc_LookupConfig
+                0x0000000000000000       0x20 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+ .text.XIntc_ConnectFastHandler
+                0x0000000000000000      0x1d0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+ .text.XIntc_SetNormalIntrMode
+                0x0000000000000000      0x1e8 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi.o)
+ .text.XSpi_Start
+                0x0000000000000000       0xe4 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi.o)
+ .text.XSpi_Stop
+                0x0000000000000000       0xcc ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi.o)
+ .text.XSpi_Transfer
+                0x0000000000000000      0x400 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi.o)
+ .text.XSpi_SetSlaveSelect
+                0x0000000000000000      0x120 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi.o)
+ .text.XSpi_GetSlaveSelect
+                0x0000000000000000       0xa0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi.o)
+ .text.XSpi_SetStatusHandler
+                0x0000000000000000       0xb8 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi.o)
+ .text.XSpi_InterruptHandler
+                0x0000000000000000      0x3c0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi.o)
+ .text.XSpi_Abort
+                0x0000000000000000       0x50 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi_sinit.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi_sinit.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi_sinit.o)
+ .rodata        0x0000000000000000        0xd ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi_sinit.o)
+ .text.XSpi_Initialize
+                0x0000000000000000       0x98 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi_sinit.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi_g.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi_g.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi_g.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(print.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(print.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(print.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_assert.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_assert.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_assert.o)
+ .text.Xil_AssertSetCallback
+                0x0000000000000000       0x10 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_assert.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_interrupt_handler.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_interrupt_handler.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_interrupt_handler.o)
+ .text.microblaze_register_handler
+                0x0000000000000000       0x14 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_interrupt_handler.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_printf.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_printf.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_printf.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(outbyte.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(outbyte.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(outbyte.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_exception.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_exception.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_exception.o)
+ .text.Xil_ExceptionNullHandler
+                0x0000000000000000        0x8 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_exception.o)
+ .text.Xil_ExceptionDisable
+                0x0000000000000000       0x2c ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_exception.o)
+ .text.Xil_ExceptionRemoveHandler
+                0x0000000000000000       0x44 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_exception.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_enable_exceptions.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_enable_exceptions.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_enable_interrupts.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_enable_interrupts.o)
+ .text          0x0000000000000000       0x14 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_disable_exceptions.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_disable_exceptions.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_disable_exceptions.o)
+ .text          0x0000000000000000       0x14 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_disable_interrupts.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_disable_interrupts.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_disable_interrupts.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(hw_exception_handler.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_selftest.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_selftest.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_selftest.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_l.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_l.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_l.o)
+ .text.XUartLite_RecvByte
+                0x0000000000000000       0x1c ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_l.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite.o)
+ .text.XUartLite_IsSending
+                0x0000000000000000       0x70 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_sinit.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_sinit.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_sinit.o)
+ .text.XUartLite_LookupConfig
+                0x0000000000000000       0x20 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_sinit.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio_g.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio_g.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio_g.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_g.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_g.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_g.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_interrupts_g.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_interrupts_g.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_interrupts_g.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_stats.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_stats.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_stats.o)
+ .text.XUartLite_GetStats
+                0x0000000000000000       0xe8 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_stats.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_g.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_g.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_g.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x4 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-locale.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mbtowc_r.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mbtowc_r.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-strcmp.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-strcmp.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-strlen.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-wctomb_r.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-wctomb_r.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000000000        0x4 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-__call_atexit.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-ctype_.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-ctype_.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-ctype_.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-malloc.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-malloc.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memcmp.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memcmp.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memcpy.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x4 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-sprintf.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-sprintf.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-strncpy.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-strncpy.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-dtoa.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-dtoa.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-freer.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-freer.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-localeconv.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-localeconv.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memchr.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memchr.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mprec.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mprec.o)
+ .text          0x0000000000000000      0x354 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-s_frexp.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-s_frexp.o)
+ .rodata        0x0000000000000000        0x8 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-s_frexp.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfiprintf.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfiprintf.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-callocr.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-callocr.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memmove.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-reallocr.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-reallocr.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgloss.a(_exception_handler.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgloss.a(_exception_handler.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgloss.a(_program_clean.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgloss.a(_program_clean.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgloss.a(_program_init.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgloss.a(_program_init.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgloss.a(sbrk.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_udivdi3.o)
+ .eh_frame      0x0000000000000000       0x44 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_umoddi3.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_umoddi3.o)
+ .eh_frame      0x0000000000000000       0x44 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_umoddi3.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_addsub_df.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_addsub_df.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_mul_df.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_mul_df.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_div_df.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_div_df.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_eq_df.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_eq_df.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_ne_df.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_ne_df.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_gt_df.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_gt_df.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_lt_df.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_lt_df.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_le_df.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_le_df.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unord_df.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unord_df.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_si_to_df.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_si_to_df.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_df_to_si.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_df_to_si.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_thenan_df.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_thenan_df.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_thenan_df.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_usi_to_df.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_usi_to_df.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(divsi3.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(divsi3.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(modsi3.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(modsi3.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(udivsi3.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(udivsi3.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(umodsi3.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(umodsi3.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_muldi3.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_muldi3.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clz.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clz.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clz.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clzsi2.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clzsi2.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_pack_df.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_pack_df.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unpack_df.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unpack_df.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_fpcmp_parts_df.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_fpcmp_parts_df.o)
+ .text          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(errno.o)
+ .data          0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(errno.o)
+ .bss           0x0000000000000000        0x0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(errno.o)
+ .data          0x0000000000000000        0x4 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtend.o
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtend.o
+ .eh_frame      0x0000000000000000        0x4 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtend.o
+ .text          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtn.o
+ .data          0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtn.o
+ .bss           0x0000000000000000        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem 0x0000000000000050 0x000000000001ffb0
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+LOAD c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crti.o
+LOAD c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtbegin.o
+LOAD c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crtinit.o
+                0x0000000000000800                _STACK_SIZE = DEFINED (_STACK_SIZE)?_STACK_SIZE:0x800
+                0x0000000000002000                _HEAP_SIZE = DEFINED (_HEAP_SIZE)?_HEAP_SIZE:0x2000
+
+.vectors.reset  0x0000000000000000        0x4
+ *(.vectors.reset)
+ .vectors.reset
+                0x0000000000000000        0x4 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+                0x0000000000000000                _start
+
+.vectors.sw_exception
+                0x0000000000000008        0x8
+ *(.vectors.sw_exception)
+ .vectors.sw_exception
+                0x0000000000000008        0x8 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+
+.vectors.interrupt
+                0x0000000000000010        0x8
+ *(.vectors.interrupt)
+ .vectors.interrupt
+                0x0000000000000010        0x8 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+
+.vectors.hw_exception
+                0x0000000000000020        0x4
+ *(.vectors.hw_exception)
+ .vectors.hw_exception
+                0x0000000000000020        0x4 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+
+.text           0x0000000000000050    0x18410
+ *(.text)
+ .text          0x0000000000000050       0x2c c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+                0x0000000000000050                _start1
+                0x0000000000000078                _exit
+ .text          0x000000000000007c      0x244 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtbegin.o
+ .text          0x00000000000002c0       0xb0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crtinit.o
+                0x00000000000002c0                _crtinit
+ .text          0x0000000000000370     0x3330 C:\Users\rhev2401\AppData\Local\Temp\ccwdkPkO.ltrans0.ltrans.o
+ .text          0x00000000000036a0       0x14 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_enable_exceptions.o)
+                0x00000000000036a0                microblaze_enable_exceptions
+ .text          0x00000000000036b4       0x14 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_enable_interrupts.o)
+                0x00000000000036b4                microblaze_enable_interrupts
+ .text          0x00000000000036c8      0x118 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(hw_exception_handler.o)
+                0x00000000000036c8                _hw_exception_handler
+ .text          0x00000000000037e0       0x64 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-exit.o)
+                0x00000000000037e0                exit
+ .text          0x0000000000003844      0x1e0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-locale.o)
+                0x00000000000038ac                _setlocale_r
+                0x0000000000003940                __locale_mb_cur_max
+                0x0000000000003978                __locale_ctype_ptr_l
+                0x00000000000039a4                __locale_ctype_ptr
+                0x00000000000039d8                setlocale
+ .text          0x0000000000003a24      0x164 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mbtowc_r.o)
+                0x0000000000003a8c                _mbtowc_r
+                0x0000000000003af0                __ascii_mbtowc
+ .text          0x0000000000003b88      0x128 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-strcmp.o)
+                0x0000000000003b88                strcmp
+ .text          0x0000000000003cb0       0xb0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-strlen.o)
+                0x0000000000003cb0                strlen
+ .text          0x0000000000003d60      0x144 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-wctomb_r.o)
+                0x0000000000003dc8                _wctomb_r
+                0x0000000000003e24                __ascii_wctomb
+ .text          0x0000000000003ea4      0x228 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-__call_atexit.o)
+                0x0000000000003ea4                __call_exitprocs
+ .text          0x00000000000040cc       0x8c ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-malloc.o)
+                0x00000000000040cc                malloc
+                0x0000000000004110                free
+ .text          0x0000000000004158     0x1548 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mallocr.o)
+                0x0000000000004524                _malloc_r
+ .text          0x00000000000056a0      0x13c ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memcmp.o)
+                0x00000000000056a0                memcmp
+ .text          0x00000000000057dc      0x19c ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memcpy.o)
+                0x00000000000057dc                memcpy
+ .text          0x0000000000005978      0x1fc ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memset.o)
+                0x0000000000005978                memset
+ .text          0x0000000000005b74       0x50 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mlock.o)
+                0x0000000000005b74                __malloc_lock
+                0x0000000000005b9c                __malloc_unlock
+ .text          0x0000000000005bc4       0x78 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-sbrkr.o)
+                0x0000000000005bc4                _sbrk_r
+ .text          0x0000000000005c3c      0x168 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-sprintf.o)
+                0x0000000000005c3c                _sprintf_r
+                0x0000000000005cec                sprintf
+ .text          0x0000000000005da4      0x164 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-strncpy.o)
+                0x0000000000005da4                strncpy
+ .text          0x0000000000005f08     0x2ef0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o)
+                0x0000000000005f08                _svfprintf_r
+ .text          0x0000000000008df8     0x2644 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-dtoa.o)
+                0x00000000000094f0                _dtoa_r
+ .text          0x000000000000b43c      0xad8 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-freer.o)
+                0x000000000000b43c                _free_r
+                0x000000000000bd00                _malloc_trim_r
+ .text          0x000000000000bf14      0x170 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-localeconv.o)
+                0x000000000000bfac                __localeconv_l
+                0x000000000000c008                _localeconv_r
+                0x000000000000c048                localeconv
+ .text          0x000000000000c084      0x1e0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memchr.o)
+                0x000000000000c084                memchr
+ .text          0x000000000000c264     0x24b0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mprec.o)
+                0x000000000000c264                _Balloc
+                0x000000000000c430                _Bfree
+                0x000000000000c524                __multadd
+                0x000000000000c798                __s2b
+                0x000000000000c93c                __hi0bits
+                0x000000000000c9e4                __lo0bits
+                0x000000000000cb68                __i2b
+                0x000000000000cbc8                __multiply
+                0x000000000000d1fc                __pow5mult
+                0x000000000000d400                __lshift
+                0x000000000000d650                __mcmp
+                0x000000000000d764                __mdiff
+                0x000000000000dbf4                __ulp
+                0x000000000000dd4c                __b2d
+                0x000000000000e00c                __d2b
+                0x000000000000e2d4                __ratio
+                0x000000000000e3f8                _mprec_log10
+                0x000000000000e4b4                __copybits
+                0x000000000000e598                __any_on
+ .text          0x000000000000e714      0x1d8 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-s_frexp.o)
+                0x000000000000e714                frexp
+ .text          0x000000000000e8ec     0x178c ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfiprintf.o)
+                0x000000000000e8ec                __ssprint_r
+                0x000000000000ec80                _svfiprintf_r
+ .text          0x0000000000010078      0x184 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-callocr.o)
+                0x0000000000010078                _calloc_r
+ .text          0x00000000000101fc      0x228 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-memmove.o)
+                0x00000000000101fc                memmove
+ .text          0x0000000000010424      0xcc0 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-reallocr.o)
+                0x0000000000010424                _realloc_r
+ .text          0x00000000000110e4        0x4 ../../standalone_bsp_0/microblaze_0/lib\libgloss.a(_exception_handler.o)
+                0x00000000000110e4                _exception_handler
+ .text          0x00000000000110e8        0x8 ../../standalone_bsp_0/microblaze_0/lib\libgloss.a(_program_clean.o)
+                0x00000000000110e8                _program_clean
+ .text          0x00000000000110f0        0x8 ../../standalone_bsp_0/microblaze_0/lib\libgloss.a(_program_init.o)
+                0x00000000000110f0                _program_init
+ .text          0x00000000000110f8       0x64 ../../standalone_bsp_0/microblaze_0/lib\libgloss.a(sbrk.o)
+                0x00000000000110f8                sbrk
+ .text          0x000000000001115c      0xd54 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_udivdi3.o)
+                0x000000000001115c                __udivdi3
+ .text          0x0000000000011eb0      0xd9c ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_umoddi3.o)
+                0x0000000000011eb0                __umoddi3
+ .text          0x0000000000012c4c      0x7a4 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_addsub_df.o)
+                0x000000000001331c                __adddf3
+                0x0000000000013380                __subdf3
+ .text          0x00000000000133f0      0x648 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_mul_df.o)
+                0x00000000000133f0                __muldf3
+ .text          0x0000000000013a38      0x350 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_div_df.o)
+                0x0000000000013a38                __divdf3
+ .text          0x0000000000013d88       0x74 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_eq_df.o)
+                0x0000000000013d88                __eqdf2
+ .text          0x0000000000013dfc       0x74 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_ne_df.o)
+                0x0000000000013dfc                __nedf2
+ .text          0x0000000000013e70       0x7c ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_gt_df.o)
+                0x0000000000013e70                __gtdf2
+ .text          0x0000000000013eec       0x74 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_lt_df.o)
+                0x0000000000013eec                __ltdf2
+ .text          0x0000000000013f60       0x74 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_le_df.o)
+                0x0000000000013f60                __ledf2
+ .text          0x0000000000013fd4       0x7c ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unord_df.o)
+                0x0000000000013fd4                __unorddf2
+ .text          0x0000000000014050      0x1a4 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_si_to_df.o)
+                0x0000000000014050                __floatsidf
+ .text          0x00000000000141f4      0x130 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_df_to_si.o)
+                0x00000000000141f4                __fixdfsi
+ .text          0x0000000000014324       0xe4 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_usi_to_df.o)
+                0x0000000000014324                __floatunsidf
+ .text          0x0000000000014408       0x9c ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(divsi3.o)
+                0x0000000000014408                __divsi3
+ .text          0x00000000000144a4       0x9c ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(modsi3.o)
+                0x00000000000144a4                __modsi3
+ .text          0x0000000000014540       0xa8 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(udivsi3.o)
+                0x0000000000014540                __udivsi3
+ .text          0x00000000000145e8       0xbc ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(umodsi3.o)
+                0x00000000000145e8                __umodsi3
+ .text          0x00000000000146a4      0x184 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_muldi3.o)
+                0x00000000000146a4                __muldi3
+ .text          0x0000000000014828      0x154 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clzsi2.o)
+                0x0000000000014828                __clzsi2
+ .text          0x000000000001497c      0x598 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_pack_df.o)
+                0x000000000001497c                __pack_d
+ .text          0x0000000000014f14      0x380 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unpack_df.o)
+                0x0000000000014f14                __unpack_d
+ .text          0x0000000000015294      0x148 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_fpcmp_parts_df.o)
+                0x0000000000015294                __fpcmp_parts_d
+ .text          0x00000000000153dc       0x48 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtend.o
+ *(.text.*)
+ .text.startup  0x0000000000015424     0x1054 C:\Users\rhev2401\AppData\Local\Temp\ccwdkPkO.ltrans0.ltrans.o
+                                       0x10b8 (size before relaxing)
+                0x0000000000015424                main
+ .text.XGpio_CfgInitialize
+                0x0000000000016478       0x68 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio.o)
+                0x0000000000016478                XGpio_CfgInitialize
+ .text.XGpio_SetDataDirection
+                0x00000000000164e0       0xd0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio.o)
+                0x00000000000164e0                XGpio_SetDataDirection
+ .text.XGpio_DiscreteRead
+                0x00000000000165b0       0xf0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio.o)
+                0x00000000000165b0                XGpio_DiscreteRead
+ .text.XGpio_DiscreteWrite
+                0x00000000000166a0       0xd4 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio.o)
+                0x00000000000166a0                XGpio_DiscreteWrite
+ .text.XGpio_Initialize
+                0x0000000000016774       0x8c ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio_sinit.o)
+                0x0000000000016774                XGpio_Initialize
+ .text.XIntc_InterruptHandler
+                0x0000000000016800       0x54 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_intr.o)
+                0x0000000000016800                XIntc_InterruptHandler
+ .text.XIntc_DeviceInterruptHandler
+                0x0000000000016854      0x164 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_l.o)
+                0x0000000000016854                XIntc_DeviceInterruptHandler
+ .text.StubHandler
+                0x00000000000169b8       0x4c ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+ .text.XIntc_Initialize
+                0x0000000000016a04      0x210 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+                                        0x214 (size before relaxing)
+                0x0000000000016a04                XIntc_Initialize
+ .text.XIntc_Start
+                0x0000000000016c14       0xe0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+                0x0000000000016c14                XIntc_Start
+ .text.XIntc_Connect
+                0x0000000000016cf4      0x104 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+                0x0000000000016cf4                XIntc_Connect
+ .text.XIntc_Enable
+                0x0000000000016df8       0xd8 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+                0x0000000000016df8                XIntc_Enable
+ .text.XIntc_Disable
+                0x0000000000016ed0       0xdc ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+                0x0000000000016ed0                XIntc_Disable
+ .text.XIntc_Acknowledge
+                0x0000000000016fac       0xd0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+                0x0000000000016fac                XIntc_Acknowledge
+ .text.StubStatusHandler
+                0x000000000001707c       0x30 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi.o)
+ .text.XSpi_Reset
+                0x00000000000170ac       0xcc ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi.o)
+                0x00000000000170ac                XSpi_Reset
+ .text.XSpi_CfgInitialize
+                0x0000000000017178      0x1a8 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi.o)
+                                        0x1ac (size before relaxing)
+                0x0000000000017178                XSpi_CfgInitialize
+ .text.XSpi_LookupConfig
+                0x0000000000017320       0x20 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi_sinit.o)
+                0x0000000000017320                XSpi_LookupConfig
+ .text.print    0x0000000000017340       0x44 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(print.o)
+                0x0000000000017340                print
+ .text.Xil_Assert
+                0x0000000000017384       0x48 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_assert.o)
+                0x0000000000017384                Xil_Assert
+ .text.XNullHandler
+                0x00000000000173cc        0x8 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_assert.o)
+                0x00000000000173cc                XNullHandler
+ .text.__interrupt_handler
+                0x00000000000173d4       0xa4 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_interrupt_handler.o)
+                0x00000000000173d4                __interrupt_handler
+                0x00000000000173d4                _interrupt_handler
+ .text.getnum   0x0000000000017478       0xe0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_printf.o)
+ .text.padding.part.0
+                0x0000000000017558       0x58 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_printf.o)
+ .text.outnum   0x00000000000175b0      0x1d0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_printf.o)
+                                        0x1d8 (size before relaxing)
+ .text.xil_printf
+                0x0000000000017780      0x460 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_printf.o)
+                                        0x488 (size before relaxing)
+                0x0000000000017780                xil_printf
+ .text.outbyte  0x0000000000017be0       0x28 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(outbyte.o)
+                0x0000000000017be0                outbyte
+ .text.Xil_ExceptionInit
+                0x0000000000017c08        0x8 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_exception.o)
+                0x0000000000017c08                Xil_ExceptionInit
+ .text.Xil_ExceptionEnable
+                0x0000000000017c10       0x2c ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_exception.o)
+                0x0000000000017c10                Xil_ExceptionEnable
+ .text.Xil_ExceptionRegisterHandler
+                0x0000000000017c3c       0x34 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_exception.o)
+                0x0000000000017c3c                Xil_ExceptionRegisterHandler
+ .text.XUartLite_SelfTest
+                0x0000000000017c70      0x134 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_selftest.o)
+                0x0000000000017c70                XUartLite_SelfTest
+ .text.XUartLite_SendByte
+                0x0000000000017da4       0x1c ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_l.o)
+                0x0000000000017da4                XUartLite_SendByte
+ .text.StubHandler
+                0x0000000000017dc0       0x34 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite.o)
+ .text.XUartLite_CfgInitialize
+                0x0000000000017df4       0x98 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite.o)
+                0x0000000000017df4                XUartLite_CfgInitialize
+ .text.XUartLite_ResetFifos
+                0x0000000000017e8c       0x98 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite.o)
+                0x0000000000017e8c                XUartLite_ResetFifos
+ .text.XUartLite_SendBuffer
+                0x0000000000017f24       0x98 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite.o)
+                0x0000000000017f24                XUartLite_SendBuffer
+ .text.XUartLite_Send
+                0x0000000000017fbc      0x14c ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite.o)
+                0x0000000000017fbc                XUartLite_Send
+ .text.XUartLite_ReceiveBuffer
+                0x0000000000018108       0xc4 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite.o)
+                0x0000000000018108                XUartLite_ReceiveBuffer
+ .text.XUartLite_Recv
+                0x00000000000181cc      0x14c ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite.o)
+                0x00000000000181cc                XUartLite_Recv
+ .text.XUartLite_Initialize
+                0x0000000000018318       0x98 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_sinit.o)
+                0x0000000000018318                XUartLite_Initialize
+ .text.XUartLite_ClearStats
+                0x00000000000183b0       0xa0 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_stats.o)
+                0x00000000000183b0                XUartLite_ClearStats
+ .text.__errno  0x0000000000018450       0x10 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(errno.o)
+                0x0000000000018450                __errno
+ *(.gnu.linkonce.t.*)
+
+.init           0x0000000000018460       0x3c
+ *(.init)
+ .init          0x0000000000018460       0x18 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crti.o
+                0x0000000000018460                __init
+ .init          0x0000000000018478        0xc c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtbegin.o
+ .init          0x0000000000018484        0xc c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtend.o
+ .init          0x0000000000018490        0xc c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtn.o
+
+.fini           0x000000000001849c       0x20
+ *(.fini)
+ .fini          0x000000000001849c        0x8 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crti.o
+                0x000000000001849c                __fini
+ .fini          0x00000000000184a4        0xc c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtbegin.o
+ .fini          0x00000000000184b0        0xc c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtn.o
+
+.ctors          0x00000000000184bc        0x8
+                0x00000000000184bc                __CTOR_LIST__ = .
+                0x00000000000184bc                ___CTORS_LIST___ = .
+ *crtbegin.o(.ctors)
+ .ctors         0x00000000000184bc        0x4 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtbegin.o
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ .ctors         0x00000000000184c0        0x4 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtend.o
+                0x00000000000184c4                __CTOR_END__ = .
+                0x00000000000184c4                ___CTORS_END___ = .
+
+.dtors          0x00000000000184c4        0x8
+                0x00000000000184c4                __DTOR_LIST__ = .
+                0x00000000000184c4                ___DTORS_LIST___ = .
+ *crtbegin.o(.dtors)
+ .dtors         0x00000000000184c4        0x4 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtbegin.o
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ .dtors         0x00000000000184c8        0x4 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtend.o
+                0x00000000000184c8                __DTOR_END__
+                [!provide]                        PROVIDE (__DTOR_END__ = .)
+                [!provide]                        PROVIDE (___DTORS_END___ = .)
+
+.rodata         0x00000000000184cc      0xc80
+                0x00000000000184cc                __rodata_start = .
+ *(.rodata)
+ .rodata        0x00000000000184cc      0x1ca C:\Users\rhev2401\AppData\Local\Temp\ccwdkPkO.ltrans0.ltrans.o
+ *fill*         0x0000000000018696        0x2 
+ .rodata        0x0000000000018698        0x8 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio.o)
+ .rodata        0x00000000000186a0        0xe ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio_sinit.o)
+ *fill*         0x00000000000186ae        0x2 
+ .rodata        0x00000000000186b0        0xd ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_intr.o)
+ *fill*         0x00000000000186bd        0x3 
+ .rodata        0x00000000000186c0        0x8 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+ .rodata        0x00000000000186c8        0x7 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi.o)
+ *fill*         0x00000000000186cf        0x1 
+ .rodata        0x00000000000186d0       0x11 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_printf.o)
+ *fill*         0x00000000000186e1        0x3 
+ .rodata        0x00000000000186e4       0x15 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_selftest.o)
+ *fill*         0x00000000000186f9        0x3 
+ .rodata        0x00000000000186fc        0xc ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite.o)
+ .rodata        0x0000000000018708       0x12 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_sinit.o)
+ *fill*         0x000000000001871a        0x2 
+ .rodata        0x000000000001871c       0x12 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_stats.o)
+ *fill*         0x000000000001872e        0x2 
+ .rodata        0x0000000000018730        0x4 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-impure.o)
+                0x0000000000018730                _global_impure_ptr
+ .rodata        0x0000000000018734       0x12 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-locale.o)
+ *fill*         0x0000000000018746        0x2 
+ .rodata        0x0000000000018748      0x281 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-ctype_.o)
+                0x0000000000018748                _ctype_b
+                0x00000000000188c8                _ctype_
+ *fill*         0x00000000000189c9        0x3 
+ .rodata        0x00000000000189cc      0x1f4 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfprintf.o)
+ .rodata        0x0000000000018bc0       0x2c ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-dtoa.o)
+ .rodata        0x0000000000018bec      0x124 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mprec.o)
+                0x0000000000018bec                __mprec_tens
+                0x0000000000018cb4                __mprec_bigtens
+                0x0000000000018cdc                __mprec_tinytens
+ .rodata        0x0000000000018d10      0x1d8 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-svfiprintf.o)
+ .rodata        0x0000000000018ee8       0x14 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_thenan_df.o)
+                0x0000000000018ee8                __thenan_df
+ .rodata        0x0000000000018efc      0x100 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clz.o)
+                0x0000000000018efc                __clz_tab
+ *(.rodata.*)
+ .rodata.xil_printf
+                0x0000000000018ffc      0x150 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_printf.o)
+ *(.gnu.linkonce.r.*)
+                0x000000000001914c                __rodata_end = .
+
+.rela.dyn       0x000000000001914c        0x0
+ .rela.text     0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.vectors.sw_exception
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XGpio_CfgInitialize
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XGpio_SetDataDirection
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XGpio_DiscreteRead
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XGpio_DiscreteWrite
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XGpio_Initialize
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XIntc_InterruptHandler
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.StubHandler
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XIntc_Initialize
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XIntc_Start
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XIntc_Connect
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XIntc_Enable
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XIntc_Disable
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XIntc_Acknowledge
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.StubStatusHandler
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XSpi_Reset
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XSpi_CfgInitialize
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XUartLite_SelfTest
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XUartLite_CfgInitialize
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XUartLite_ResetFifos
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XUartLite_Send
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XUartLite_Recv
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XUartLite_Initialize
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.text.XUartLite_ClearStats
+                0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+ .rela.data     0x000000000001914c        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/m/crt0.o
+
+.sdata2         0x000000000001914c        0x4
+                0x0000000000019150                . = ALIGN (0x8)
+ *fill*         0x000000000001914c        0x4 
+                0x0000000000019150                __sdata2_start = .
+ *(.sdata2)
+ *(.sdata2.*)
+ *(.gnu.linkonce.s2.*)
+                0x0000000000019150                . = ALIGN (0x8)
+                0x0000000000019150                __sdata2_end = .
+
+.sbss2          0x0000000000019150        0x0
+                0x0000000000019150                __sbss2_start = .
+ *(.sbss2)
+ *(.sbss2.*)
+ *(.gnu.linkonce.sb2.*)
+                0x0000000000019150                __sbss2_end = .
+
+.data           0x0000000000019150      0x730
+                0x0000000000019150                . = ALIGN (0x4)
+                0x0000000000019150                __data_start = .
+ *(.data)
+ .data          0x0000000000019150       0x44 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(hw_exception_handler.o)
+                0x0000000000019154                MB_ExceptionVectorTable
+ .data          0x0000000000019194       0xf4 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-impure.o)
+                0x0000000000019284                _impure_ptr
+ .data          0x0000000000019288      0x16c ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-locale.o)
+                0x0000000000019288                __global_locale
+ .data          0x00000000000193f4      0x410 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mallocr.o)
+                0x00000000000193f4                __malloc_av_
+                0x00000000000197fc                __malloc_trim_threshold
+                0x0000000000019800                __malloc_sbrk_base
+ *(.data.*)
+ .data.XSpi_ConfigTable
+                0x0000000000019804       0x1c ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xspi_g.o)
+                0x0000000000019804                XSpi_ConfigTable
+ .data.Xil_AssertWait
+                0x0000000000019820        0x4 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_assert.o)
+                0x0000000000019820                Xil_AssertWait
+ .data.XGpio_ConfigTable
+                0x0000000000019824       0x10 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xgpio_g.o)
+                0x0000000000019824                XGpio_ConfigTable
+ .data.XIntc_ConfigTable
+                0x0000000000019834       0x34 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc_g.o)
+                0x0000000000019834                XIntc_ConfigTable
+ .data.MB_InterruptVectorTable
+                0x0000000000019868        0x8 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(microblaze_interrupts_g.o)
+                0x0000000000019868                MB_InterruptVectorTable
+ .data.XUartLite_ConfigTable
+                0x0000000000019870       0x10 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xuartlite_g.o)
+                0x0000000000019870                XUartLite_ConfigTable
+ *(.gnu.linkonce.d.*)
+                0x0000000000019880                __data_end = .
+
+.tm_clone_table
+                0x0000000000019880        0x0
+ .tm_clone_table
+                0x0000000000019880        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtbegin.o
+ .tm_clone_table
+                0x0000000000019880        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtend.o
+
+.got
+ *(.got)
+
+.got1
+ *(.got1)
+
+.got2
+ *(.got2)
+
+.eh_frame       0x0000000000019880        0x0
+ *(.eh_frame)
+ .eh_frame      0x0000000000019880        0x0 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtbegin.o
+
+.jcr
+ *(.jcr)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.sdata          0x0000000000019880        0x0
+                0x0000000000019880                . = ALIGN (0x8)
+                0x0000000000019880                __sdata_start = .
+ *(.sdata)
+ *(.sdata.*)
+ *(.gnu.linkonce.s.*)
+                0x0000000000019880                __sdata_end = .
+
+.sbss           0x0000000000019880        0x0
+                0x0000000000019880                . = ALIGN (0x4)
+                0x0000000000019880                __sbss_start = .
+ *(.sbss)
+ *(.sbss.*)
+ *(.gnu.linkonce.sb.*)
+                0x0000000000019880                . = ALIGN (0x8)
+                0x0000000000019880                __sbss_end = .
+
+.tdata          0x0000000000019880        0x0
+                0x0000000000019880                __tdata_start = .
+ *(.tdata)
+ *(.tdata.*)
+ *(.gnu.linkonce.td.*)
+                0x0000000000019880                __tdata_end = .
+
+.tbss           0x0000000000019880        0x0
+                0x0000000000019880                __tbss_start = .
+ *(.tbss)
+ *(.tbss.*)
+ *(.gnu.linkonce.tb.*)
+                0x0000000000019880                __tbss_end = .
+
+.bss            0x0000000000019880      0xebc
+                0x0000000000019880                . = ALIGN (0x4)
+                0x0000000000019880                __bss_start = .
+ *(.bss)
+ .bss           0x0000000000019880       0x20 c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtbegin.o
+ .bss           0x00000000000198a0      0xdd8 C:\Users\rhev2401\AppData\Local\Temp\ccwdkPkO.ltrans0.ltrans.o
+ .bss           0x000000000001a678       0x34 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-mallocr.o)
+                0x000000000001a678                __malloc_top_pad
+                0x000000000001a67c                __malloc_max_sbrked_mem
+                0x000000000001a680                __malloc_max_total_mem
+                0x000000000001a684                __malloc_current_mallinfo
+ .bss           0x000000000001a6ac        0x4 ../../standalone_bsp_0/microblaze_0/lib\libgloss.a(sbrk.o)
+ *(.bss.*)
+ .bss.Xil_AssertCallbackRoutine
+                0x000000000001a6b0        0x4 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_assert.o)
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+ COMMON         0x000000000001a6b4       0x80 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xintc.o)
+                0x000000000001a6b4                XIntc_BitPosMask
+ COMMON         0x000000000001a734        0x4 ../../standalone_bsp_0/microblaze_0/lib\libxil.a(xil_assert.o)
+                0x000000000001a734                Xil_AssertStatus
+ COMMON         0x000000000001a738        0x4 ../../standalone_bsp_0/microblaze_0/lib\libc.a(lib_a-reent.o)
+                0x000000000001a738                errno
+                0x000000000001a73c                . = ALIGN (0x4)
+                0x000000000001a73c                __bss_end = .
+                0x0000000000019880                _SDA_BASE_ = (__sdata_start + ((__sbss_end - __sdata_start) / 0x2))
+                0x0000000000019150                _SDA2_BASE_ = (__sdata2_start + ((__sbss2_end - __sdata2_start) / 0x2))
+
+.heap           0x000000000001a73c     0x2004
+                0x000000000001a740                . = ALIGN (0x8)
+ *fill*         0x000000000001a73c        0x4 
+                0x000000000001a740                _heap = .
+                0x000000000001a740                _heap_start = .
+                0x000000000001c740                . = (. + _HEAP_SIZE)
+ *fill*         0x000000000001a740     0x2000 
+                0x000000000001c740                _heap_end = .
+
+.stack          0x000000000001c740      0x800
+                0x000000000001c740                _stack_end = .
+                0x000000000001cf40                . = (. + _STACK_SIZE)
+ *fill*         0x000000000001c740      0x800 
+                0x000000000001cf40                . = ALIGN (0x8)
+                0x000000000001cf40                _stack = .
+                0x000000000001cf40                __stack = _stack
+                0x000000000001cf40                _end = .
+LOAD C:\Users\rhev2401\AppData\Local\Temp\cc0axkTndebugobj
+LOAD C:\Users\rhev2401\AppData\Local\Temp\ccwdkPkO.ltrans0.ltrans.o
+START GROUP
+LOAD ../../standalone_bsp_0/microblaze_0/lib\libxil.a
+LOAD ../../standalone_bsp_0/microblaze_0/lib\libgcc.a
+LOAD ../../standalone_bsp_0/microblaze_0/lib\libc.a
+END GROUP
+LOAD ../../standalone_bsp_0/microblaze_0/lib\libgcc.a
+START GROUP
+LOAD ../../standalone_bsp_0/microblaze_0/lib\libgloss.a
+LOAD ../../standalone_bsp_0/microblaze_0/lib\libxil.a
+LOAD ../../standalone_bsp_0/microblaze_0/lib\libc.a
+LOAD ../../standalone_bsp_0/microblaze_0/lib\libm.a
+END GROUP
+LOAD ../../standalone_bsp_0/microblaze_0/lib\libgcc.a
+LOAD c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtend.o
+LOAD c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/le/m/crtn.o
+OUTPUT(APP6_2019.elf elf32-microblazeel)
+
+.debug_frame    0x0000000000000000      0x434
+ .debug_frame   0x0000000000000000       0x44 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_udivdi3.o)
+ .debug_frame   0x0000000000000044       0x44 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_umoddi3.o)
+ .debug_frame   0x0000000000000088       0xc0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_addsub_df.o)
+ .debug_frame   0x0000000000000148       0x44 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_mul_df.o)
+ .debug_frame   0x000000000000018c       0x38 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_div_df.o)
+ .debug_frame   0x00000000000001c4       0x30 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_eq_df.o)
+ .debug_frame   0x00000000000001f4       0x30 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_ne_df.o)
+ .debug_frame   0x0000000000000224       0x30 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_gt_df.o)
+ .debug_frame   0x0000000000000254       0x30 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_lt_df.o)
+ .debug_frame   0x0000000000000284       0x30 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_le_df.o)
+ .debug_frame   0x00000000000002b4       0x30 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unord_df.o)
+ .debug_frame   0x00000000000002e4       0x30 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_si_to_df.o)
+ .debug_frame   0x0000000000000314       0x30 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_df_to_si.o)
+ .debug_frame   0x0000000000000344       0x30 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_usi_to_df.o)
+ .debug_frame   0x0000000000000374       0x30 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_muldi3.o)
+ .debug_frame   0x00000000000003a4       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clzsi2.o)
+ .debug_frame   0x00000000000003c4       0x30 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_pack_df.o)
+ .debug_frame   0x00000000000003f4       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unpack_df.o)
+ .debug_frame   0x0000000000000414       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_fpcmp_parts_df.o)
+
+.debug_info     0x0000000000000000     0x9093
+ .debug_info    0x0000000000000000     0x1292 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_udivdi3.o)
+ .debug_info    0x0000000000001292     0x12f4 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_umoddi3.o)
+ .debug_info    0x0000000000002586      0x6a0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_addsub_df.o)
+ .debug_info    0x0000000000002c26      0x63a ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_mul_df.o)
+ .debug_info    0x0000000000003260      0x547 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_div_df.o)
+ .debug_info    0x00000000000037a7      0x454 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_eq_df.o)
+ .debug_info    0x0000000000003bfb      0x454 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_ne_df.o)
+ .debug_info    0x000000000000404f      0x454 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_gt_df.o)
+ .debug_info    0x00000000000044a3      0x454 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_lt_df.o)
+ .debug_info    0x00000000000048f7      0x454 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_le_df.o)
+ .debug_info    0x0000000000004d4b      0x42d ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unord_df.o)
+ .debug_info    0x0000000000005178      0x39e ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_si_to_df.o)
+ .debug_info    0x0000000000005516      0x42e ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_df_to_si.o)
+ .debug_info    0x0000000000005944      0x2a6 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_thenan_df.o)
+ .debug_info    0x0000000000005bea      0x3ac ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_usi_to_df.o)
+ .debug_info    0x0000000000005f96       0x26 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(divsi3.o)
+ .debug_info    0x0000000000005fbc       0x26 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(modsi3.o)
+ .debug_info    0x0000000000005fe2       0x26 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(udivsi3.o)
+ .debug_info    0x0000000000006008       0x26 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(umodsi3.o)
+ .debug_info    0x000000000000602e      0xd3b ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_muldi3.o)
+ .debug_info    0x0000000000006d69      0xbc7 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clz.o)
+ .debug_info    0x0000000000007930      0xc34 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clzsi2.o)
+ .debug_info    0x0000000000008564      0x434 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_pack_df.o)
+ .debug_info    0x0000000000008998      0x3bd ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unpack_df.o)
+ .debug_info    0x0000000000008d55      0x33e ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_fpcmp_parts_df.o)
+
+.debug_abbrev   0x0000000000000000     0x2c1b
+ .debug_abbrev  0x0000000000000000      0x294 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x0000000000000294      0x2bd ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_umoddi3.o)
+ .debug_abbrev  0x0000000000000551      0x276 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_addsub_df.o)
+ .debug_abbrev  0x00000000000007c7      0x2b4 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_mul_df.o)
+ .debug_abbrev  0x0000000000000a7b      0x29f ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_div_df.o)
+ .debug_abbrev  0x0000000000000d1a      0x1fa ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_eq_df.o)
+ .debug_abbrev  0x0000000000000f14      0x1fa ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_ne_df.o)
+ .debug_abbrev  0x000000000000110e      0x1fa ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_gt_df.o)
+ .debug_abbrev  0x0000000000001308      0x1fa ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_lt_df.o)
+ .debug_abbrev  0x0000000000001502      0x1fa ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_le_df.o)
+ .debug_abbrev  0x00000000000016fc      0x1fa ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unord_df.o)
+ .debug_abbrev  0x00000000000018f6      0x207 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_si_to_df.o)
+ .debug_abbrev  0x0000000000001afd      0x1fe ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_df_to_si.o)
+ .debug_abbrev  0x0000000000001cfb      0x131 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_thenan_df.o)
+ .debug_abbrev  0x0000000000001e2c      0x22c ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_usi_to_df.o)
+ .debug_abbrev  0x0000000000002058       0x14 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(divsi3.o)
+ .debug_abbrev  0x000000000000206c       0x14 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(modsi3.o)
+ .debug_abbrev  0x0000000000002080       0x14 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(udivsi3.o)
+ .debug_abbrev  0x0000000000002094       0x14 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(umodsi3.o)
+ .debug_abbrev  0x00000000000020a8      0x237 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_muldi3.o)
+ .debug_abbrev  0x00000000000022df      0x1bf ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clz.o)
+ .debug_abbrev  0x000000000000249e      0x219 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x00000000000026b7      0x20e ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_pack_df.o)
+ .debug_abbrev  0x00000000000028c5      0x1ce ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unpack_df.o)
+ .debug_abbrev  0x0000000000002a93      0x188 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_fpcmp_parts_df.o)
+
+.debug_loc      0x0000000000000000     0x37ff
+ .debug_loc     0x0000000000000000     0x11c7 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_udivdi3.o)
+ .debug_loc     0x00000000000011c7     0x1058 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_umoddi3.o)
+ .debug_loc     0x000000000000221f      0x4a9 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_addsub_df.o)
+ .debug_loc     0x00000000000026c8      0x491 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_mul_df.o)
+ .debug_loc     0x0000000000002b59      0x218 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_div_df.o)
+ .debug_loc     0x0000000000002d71       0x50 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_eq_df.o)
+ .debug_loc     0x0000000000002dc1       0x50 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_ne_df.o)
+ .debug_loc     0x0000000000002e11       0x50 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_gt_df.o)
+ .debug_loc     0x0000000000002e61       0x50 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_lt_df.o)
+ .debug_loc     0x0000000000002eb1       0x50 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_le_df.o)
+ .debug_loc     0x0000000000002f01       0x50 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unord_df.o)
+ .debug_loc     0x0000000000002f51       0xbb ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_si_to_df.o)
+ .debug_loc     0x000000000000300c       0x3b ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_df_to_si.o)
+ .debug_loc     0x0000000000003047       0x81 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_usi_to_df.o)
+ .debug_loc     0x00000000000030c8      0x145 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_muldi3.o)
+ .debug_loc     0x000000000000320d       0xda ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clzsi2.o)
+ .debug_loc     0x00000000000032e7      0x30e ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_pack_df.o)
+ .debug_loc     0x00000000000035f5      0x132 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unpack_df.o)
+ .debug_loc     0x0000000000003727       0xd8 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_fpcmp_parts_df.o)
+
+.debug_aranges  0x0000000000000000      0x310
+ .debug_aranges
+                0x0000000000000000       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_udivdi3.o)
+ .debug_aranges
+                0x0000000000000020       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_umoddi3.o)
+ .debug_aranges
+                0x0000000000000040       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_addsub_df.o)
+ .debug_aranges
+                0x0000000000000060       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_mul_df.o)
+ .debug_aranges
+                0x0000000000000080       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_div_df.o)
+ .debug_aranges
+                0x00000000000000a0       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_eq_df.o)
+ .debug_aranges
+                0x00000000000000c0       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_ne_df.o)
+ .debug_aranges
+                0x00000000000000e0       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_gt_df.o)
+ .debug_aranges
+                0x0000000000000100       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_lt_df.o)
+ .debug_aranges
+                0x0000000000000120       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_le_df.o)
+ .debug_aranges
+                0x0000000000000140       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unord_df.o)
+ .debug_aranges
+                0x0000000000000160       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_si_to_df.o)
+ .debug_aranges
+                0x0000000000000180       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_df_to_si.o)
+ .debug_aranges
+                0x00000000000001a0       0x18 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_thenan_df.o)
+ .debug_aranges
+                0x00000000000001b8       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_usi_to_df.o)
+ .debug_aranges
+                0x00000000000001d8       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(divsi3.o)
+ .debug_aranges
+                0x00000000000001f8       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(modsi3.o)
+ .debug_aranges
+                0x0000000000000218       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(udivsi3.o)
+ .debug_aranges
+                0x0000000000000238       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(umodsi3.o)
+ .debug_aranges
+                0x0000000000000258       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_muldi3.o)
+ .debug_aranges
+                0x0000000000000278       0x18 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clz.o)
+ .debug_aranges
+                0x0000000000000290       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x00000000000002b0       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_pack_df.o)
+ .debug_aranges
+                0x00000000000002d0       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unpack_df.o)
+ .debug_aranges
+                0x00000000000002f0       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_fpcmp_parts_df.o)
+
+.debug_ranges   0x0000000000000000      0x558
+ .debug_ranges  0x0000000000000000      0x190 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_udivdi3.o)
+ .debug_ranges  0x0000000000000190      0x160 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_umoddi3.o)
+ .debug_ranges  0x00000000000002f0       0x48 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_addsub_df.o)
+ .debug_ranges  0x0000000000000338       0xb0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_mul_df.o)
+ .debug_ranges  0x00000000000003e8       0x60 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_div_df.o)
+ .debug_ranges  0x0000000000000448       0x38 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_si_to_df.o)
+ .debug_ranges  0x0000000000000480       0x18 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_usi_to_df.o)
+ .debug_ranges  0x0000000000000498       0x40 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_muldi3.o)
+ .debug_ranges  0x00000000000004d8       0x48 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clzsi2.o)
+ .debug_ranges  0x0000000000000520       0x38 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_pack_df.o)
+
+.debug_line     0x0000000000000000     0x7310
+ .debug_line    0x0000000000000000      0xe4e ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_udivdi3.o)
+ .debug_line    0x0000000000000e4e      0xf6f ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_umoddi3.o)
+ .debug_line    0x0000000000001dbd      0x9a0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_addsub_df.o)
+ .debug_line    0x000000000000275d      0x8c7 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_mul_df.o)
+ .debug_line    0x0000000000003024      0x65e ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_div_df.o)
+ .debug_line    0x0000000000003682      0x292 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_eq_df.o)
+ .debug_line    0x0000000000003914      0x292 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_ne_df.o)
+ .debug_line    0x0000000000003ba6      0x29c ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_gt_df.o)
+ .debug_line    0x0000000000003e42      0x292 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_lt_df.o)
+ .debug_line    0x00000000000040d4      0x292 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_le_df.o)
+ .debug_line    0x0000000000004366      0x294 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unord_df.o)
+ .debug_line    0x00000000000045fa      0x3b4 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_si_to_df.o)
+ .debug_line    0x00000000000049ae      0x342 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_df_to_si.o)
+ .debug_line    0x0000000000004cf0      0x1a0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_thenan_df.o)
+ .debug_line    0x0000000000004e90      0x306 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_usi_to_df.o)
+ .debug_line    0x0000000000005196       0xee ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(divsi3.o)
+ .debug_line    0x0000000000005284       0xf0 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(modsi3.o)
+ .debug_line    0x0000000000005374       0xf2 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(udivsi3.o)
+ .debug_line    0x0000000000005466       0xfa ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(umodsi3.o)
+ .debug_line    0x0000000000005560      0x5d3 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_muldi3.o)
+ .debug_line    0x0000000000005b33      0x445 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clz.o)
+ .debug_line    0x0000000000005f78      0x573 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clzsi2.o)
+ .debug_line    0x00000000000064eb      0x53f ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_pack_df.o)
+ .debug_line    0x0000000000006a2a      0x45e ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unpack_df.o)
+ .debug_line    0x0000000000006e88      0x488 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_fpcmp_parts_df.o)
+
+.debug_str      0x0000000000000000      0xef3
+ .debug_str     0x0000000000000000      0x91d ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_udivdi3.o)
+                                        0x9a8 (size before relaxing)
+ .debug_str     0x000000000000091d        0xa ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_umoddi3.o)
+                                        0x9a8 (size before relaxing)
+ .debug_str     0x0000000000000927      0x24d ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_addsub_df.o)
+                                        0x552 (size before relaxing)
+ .debug_str     0x0000000000000b74       0x40 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_mul_df.o)
+                                        0x524 (size before relaxing)
+ .debug_str     0x0000000000000bb4       0x35 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_div_df.o)
+                                        0x514 (size before relaxing)
+ .debug_str     0x0000000000000be9       0x20 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_eq_df.o)
+                                        0x4e1 (size before relaxing)
+ .debug_str     0x0000000000000c09        0x8 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_ne_df.o)
+                                        0x4e1 (size before relaxing)
+ .debug_str     0x0000000000000c11        0x8 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_gt_df.o)
+                                        0x4e1 (size before relaxing)
+ .debug_str     0x0000000000000c19        0x8 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_lt_df.o)
+                                        0x4e1 (size before relaxing)
+ .debug_str     0x0000000000000c21        0x8 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_le_df.o)
+                                        0x4e1 (size before relaxing)
+ .debug_str     0x0000000000000c29        0xb ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unord_df.o)
+                                        0x4d4 (size before relaxing)
+ .debug_str     0x0000000000000c34       0x27 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_si_to_df.o)
+                                        0x4b7 (size before relaxing)
+ .debug_str     0x0000000000000c5b        0xa ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_df_to_si.o)
+                                        0x4d9 (size before relaxing)
+ .debug_str     0x0000000000000c65      0x46a ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_thenan_df.o)
+ .debug_str     0x0000000000000c65       0x14 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_usi_to_df.o)
+                                        0x4b3 (size before relaxing)
+ .debug_str     0x0000000000000c79       0xa3 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(divsi3.o)
+                                        0x147 (size before relaxing)
+ .debug_str     0x0000000000000d1c       0x97 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(modsi3.o)
+                                        0x147 (size before relaxing)
+ .debug_str     0x0000000000000db3       0x98 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(udivsi3.o)
+                                        0x148 (size before relaxing)
+ .debug_str     0x0000000000000e4b       0x98 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(umodsi3.o)
+                                        0x148 (size before relaxing)
+ .debug_str     0x0000000000000ee3        0x9 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_muldi3.o)
+                                        0x94c (size before relaxing)
+ .debug_str     0x0000000000000eec      0x8ef ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clz.o)
+ .debug_str     0x0000000000000eec      0x90c ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_clzsi2.o)
+ .debug_str     0x0000000000000eec        0x7 ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_pack_df.o)
+                                        0x4cd (size before relaxing)
+ .debug_str     0x0000000000000ef3      0x4af ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_unpack_df.o)
+ .debug_str     0x0000000000000ef3      0x48d ../../standalone_bsp_0/microblaze_0/lib\libgcc.a(_fpcmp_parts_df.o)

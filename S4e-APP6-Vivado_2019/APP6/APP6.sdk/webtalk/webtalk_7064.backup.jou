@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# 
+# Start of session at: Mon Feb 10 12:46:01 2020
+# Process ID: 7064
+# Current directory: C:/Users/jbm/Desktop/S4e-APP6-Vivado_2019/APP6/APP6.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/jbm/Desktop/S4e-APP6-Vivado_2019/APP6/APP6.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/jbm/Desktop/S4e-APP6-Vivado_2019/APP6/APP6.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
