@@ -1226,6 +1226,10 @@
         <itemPath>../src/global_event.h</itemPath>
         <itemPath>../src/main.h</itemPath>
         <itemPath>../src/rgbled.h</itemPath>
+        <itemPath>adc.h</itemPath>
+        <itemPath>uart.h</itemPath>
+        <itemPath>pmods.h</itemPath>
+        <itemPath>config.h</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
@@ -1388,6 +1392,9 @@
         <itemPath>../src/global_event.c</itemPath>
         <itemPath>../src/main.c</itemPath>
         <itemPath>../src/rgbled.c</itemPath>
+        <itemPath>adc.c</itemPath>
+        <itemPath>uart.c</itemPath>
+        <itemPath>pmods.c</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
