@@ -11,6 +11,7 @@
           <itemPath>../src/accel.h</itemPath>
           <itemPath>../src/i2c.h</itemPath>
           <itemPath>../src/lcd.h</itemPath>
+          <itemPath>../src/adc.h</itemPath>
         </logicalFolder>
         <logicalFolder name="f1" displayName="system_config" projectFiles="true">
           <logicalFolder name="f1" displayName="default" projectFiles="true">
@@ -1225,7 +1226,6 @@
         <itemPath>../src/config.h</itemPath>
         <itemPath>../src/global_event.h</itemPath>
         <itemPath>../src/main.h</itemPath>
-        <itemPath>../src/rgbled.h</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
@@ -1242,6 +1242,7 @@
           <itemPath>../src/accel.c</itemPath>
           <itemPath>../src/i2c.c</itemPath>
           <itemPath>../src/lcd.c</itemPath>
+          <itemPath>../src/adc.c</itemPath>
         </logicalFolder>
         <logicalFolder name="f1" displayName="system_config" projectFiles="true">
           <logicalFolder name="f1" displayName="default" projectFiles="true">
@@ -1387,10 +1388,6 @@
         <itemPath>../src/UDP_app.c</itemPath>
         <itemPath>../src/global_event.c</itemPath>
         <itemPath>../src/main.c</itemPath>
-        <itemPath>../src/rgbled.c</itemPath>
-        <itemPath>adc.c</itemPath>
-        <itemPath>pmods.c</itemPath>
-        <itemPath>uart.c</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
@@ -1422,7 +1419,7 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC32MX_DFP" vendor="Microchip" version="1.1.215"/>
+        <pack name="PIC32MX_DFP" vendor="Microchip" version="1.0.28"/>
       </packs>
       <compileType>
         <linkerTool>
@@ -1662,6 +1659,7 @@
         <property key="ToolFirmwareFilePath"
                   value="Press to browse for a specific firmware version"/>
         <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="firmware.download.all" value="false"/>
         <property key="memories.bootflash" value="true"/>
         <property key="memories.configurationmemory" value="true"/>
         <property key="memories.dataflash" value="true"/>

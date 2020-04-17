@@ -25,7 +25,6 @@
 #define ACL_INT_SOURCE      0x0C
 #define ACL_CTRL_REG1       0x2A
 #define ACL_CTRL_REG2       0x2B
-#define ACL_CTRL_REG3       0x2C
 #define ACL_CTRL_REG4       0x2D
 #define ACL_CTRL_REG5       0x2E
 #define ACL_DEVICE_ID       0x0D 

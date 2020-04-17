@@ -37,9 +37,6 @@
 #include "lcd.h"
 #include "ssd.h"
 #include "app_commands.h"
-#include <stdlib.h>
-#include <math.h>
-#include "rgbled.h"
 
 /* ************************************************************************** */
 
@@ -73,11 +70,10 @@ void ACL_Init()
     ACL_GetRegister(ACL_CTRL_REG2);
     ACL_SetRegister(ACL_CTRL_REG2, 0x40);
     while(ACL_GetRegister(ACL_CTRL_REG2)&0x40);
-    ACL_SetRegister(ACL_CTRL_REG3, 2);
-    ACL_SetRegister(ACL_CTRL_REG4, 1);
+    ACL_SetRegister(ACL_CTRL_REG4, 0);
     ACL_SetRegister(ACL_CTRL_REG5, 0);
     ACL_GetRegister(ACL_INT_SOURCE);
-    ACL_SetRegister(ACL_CTRL_REG1, 0x09); //vitesse d'acquisition (ici cela donne 400hz)
+    ACL_SetRegister(ACL_CTRL_REG1, 0x39);
 }
 
 /* ------------------------------------------------------------ */
@@ -112,72 +108,19 @@ void accel_tasks()
 {
     uint8_t accel_buffer[accel_buf_length];
     signed short accelX, accelY, accelZ; 
+
+    ACL_ReadRawValues(accel_buffer);
     
-    static unsigned int j = 0;  //index du nombre de paquets de 3 paquets envoye du accel
-    static unsigned int i = 0;  //index du paquet de 40 de accel
-    static unsigned int n = 1;  //index paquet recu pour rgb
-    
-    signed int r_shift;
-    signed int g_shift;
-    signed int b_shift;
-    
-    unsigned char red;
-    unsigned char green;
-    unsigned char bleu;
-    
-   if(SWITCH1StateGet()){
 
-    if(PORTGbits.RG0 == 1){
+    accelX = (((signed int) accel_buffer[0])<<24)>>16 | accel_buffer[1]; //VR
+    accelY = (((signed int) accel_buffer[2])<<24)>>16 | accel_buffer[3]; //VR
+    accelZ = (((signed int) accel_buffer[4])<<24)>>16 | accel_buffer[5]; //VR
 
-        ACL_ReadRawValues(accel_buffer);
-
-
-        accelX = (((signed int) accel_buffer[0])<<24)>>16 | accel_buffer[1]; //VR
-        accelY = (((signed int) accel_buffer[2])<<24)>>16 | accel_buffer[3]; //VR
-        accelZ = (((signed int) accel_buffer[4])<<24)>>16 | accel_buffer[5]; //VR
-        
-        ((signed int*)UDP_Send_Buffer)[i+1] = accelX;
-        ((signed int*)UDP_Send_Buffer)[i+41] = accelY;
-        ((signed int*)UDP_Send_Buffer)[i+81] = accelZ;
-
-
-        i++;
-        if (i >= 40)
-        {
-            ((signed int*)UDP_Send_Buffer)[0] = j;
-            UDP_bytes_to_send = (484);
-            UDP_Send_Packet = true;
-            i = 0;
-            j++;
-        }
-                SSD_WriteDigitsGrouped(count++, 0x1); 
-
-    }
-   }
-        if (UDP_Receive_Packet)
-        {
-
-                    
-            r_shift = ((signed int*)UDP_Receive_Buffer)[n+1];
-            g_shift = ((signed int*)UDP_Receive_Buffer)[n+41];
-            b_shift = ((signed int*)UDP_Receive_Buffer)[n+81];
-            
-            r_shift = r_shift >>8;
-            g_shift = g_shift >>8;
-            b_shift = b_shift >>8;
-            
-            red = abs(r_shift);
-            green = abs(g_shift);
-            bleu = abs(b_shift);
-            
-            RGBLED_SetValue(red, green, bleu);
-
-            n++;
-            if (n >= 40){
-                n = 1;
-            }
-                
-        }
+    SSD_WriteDigitsGrouped(count++, 0x1); 
+    if(SWITCH1StateGet())
+    {
+        SYS_CONSOLE_PRINT("%d,%d,%d\r\n", accelX, accelY, accelZ);
+    }     
 }
 
 
