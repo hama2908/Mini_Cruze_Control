@@ -187,7 +187,7 @@ void MAIN_Initialize ( void )
     UDP_Initialize();
     LCD_Init();
     ACL_Init();
-
+    ADC_Init();
     /* TODO: Initialize your application's state machine and other
      * parameters.
      */
