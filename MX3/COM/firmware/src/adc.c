@@ -28,6 +28,15 @@
 #include <sys/attribs.h>
 #include "config.h"
 #include "adc.h"
+#include <stdbool.h>
+#include <stdint.h>
+#include "i2c.h"
+#include "accel.h"
+#include "system_definitions.h"
+#include <stdio.h>
+#include "lcd.h"
+#include "ssd.h"
+#include "app_commands.h"
 
 /* ************************************************************************** */
 /***	ADC_Init()
@@ -87,6 +96,23 @@ unsigned int ADC_AnalogRead(unsigned char analogPIN)
     IEC0bits.T2IE = 1;
     return adc_val;
 }
+
+void adc_tasks()
+{
+
+    signed short adc1, adc2; 
+    
+
+    adc1 = ADC_AnalogRead(18); 
+    adc2 = ADC_AnalogRead(19); //VR
+
+    SSD_WriteDigitsGrouped(count++, 0x1); 
+    if(SWITCH1StateGet())
+    {
+        SYS_CONSOLE_PRINT("%d,%d\r\n", adc1, adc2);
+    }     
+}
+
 
 /* *****************************************************************************
  End of File

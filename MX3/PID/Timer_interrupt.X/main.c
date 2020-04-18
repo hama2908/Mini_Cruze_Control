@@ -186,7 +186,7 @@ void main() {
                 LED_ToggleValue(0); // Toggle the led every second FREQUENCE CHANGE SELON LE IF  
                                 
               //conversion adc pour la photo resistance et ecrire sur LCD
-                adc = ADC_AnalogRead(24);
+                adc = ADC_AnalogRead(18);
                   
                 //ACL               
                 ACL_ReadGValues(rgACLGVals);
