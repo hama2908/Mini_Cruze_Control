@@ -35,6 +35,7 @@ int hour = 10;
 int adcmin = 1023;
 int adcmax = 0;
 int adcmoy = 0;
+int dist;
 
 //CHAR
 char receive_buffer[RECEIVE_BUFFER_LEN]; 
@@ -44,7 +45,7 @@ char accy[4];
 char accz[4];
 char acc[4];
 char raclcd[4];
-char lcd1[10];
+char lcd_heure[10];
 char heure[4];
 //FLOAT
 float rgACLGVals[3]; 
@@ -60,6 +61,7 @@ float zmoy = 0;
 float racinemin;
 float racinemax;
 float sousracine;
+
 //ASSEMBLEUR S
 extern int racine(int a);
 /*-----------------------------------------------------------------------------*/
@@ -186,7 +188,8 @@ void main() {
                 LED_ToggleValue(0); // Toggle the led every second FREQUENCE CHANGE SELON LE IF  
                                 
               //conversion adc pour la photo resistance et ecrire sur LCD
-                adc = ADC_AnalogRead(18);
+                adc = ADC_AnalogRead(24);
+                
                   
                 //ACL               
                 ACL_ReadGValues(rgACLGVals);
@@ -220,11 +223,13 @@ void main() {
                 zmoy = 0;
                }             
             }
+            
             //LCD_WriteStringAtPos(lcd_heure,0,0);
 //                sprintf(acc, "%f", sousracine);
-                sprintf(lcd1,"%04d",adc);
+                dist = (8700/(adc-20))-3;
+                sprintf(lcd_heure,"%04d",dist);
 
             LCD_WriteStringAtPos("retour_sensor_1",1,0);
-            LCD_WriteStringAtPos(lcd1,0,0);
+            LCD_WriteStringAtPos(lcd_heure,0,0);
         }
     }

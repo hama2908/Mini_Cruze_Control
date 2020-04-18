@@ -100,16 +100,17 @@ unsigned int ADC_AnalogRead(unsigned char analogPIN)
 void adc_tasks()
 {
 
-    signed short adc1, adc2; 
+    int adc;
+    int dist;
     
 
-    adc1 = ADC_AnalogRead(18); 
-    adc2 = ADC_AnalogRead(19); //VR
+    adc = ADC_AnalogRead(24); 
+    dist = (8700/(adc-20))-3;
 
-    SSD_WriteDigitsGrouped(count++, 0x1); 
-    if(SWITCH1StateGet())
+
+    if(SWITCH2StateGet())
     {
-        SYS_CONSOLE_PRINT("%d,%d\r\n", adc1, adc2);
+        SYS_CONSOLE_PRINT("%d\r\n", dist);
     }     
 }
 
