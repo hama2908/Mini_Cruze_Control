@@ -5,8 +5,8 @@
 #include "PID.h"
 
 
-unsigned int distances [6]= {10, 15, 20, 25, 30, 35, 40};
-unsigned int vitesses [11]= {0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+short distances [6]= {10, 15, 20, 25, 30, 35};
+short vitesses [11]= {0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
 
 void PID_SetValue(unsigned char dist_min, unsigned char vmax)
 {
@@ -16,6 +16,16 @@ void PID_SetValue(unsigned char dist_min, unsigned char vmax)
     v_set = distances[vmax];
   
 
+}
+
+void PID_tasks()
+{
+
+//    PID_SetValue();
+
+
+
+  
 }
 
 

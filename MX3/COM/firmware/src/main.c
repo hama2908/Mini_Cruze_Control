@@ -65,6 +65,9 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include "accel.h"
 #include "lcd.h"
 #include "app_commands.h"
+#include "string.h"
+#include <stdio.h>
+#include "adc.h"
 #include "PID.h"
 // *****************************************************************************
 // *****************************************************************************
@@ -112,18 +115,18 @@ MAIN_DATA mainData;
 // *****************************************************************************
 
 
-        static unsigned long int counter=0;
+//        static unsigned long int counter=0;
         static bool sw0_old; 
 
 /* Application's LED Task Function */
-static void LedTask(void) {
-    counter++;
-    
-    if(counter == 1000){
-        LED_ToggleValue(1);
-        counter = 0;
-    }  
-}
+//static void LedTask(void) {
+//    counter++;
+//    
+//    if(counter == 1000){
+//        LED_ToggleValue(1);
+//        counter = 0;
+//    }  
+//}
 
 
 void ManageSwitches()
@@ -187,8 +190,10 @@ void MAIN_Initialize ( void )
     SSD_Init();
     UDP_Initialize();
     LCD_Init();
-    ACL_Init();
     ADC_Init();
+    ACL_Init();
+//    RGBLED_Init();
+
     /* TODO: Initialize your application's state machine and other
      * parameters.
      */
@@ -228,8 +233,10 @@ void MAIN_Tasks ( void )
 
         case MAIN_STATE_SERVICE_TASKS:
         {
-            LedTask();
+//            LedTask();
+//            accel_tasks();
             adc_tasks();
+            PID_tasks();
             UDP_Tasks();
             ManageSwitches();
             LED0Toggle();
@@ -253,8 +260,10 @@ int main(void) {
     MAIN_Initialize();
     
     while (1) {
+        
         SYS_Tasks();
         MAIN_Tasks();
+        
     };
 
     return 0;

@@ -208,7 +208,11 @@ void _UDP_ClientTasks()
             }
 
             //UDP_bytes_to_send = strlen(UDP_Send_Buffer);
-            SYS_CONSOLE_PRINT("Client: Sending %s", UDP_Send_Buffer);
+
+            SYS_CONSOLE_PRINT("Client: package %d \r\n", ((signed int*)UDP_Send_Buffer)[0]);
+            SYS_CONSOLE_PRINT("Les premier de 40 x,y,z  %d, %d, %d \r\n", ((signed int*)UDP_Send_Buffer)[1], ((signed int*)UDP_Send_Buffer)[41], ((signed int*)UDP_Send_Buffer)[81]);
+            
+//            SYS_CONSOLE_PRINT("Client: Sending %d", UDP_Send_Buffer[0]);
             TCPIP_UDP_ArrayPut(appData.clientSocket, (uint8_t*)UDP_Send_Buffer, UDP_bytes_to_send);
             TCPIP_UDP_Flush(appData.clientSocket);
             appData.clientState = UDP_TCPIP_WAIT_FOR_RESPONSE;
@@ -297,7 +301,7 @@ void _UDP_ServerTasks( void )
                 break;
             }
             int16_t wMaxGet, wMaxPut, wCurrentChunk;
-            uint16_t w, w2;
+            uint16_t w;
             //uint8_t AppBuffer[32];
             //memset(AppBuffer, 0, 32);
             // Figure out how many bytes have been received and how many we can transmit.
@@ -338,7 +342,10 @@ void _UDP_ServerTasks( void )
 
                 SYS_CONSOLE_PRINT("\r\nServer: \tReceived a message of length %d", rxed);
 
-                SYS_CONSOLE_PRINT("\r\nServer: \tServer Sending a messages: %s", UDP_Server_Receive_Buffer);
+//                SYS_CONSOLE_PRINT("\r\nServer: \tServer Sending a messages: %s", UDP_Server_Receive_Buffer);
+                
+                SYS_CONSOLE_PRINT("\r\nServer: \tServer Sending a messages: %d \r\n", ((unsigned int*)UDP_Send_Buffer)[0]);
+                
 
                 // Transfer the data out of our local processing buffer and into the TCP TX FIFO.
                 TCPIP_UDP_ArrayPut(appData.serverSocket, UDP_Server_Receive_Buffer, wCurrentChunk);

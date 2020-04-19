@@ -10,7 +10,7 @@ unsigned int dist_set;
 unsigned int v_set;
 
 void PID_SetValue(unsigned char dist_min, unsigned char vmax);
-
+void PID_tasks();
 
 #endif /* _PID_H */
 

@@ -375,4 +375,5 @@ build/default/production/_ext/1360937237/main.o:  \
  ../src/accel.h  \
 ../src/lcd.h  \
 ../src/app_commands.h  \
-../src/PID.h 
+../src/adc.h  \
+ ../src/PID.h 

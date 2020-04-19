@@ -364,4 +364,5 @@ build/default/production/_ext/1360937237/accel.o:  \
  ../src/main.h  \
 ../src/lcd.h  \
 ../src/ssd.h  \
-../src/app_commands.h 
+../src/app_commands.h  \
+ ../src/rgbled.h 

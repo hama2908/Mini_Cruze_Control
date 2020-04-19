@@ -109,8 +109,8 @@ void adc_tasks()
     if(dist < 0){
         dist = 0;
     } 
-    if(dist > 50){
-        dist = 50;
+    if(dist > 40){
+        dist = 40;
     } 
 
     if(SWITCH2StateGet())
