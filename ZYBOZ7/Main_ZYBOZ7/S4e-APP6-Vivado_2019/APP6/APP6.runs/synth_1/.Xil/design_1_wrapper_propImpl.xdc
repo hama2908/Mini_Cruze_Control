@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/rhev2401/Downloads/S4e-APP6-Vivado_2019/S4e-APP6-Vivado_2019/APP6/APP6.srcs/constrs_1/new/APP6.xdc rfile:../../../APP6.srcs/constrs_1/new/APP6.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/antoi/Desktop/projetS4/Mini_Cruze_Control_sensor/ZYBOZ7/Main_ZYBOZ7/S4e-APP6-Vivado_2019/APP6/APP6.srcs/constrs_1/new/APP6.xdc rfile:../../../APP6.srcs/constrs_1/new/APP6.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN K17   IOSTANDARD LVCMOS33 } [get_ports { sys_clock }]; #IO_L12P_T1_MRCC_35 Sch=sysclk
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]

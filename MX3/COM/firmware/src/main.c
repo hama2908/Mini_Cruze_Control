@@ -228,7 +228,7 @@ void MAIN_Tasks ( void )
         case MAIN_STATE_SERVICE_TASKS:
         {
             LedTask();
-            accel_tasks();
+            adc_tasks();
             UDP_Tasks();
             ManageSwitches();
             LED0Toggle();

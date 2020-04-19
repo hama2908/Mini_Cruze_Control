@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/rhev2401/Downloads/S4e-APP6-Vivado_2019/S4e-APP6-Vivado_2019/APP6/APP6.runs/synth_1'
+HD_PWD='C:/Users/antoi/Desktop/projetS4/Mini_Cruze_Control_sensor/ZYBOZ7/Main_ZYBOZ7/S4e-APP6-Vivado_2019/APP6/APP6.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
