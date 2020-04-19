@@ -65,6 +65,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include "accel.h"
 #include "lcd.h"
 #include "app_commands.h"
+#include "PID.h"
 // *****************************************************************************
 // *****************************************************************************
 // Section: Global Data Definitions

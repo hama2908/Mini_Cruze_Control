@@ -29,6 +29,7 @@
       <itemPath>uartjb.h</itemPath>
       <itemPath>utils.h</itemPath>
       <itemPath>timer.h</itemPath>
+      <itemPath>pid.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -63,6 +64,7 @@
       <itemPath>uartjb.c</itemPath>
       <itemPath>utils.c</itemPath>
       <itemPath>racine.s</itemPath>
+      <itemPath>pid.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

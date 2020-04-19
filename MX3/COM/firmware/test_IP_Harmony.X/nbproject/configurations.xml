@@ -1226,6 +1226,7 @@
         <itemPath>../src/config.h</itemPath>
         <itemPath>../src/global_event.h</itemPath>
         <itemPath>../src/main.h</itemPath>
+        <itemPath>../src/PID.h</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
@@ -1388,6 +1389,7 @@
         <itemPath>../src/UDP_app.c</itemPath>
         <itemPath>../src/global_event.c</itemPath>
         <itemPath>../src/main.c</itemPath>
+        <itemPath>../src/PID.c</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"

@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=PICmx370.c config_bits.c main.c led.c IrDA.c acl.c adc.c aic.c audio.c btn.c i2c.c lcd.c mic.c mot.c pmods.c rgbled.c spiflash.c spija.c srv.c ssd.c statemachine.c swt.c uart.c uartjb.c utils.c racine.s
+SOURCEFILES_QUOTED_IF_SPACED=PICmx370.c config_bits.c main.c led.c IrDA.c acl.c adc.c aic.c audio.c btn.c i2c.c lcd.c mic.c mot.c pmods.c rgbled.c spiflash.c spija.c srv.c ssd.c statemachine.c swt.c uart.c uartjb.c utils.c racine.s pid.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/PICmx370.o ${OBJECTDIR}/config_bits.o ${OBJECTDIR}/main.o ${OBJECTDIR}/led.o ${OBJECTDIR}/IrDA.o ${OBJECTDIR}/acl.o ${OBJECTDIR}/adc.o ${OBJECTDIR}/aic.o ${OBJECTDIR}/audio.o ${OBJECTDIR}/btn.o ${OBJECTDIR}/i2c.o ${OBJECTDIR}/lcd.o ${OBJECTDIR}/mic.o ${OBJECTDIR}/mot.o ${OBJECTDIR}/pmods.o ${OBJECTDIR}/rgbled.o ${OBJECTDIR}/spiflash.o ${OBJECTDIR}/spija.o ${OBJECTDIR}/srv.o ${OBJECTDIR}/ssd.o ${OBJECTDIR}/statemachine.o ${OBJECTDIR}/swt.o ${OBJECTDIR}/uart.o ${OBJECTDIR}/uartjb.o ${OBJECTDIR}/utils.o ${OBJECTDIR}/racine.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/PICmx370.o.d ${OBJECTDIR}/config_bits.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/led.o.d ${OBJECTDIR}/IrDA.o.d ${OBJECTDIR}/acl.o.d ${OBJECTDIR}/adc.o.d ${OBJECTDIR}/aic.o.d ${OBJECTDIR}/audio.o.d ${OBJECTDIR}/btn.o.d ${OBJECTDIR}/i2c.o.d ${OBJECTDIR}/lcd.o.d ${OBJECTDIR}/mic.o.d ${OBJECTDIR}/mot.o.d ${OBJECTDIR}/pmods.o.d ${OBJECTDIR}/rgbled.o.d ${OBJECTDIR}/spiflash.o.d ${OBJECTDIR}/spija.o.d ${OBJECTDIR}/srv.o.d ${OBJECTDIR}/ssd.o.d ${OBJECTDIR}/statemachine.o.d ${OBJECTDIR}/swt.o.d ${OBJECTDIR}/uart.o.d ${OBJECTDIR}/uartjb.o.d ${OBJECTDIR}/utils.o.d ${OBJECTDIR}/racine.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/PICmx370.o ${OBJECTDIR}/config_bits.o ${OBJECTDIR}/main.o ${OBJECTDIR}/led.o ${OBJECTDIR}/IrDA.o ${OBJECTDIR}/acl.o ${OBJECTDIR}/adc.o ${OBJECTDIR}/aic.o ${OBJECTDIR}/audio.o ${OBJECTDIR}/btn.o ${OBJECTDIR}/i2c.o ${OBJECTDIR}/lcd.o ${OBJECTDIR}/mic.o ${OBJECTDIR}/mot.o ${OBJECTDIR}/pmods.o ${OBJECTDIR}/rgbled.o ${OBJECTDIR}/spiflash.o ${OBJECTDIR}/spija.o ${OBJECTDIR}/srv.o ${OBJECTDIR}/ssd.o ${OBJECTDIR}/statemachine.o ${OBJECTDIR}/swt.o ${OBJECTDIR}/uart.o ${OBJECTDIR}/uartjb.o ${OBJECTDIR}/utils.o ${OBJECTDIR}/racine.o ${OBJECTDIR}/pid.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/PICmx370.o.d ${OBJECTDIR}/config_bits.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/led.o.d ${OBJECTDIR}/IrDA.o.d ${OBJECTDIR}/acl.o.d ${OBJECTDIR}/adc.o.d ${OBJECTDIR}/aic.o.d ${OBJECTDIR}/audio.o.d ${OBJECTDIR}/btn.o.d ${OBJECTDIR}/i2c.o.d ${OBJECTDIR}/lcd.o.d ${OBJECTDIR}/mic.o.d ${OBJECTDIR}/mot.o.d ${OBJECTDIR}/pmods.o.d ${OBJECTDIR}/rgbled.o.d ${OBJECTDIR}/spiflash.o.d ${OBJECTDIR}/spija.o.d ${OBJECTDIR}/srv.o.d ${OBJECTDIR}/ssd.o.d ${OBJECTDIR}/statemachine.o.d ${OBJECTDIR}/swt.o.d ${OBJECTDIR}/uart.o.d ${OBJECTDIR}/uartjb.o.d ${OBJECTDIR}/utils.o.d ${OBJECTDIR}/racine.o.d ${OBJECTDIR}/pid.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/PICmx370.o ${OBJECTDIR}/config_bits.o ${OBJECTDIR}/main.o ${OBJECTDIR}/led.o ${OBJECTDIR}/IrDA.o ${OBJECTDIR}/acl.o ${OBJECTDIR}/adc.o ${OBJECTDIR}/aic.o ${OBJECTDIR}/audio.o ${OBJECTDIR}/btn.o ${OBJECTDIR}/i2c.o ${OBJECTDIR}/lcd.o ${OBJECTDIR}/mic.o ${OBJECTDIR}/mot.o ${OBJECTDIR}/pmods.o ${OBJECTDIR}/rgbled.o ${OBJECTDIR}/spiflash.o ${OBJECTDIR}/spija.o ${OBJECTDIR}/srv.o ${OBJECTDIR}/ssd.o ${OBJECTDIR}/statemachine.o ${OBJECTDIR}/swt.o ${OBJECTDIR}/uart.o ${OBJECTDIR}/uartjb.o ${OBJECTDIR}/utils.o ${OBJECTDIR}/racine.o
+OBJECTFILES=${OBJECTDIR}/PICmx370.o ${OBJECTDIR}/config_bits.o ${OBJECTDIR}/main.o ${OBJECTDIR}/led.o ${OBJECTDIR}/IrDA.o ${OBJECTDIR}/acl.o ${OBJECTDIR}/adc.o ${OBJECTDIR}/aic.o ${OBJECTDIR}/audio.o ${OBJECTDIR}/btn.o ${OBJECTDIR}/i2c.o ${OBJECTDIR}/lcd.o ${OBJECTDIR}/mic.o ${OBJECTDIR}/mot.o ${OBJECTDIR}/pmods.o ${OBJECTDIR}/rgbled.o ${OBJECTDIR}/spiflash.o ${OBJECTDIR}/spija.o ${OBJECTDIR}/srv.o ${OBJECTDIR}/ssd.o ${OBJECTDIR}/statemachine.o ${OBJECTDIR}/swt.o ${OBJECTDIR}/uart.o ${OBJECTDIR}/uartjb.o ${OBJECTDIR}/utils.o ${OBJECTDIR}/racine.o ${OBJECTDIR}/pid.o
 
 # Source Files
-SOURCEFILES=PICmx370.c config_bits.c main.c led.c IrDA.c acl.c adc.c aic.c audio.c btn.c i2c.c lcd.c mic.c mot.c pmods.c rgbled.c spiflash.c spija.c srv.c ssd.c statemachine.c swt.c uart.c uartjb.c utils.c racine.s
+SOURCEFILES=PICmx370.c config_bits.c main.c led.c IrDA.c acl.c adc.c aic.c audio.c btn.c i2c.c lcd.c mic.c mot.c pmods.c rgbled.c spiflash.c spija.c srv.c ssd.c statemachine.c swt.c uart.c uartjb.c utils.c racine.s pid.c
 
 
 
@@ -265,6 +265,12 @@ ${OBJECTDIR}/utils.o: utils.c  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/utils.o 
 	@${FIXDEPS} "${OBJECTDIR}/utils.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/utils.o.d" -o ${OBJECTDIR}/utils.o utils.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
 	
+${OBJECTDIR}/pid.o: pid.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/pid.o.d 
+	@${RM} ${OBJECTDIR}/pid.o 
+	@${FIXDEPS} "${OBJECTDIR}/pid.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/pid.o.d" -o ${OBJECTDIR}/pid.o pid.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
+	
 else
 ${OBJECTDIR}/PICmx370.o: PICmx370.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
@@ -415,6 +421,12 @@ ${OBJECTDIR}/utils.o: utils.c  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/utils.o.d 
 	@${RM} ${OBJECTDIR}/utils.o 
 	@${FIXDEPS} "${OBJECTDIR}/utils.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/utils.o.d" -o ${OBJECTDIR}/utils.o utils.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
+	
+${OBJECTDIR}/pid.o: pid.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/pid.o.d 
+	@${RM} ${OBJECTDIR}/pid.o 
+	@${FIXDEPS} "${OBJECTDIR}/pid.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/pid.o.d" -o ${OBJECTDIR}/pid.o pid.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
 	
 endif
 
