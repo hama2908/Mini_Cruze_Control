@@ -106,7 +106,12 @@ void adc_tasks()
 
     adc = ADC_AnalogRead(24); 
     dist = (8700/(adc-20))-3;
-
+    if(dist < 0){
+        dist = 0;
+    } 
+        if(dist > 50){
+        dist = 50;
+    } 
 
     if(SWITCH2StateGet())
     {
