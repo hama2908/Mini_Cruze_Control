@@ -227,6 +227,12 @@ void main() {
             //LCD_WriteStringAtPos(lcd_heure,0,0);
 //                sprintf(acc, "%f", sousracine);
                 dist = (8700/(adc-20))-3;
+                if(dist < 0){
+                    dist = 0;
+                } 
+                if(dist > 50){
+                    dist = 50;
+                } 
                 sprintf(lcd_heure,"%04d",dist);
 
             LCD_WriteStringAtPos("retour_sensor_1",1,0);
