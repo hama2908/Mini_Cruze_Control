@@ -1227,6 +1227,8 @@
         <itemPath>../src/global_event.h</itemPath>
         <itemPath>../src/main.h</itemPath>
         <itemPath>../src/PID.h</itemPath>
+        <itemPath>../src/mot.h</itemPath>
+        <itemPath>../src/control.h</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
@@ -1390,6 +1392,8 @@
         <itemPath>../src/global_event.c</itemPath>
         <itemPath>../src/main.c</itemPath>
         <itemPath>../src/PID.c</itemPath>
+        <itemPath>../src/mot.c</itemPath>
+        <itemPath>../src/control.c</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"

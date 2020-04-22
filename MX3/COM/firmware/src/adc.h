@@ -20,7 +20,9 @@
 
 void ADC_Init();
 unsigned int ADC_AnalogRead(unsigned char analogPIN);
-void adc_tasks();
+int adc;
+int dist;
+int adc_tasks();
 //#ifdef __cplusplus
 //extern "C" {
 //#endif

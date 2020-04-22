@@ -69,6 +69,8 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include <stdio.h>
 #include "adc.h"
 #include "PID.h"
+#include "mot.h"
+//#include "control.h"
 // *****************************************************************************
 // *****************************************************************************
 // Section: Global Data Definitions
@@ -191,7 +193,9 @@ void MAIN_Initialize ( void )
     UDP_Initialize();
     LCD_Init();
     ADC_Init();
-    ACL_Init();
+    MOT_Init(1);
+//    ACL_Init();
+    
 //    RGBLED_Init();
 
     /* TODO: Initialize your application's state machine and other
@@ -236,7 +240,7 @@ void MAIN_Tasks ( void )
 //            LedTask();
 //            accel_tasks();
             adc_tasks();
-            PID_tasks();
+//            control_tasks();
             UDP_Tasks();
             ManageSwitches();
             LED0Toggle();

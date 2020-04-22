@@ -97,11 +97,11 @@ unsigned int ADC_AnalogRead(unsigned char analogPIN)
     return adc_val;
 }
 
-void adc_tasks()
+int adc_tasks()
 {
 
     int adc;
-    int dist;
+    float dist;
     
 
     adc = ADC_AnalogRead(24); 
@@ -116,7 +116,10 @@ void adc_tasks()
     if(SWITCH2StateGet())
     {
         SYS_CONSOLE_PRINT("%d\r\n", dist);
-    }     
+    }    
+ 
+    return (int)(dist << 2);
+
 }
 
 

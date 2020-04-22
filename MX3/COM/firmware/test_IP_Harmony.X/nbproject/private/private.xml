@@ -3,10 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/antoi/Desktop/projetS4/Mini_Cruze_Control_sensor/MX3/COM/firmware/src/PID.h</file>
+            <file>file:/C:/Users/antoi/Desktop/projetS4/Mini_Cruze_Control_sensor/MX3/COM/firmware/src/accel.h</file>
+            <file>file:/C:/Users/antoi/Desktop/projetS4/Mini_Cruze_Control_sensor/MX3/COM/firmware/src/adc.h</file>
             <file>file:/C:/Users/antoi/Desktop/projetS4/Mini_Cruze_Control_sensor/MX3/COM/firmware/src/accel.c</file>
-            <file>file:/C:/Users/antoi/Desktop/projetS4/Mini_Cruze_Control_sensor/MX3/COM/firmware/src/UDP_app.c</file>
+            <file>file:/C:/Users/antoi/Desktop/projetS4/Mini_Cruze_Control_sensor/MX3/COM/firmware/src/control.c</file>
+            <file>file:/C:/Users/antoi/Desktop/projetS4/Mini_Cruze_Control_sensor/MX3/COM/firmware/src/mot.c</file>
+            <file>file:/C:/Users/antoi/Desktop/projetS4/Mini_Cruze_Control_sensor/MX3/COM/firmware/src/adc.c</file>
             <file>file:/C:/Users/antoi/Desktop/projetS4/Mini_Cruze_Control_sensor/MX3/COM/firmware/src/main.c</file>
             <file>file:/C:/Users/antoi/Desktop/projetS4/Mini_Cruze_Control_sensor/MX3/COM/firmware/src/PID.c</file>
+            <file>file:/C:/Users/antoi/Desktop/projetS4/Mini_Cruze_Control_sensor/MX3/COM/firmware/src/control.h</file>
         </group>
     </open-files>
 </project-private>
