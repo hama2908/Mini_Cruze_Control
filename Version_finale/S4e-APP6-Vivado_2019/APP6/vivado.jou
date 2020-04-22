@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Apr 22 13:16:26 2020
+# Process ID: 467992
+# Current directory: C:/Mini_Cruze_Max/S4e-APP6-Vivado_2019/APP6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent467392 C:\Mini_Cruze_Max\S4e-APP6-Vivado_2019\APP6\APP6.xpr
+# Log file: C:/Mini_Cruze_Max/S4e-APP6-Vivado_2019/APP6/vivado.log
+# Journal file: C:/Mini_Cruze_Max/S4e-APP6-Vivado_2019/APP6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Mini_Cruze_Max/S4e-APP6-Vivado_2019/APP6/APP6.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Mini_Cruze_Max/S4e-APP6-Vivado_2019/APP6/APP6.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Mini_Cruze_Max/S4e-APP6-Vivado_2019/APP6/APP6.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+file copy -force C:/Mini_Cruze_Max/S4e-APP6-Vivado_2019/APP6/APP6.runs/impl_1/design_1_wrapper.sysdef C:/Mini_Cruze_Max/S4e-APP6-Vivado_2019/APP6/APP6.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace C:/Mini_Cruze_Max/S4e-APP6-Vivado_2019/APP6/APP6.sdk -hwspec C:/Mini_Cruze_Max/S4e-APP6-Vivado_2019/APP6/APP6.sdk/design_1_wrapper.hdf

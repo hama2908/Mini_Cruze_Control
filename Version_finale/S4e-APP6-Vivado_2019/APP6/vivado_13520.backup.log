@@ -1,0 +1,390 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Apr 19 09:39:29 2020
+# Process ID: 13520
+# Current directory: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12320 C:\Users\fpell\Desktop\Untouched\S4e-APP6-Vivado_2019\APP6\APP6.xpr
+# Log file: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/vivado.log
+# Journal file: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/fpell/Downloads/Untouched/S4e-APP6-Vivado_2019/APP6' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Users/fpell/Desktop/vivado-library-2018.2-1', nor could it be found using path 'C:/Users/fpell/Downloads/vivado-library-2018.2-1'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/myip_1.0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/fpell/Desktop/vivado-library-2018.2-1'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:20 . Memory (MB): peak = 743.516 ; gain = 97.559
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/design_1.bd}
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - lmb_bram
+Adding component instance block -- xilinx.com:user:myip:1.0 - myip_0
+Adding component instance block -- xilinx.com:module_ref:mux32:1.0 - mux32_0
+Adding component instance block -- xilinx.com:ip:c_shift_ram:12.0 - Delai_2_Cycle_2
+Adding component instance block -- xilinx.com:ip:c_shift_ram:12.0 - Delai_1_Cycle_2
+Adding component instance block -- xilinx.com:ip:c_shift_ram:12.0 - Registre_Decalage
+Adding component instance block -- xilinx.com:ip:c_shift_ram:12.0 - Delai_1_Cycle_1
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Calcul_Moyenne/DSP_0/Delai_1_Cycle_1/Q(data) and /Calcul_Moyenne/DSP_0/Registre_Decalage/CE(ce)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Calcul_Moyenne/DSP_0/CE(ce) and /Calcul_Moyenne/DSP_0/Delai_1_Cycle_1/D(data)
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - axi_intc_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Calcul_Moyenne/myip_0/o_data_available(undef) and /Calcul_Moyenne/DSP_0/CE(ce)
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_0
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_1
+Adding component instance block -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding component instance block -- xilinx.com:ip:microblaze:11.0 - microblaze_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - microblaze_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_1_100M
+Successfully read diagram <design_1> from BD file <C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1214.813 ; gain = 23.352
+delete_bd_objs [get_bd_nets Calcul_Moyenne/DSP_0/Delai_2_Cycle_Q]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 Calcul_Moyenne/DSP_0/xlconstant_0
+endgroup
+set_property location {4.5 868 150} [get_bd_cells Calcul_Moyenne/DSP_0/xlconstant_0]
+set_property -dict [list CONFIG.CONST_VAL {0}] [get_bd_cells Calcul_Moyenne/DSP_0/xlconstant_0]
+connect_bd_net [get_bd_pins Calcul_Moyenne/DSP_0/Interrupt] [get_bd_pins Calcul_Moyenne/DSP_0/xlconstant_0/dout]
+create_peripheral xilinx.com user in_potentio 1.0 -dir C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/../ip_repo
+add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core xilinx.com:user:in_potentio:1.0]
+generate_peripheral -driver -bfm_example_design -debug_hw_example_design [ipx::find_open_core xilinx.com:user:in_potentio:1.0]
+write_peripheral [ipx::find_open_core xilinx.com:user:in_potentio:1.0]
+set_property  ip_repo_paths  {C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/../ip_repo/in_potentio_1.0 C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/myip_1.0 C:/Users/fpell/Desktop/vivado-library-2018.2-1} [current_project]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/in_potentio_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/myip_1.0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/fpell/Desktop/vivado-library-2018.2-1'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+ipx::edit_ip_in_project -upgrade true -name edit_in_potentio_v1_0 -directory C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/../ip_repo c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/in_potentio_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1666.840 ; gain = 160.961
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/in_potentio_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/myip_1.0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/fpell/Desktop/vivado-library-2018.2-1'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 1673.402 ; gain = 167.570
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_ports' failed due to earlier errors.
+ERROR: [Ip 78-125] Tcl Error in evaluating proc can_apply_rule : ERROR: [Common 17-39] 'get_bd_intf_ports' failed due to earlier errors.
+
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/in_potentio_1.0/component.xml' ignored by IP packager.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/in_potentio_1.0/component.xml' ignored by IP packager.
+INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'.
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/in_potentio_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/in_potentio_1.0'
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:in_potentio:1.0 in_potentio_0
+endgroup
+set_property location {6 2050 584} [get_bd_cells in_potentio_0]
+startgroup
+make_bd_pins_external  [get_bd_pins in_potentio_0/in_pot]
+endgroup
+set_property name i_pot [get_bd_ports in_pot_0]
+create_peripheral xilinx.com user out_SSD 1.0 -dir C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/../ip_repo
+add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core xilinx.com:user:out_SSD:1.0]
+generate_peripheral -driver -bfm_example_design -debug_hw_example_design [ipx::find_open_core xilinx.com:user:out_SSD:1.0]
+write_peripheral [ipx::find_open_core xilinx.com:user:out_SSD:1.0]
+set_property  ip_repo_paths  {C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/../ip_repo/out_SSD_1.0 C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/in_potentio_1.0 C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/myip_1.0 C:/Users/fpell/Desktop/vivado-library-2018.2-1} [current_project]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/out_SSD_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/in_potentio_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/myip_1.0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/fpell/Desktop/vivado-library-2018.2-1'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+ipx::edit_ip_in_project -upgrade true -name edit_out_SSD_v1_0 -directory C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/../ip_repo c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/out_SSD_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/out_SSD_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/in_potentio_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/myip_1.0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/fpell/Desktop/vivado-library-2018.2-1'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2067.586 ; gain = 0.000
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_ports' failed due to earlier errors.
+ERROR: [Ip 78-125] Tcl Error in evaluating proc can_apply_rule : ERROR: [Common 17-39] 'get_bd_intf_ports' failed due to earlier errors.
+
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_ports' failed due to earlier errors.
+ERROR: [Ip 78-125] Tcl Error in evaluating proc can_apply_rule : ERROR: [Common 17-39] 'get_bd_intf_ports' failed due to earlier errors.
+
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/out_SSD_1.0/component.xml' ignored by IP packager.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/out_SSD_1.0/component.xml' ignored by IP packager.
+INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'.
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/out_SSD_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/ip_repo/out_SSD_1.0'
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:out_SSD:1.0 out_SSD_0
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins out_SSD_0/out_SSD]
+endgroup
+save_bd_design
+Wrote  : <C:\Users\fpell\Desktop\Untouched\S4e-APP6-Vivado_2019\APP6\APP6.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+Wrote  : <C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/ui/bd_f1b65ab7.ui> 
+set_property name o_SSD [get_bd_ports out_SSD_0]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_1/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_1/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/in_potentio_0/S00_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins in_potentio_0/S00_AXI]
+Slave segment </in_potentio_0/S00_AXI/S00_AXI_reg> is being mapped into address space </microblaze_0/Data> at <0x44A2_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_1/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_1/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/out_SSD_0/S00_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins out_SSD_0/S00_AXI]
+Slave segment </out_SSD_0/S00_AXI/S00_AXI_reg> is being mapped into address space </microblaze_0/Data> at <0x44A3_0000 [ 64K ]>
+endgroup
+startgroup
+set_property -dict [list CONFIG.C_IS_DUAL {0}] [get_bd_cells axi_gpio_0]
+WARNING: [BD 41-1684] Pin /axi_gpio_0/gpio2_io_o is now disabled. All connections to this pin have been removed. 
+delete_bd_objs [get_bd_nets axi_gpio_0_gpio2_io_o]
+endgroup
+set_property name Boutons [get_bd_intf_ports GPIO_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_1
+endgroup
+set_property location {6 2072 893} [get_bd_cells axi_gpio_1]
+set_property location {2439 886} [get_bd_ports LEDS]
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins axi_gpio_1/GPIO]
+endgroup
+set_property name Leds [get_bd_intf_ports GPIO_0]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_1/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_1/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_1/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_1/S_AXI]
+Slave segment </axi_gpio_1/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x4001_0000 [ 64K ]>
+set_property name ooo [get_bd_intf_ports Boutons]
+set_property name Boutons [get_bd_intf_ports Leds]
+set_property name Leds [get_bd_intf_ports ooo]
+set_property location {2436 254} [get_bd_intf_ports Leds]
+delete_bd_objs [get_bd_ports LEDS]
+save_bd_design
+Wrote  : <C:\Users\fpell\Desktop\Untouched\S4e-APP6-Vivado_2019\APP6\APP6.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+Wrote  : <C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/ui/bd_f1b65ab7.ui> 
+reset_run synth_1
+reset_run design_1_axi_gpio_0_0_synth_1
+reset_run design_1_xbar_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+			##################################################################################################
+			INFO: AXI Quad SPI core's AXI4 Memory Mapped Clock and EXT SPI CLK are asynchronous to each other.
+			##################################################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+			##################################################################################################
+			INFO: AXI Quad SPI core's AXI4 Memory Mapped Clock and EXT SPI CLK are asynchronous to each other.
+			##################################################################################################
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /Calcul_Moyenne/DSP_0/Delai_1_Cycle_1 Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /Calcul_Moyenne/DSP_0/Delai_1_Cycle_1 Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /Calcul_Moyenne/DSP_0/Delai_2_Cycle_2 Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /Calcul_Moyenne/DSP_0/Delai_2_Cycle_2 Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /Calcul_Moyenne/DSP_0/Delai_1_Cycle_2 Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /Calcul_Moyenne/DSP_0/Delai_1_Cycle_2 Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /Calcul_Moyenne/DSP_0/Registre_Decalage Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /Calcul_Moyenne/DSP_0/Registre_Decalage Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+WARNING: [BD 41-927] Following properties on pin /Calcul_Moyenne/DSP_0/mux32_0/CLK have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=/clk_wiz_1_clk_out1 
+Wrote  : <C:\Users\fpell\Desktop\Untouched\S4e-APP6-Vivado_2019\APP6\APP6.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+Wrote  : <C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/ui/bd_f1b65ab7.ui> 
+VHDL Output written to : C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+Wrote  : <C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+Wrote  : <C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/ui/bd_f1b65ab7.ui> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_1_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_quad_spi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Calcul_Moyenne/myip_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Calcul_Moyenne/DSP_0/Registre_Decalage .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Calcul_Moyenne/DSP_0/Delai_1_Cycle_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Calcul_Moyenne/axi_intc_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Calcul_Moyenne/DSP_0/Delai_2_Cycle_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Calcul_Moyenne/DSP_0/mux32_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Calcul_Moyenne/DSP_0/Delai_1_Cycle_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Calcul_Moyenne/xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Calcul_Moyenne/DSP_0/xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block in_potentio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block out_SSD_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_1_100M_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m04_couplers/auto_pc .
+Exporting to file C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = 2bc8aacde7e7b9b3; cache size = 16.262 MB.
+[Sun Apr 19 10:16:22 2020] Launched design_1_axi_intc_0_0_synth_1, design_1_axi_gpio_0_0_synth_1, design_1_xbar_0_synth_1, design_1_axi_gpio_1_0_synth_1, design_1_in_potentio_0_0_synth_1, design_1_rst_clk_wiz_1_100M_1_0_synth_1, design_1_out_SSD_0_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_axi_intc_0_0_synth_1: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/design_1_axi_intc_0_0_synth_1/runme.log
+design_1_axi_gpio_0_0_synth_1: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/design_1_axi_gpio_0_0_synth_1/runme.log
+design_1_xbar_0_synth_1: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/design_1_xbar_0_synth_1/runme.log
+design_1_axi_gpio_1_0_synth_1: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/design_1_axi_gpio_1_0_synth_1/runme.log
+design_1_in_potentio_0_0_synth_1: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/design_1_in_potentio_0_0_synth_1/runme.log
+design_1_rst_clk_wiz_1_100M_1_0_synth_1: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/design_1_rst_clk_wiz_1_100M_1_0_synth_1/runme.log
+design_1_out_SSD_0_0_synth_1: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/design_1_out_SSD_0_0_synth_1/runme.log
+synth_1: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/synth_1/runme.log
+[Sun Apr 19 10:16:23 2020] Launched impl_1...
+Run output will be captured here: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 2067.586 ; gain = 0.000
+startgroup
+set_property -dict [list CONFIG.C_GPIO_WIDTH {4}] [get_bd_cells axi_gpio_1]
+endgroup
+save_bd_design
+Wrote  : <C:\Users\fpell\Desktop\Untouched\S4e-APP6-Vivado_2019\APP6\APP6.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+Wrote  : <C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/ui/bd_f1b65ab7.ui> 
+reset_run synth_1
+reset_run design_1_axi_gpio_1_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+			##################################################################################################
+			INFO: AXI Quad SPI core's AXI4 Memory Mapped Clock and EXT SPI CLK are asynchronous to each other.
+			##################################################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+			##################################################################################################
+			INFO: AXI Quad SPI core's AXI4 Memory Mapped Clock and EXT SPI CLK are asynchronous to each other.
+			##################################################################################################
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /Calcul_Moyenne/DSP_0/Delai_1_Cycle_1 Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /Calcul_Moyenne/DSP_0/Delai_1_Cycle_1 Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /Calcul_Moyenne/DSP_0/Delai_2_Cycle_2 Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /Calcul_Moyenne/DSP_0/Delai_2_Cycle_2 Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /Calcul_Moyenne/DSP_0/Delai_1_Cycle_2 Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /Calcul_Moyenne/DSP_0/Delai_1_Cycle_2 Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /Calcul_Moyenne/DSP_0/Registre_Decalage Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+INFO: [xilinx.com:ip:c_shift_ram:12.0-913] /Calcul_Moyenne/DSP_0/Registre_Decalage Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+WARNING: [BD 41-927] Following properties on pin /Calcul_Moyenne/DSP_0/mux32_0/CLK have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=/clk_wiz_1_clk_out1 
+Wrote  : <C:\Users\fpell\Desktop\Untouched\S4e-APP6-Vivado_2019\APP6\APP6.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+Wrote  : <C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/ui/bd_f1b65ab7.ui> 
+VHDL Output written to : C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+Wrote  : <C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+Wrote  : <C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/ui/bd_f1b65ab7.ui> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_1_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_quad_spi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Calcul_Moyenne/myip_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Calcul_Moyenne/DSP_0/Registre_Decalage .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Calcul_Moyenne/DSP_0/Delai_1_Cycle_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Calcul_Moyenne/axi_intc_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Calcul_Moyenne/DSP_0/Delai_2_Cycle_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Calcul_Moyenne/DSP_0/mux32_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Calcul_Moyenne/DSP_0/Delai_1_Cycle_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Calcul_Moyenne/xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Calcul_Moyenne/DSP_0/xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block in_potentio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block out_SSD_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_1_100M_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m04_couplers/auto_pc .
+Exporting to file C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = 2bc8aacde7e7b9b3; cache size = 18.629 MB.
+[Sun Apr 19 10:25:10 2020] Launched design_1_axi_gpio_1_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_axi_gpio_1_0_synth_1: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/design_1_axi_gpio_1_0_synth_1/runme.log
+synth_1: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/synth_1/runme.log
+[Sun Apr 19 10:25:10 2020] Launched impl_1...
+Run output will be captured here: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 2067.586 ; gain = 0.000
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Apr 19 10:29:40 2020] Launched synth_1...
+Run output will be captured here: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/synth_1/runme.log
+[Sun Apr 19 10:29:40 2020] Launched impl_1...
+Run output will be captured here: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/impl_1/runme.log
+file copy -force C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/impl_1/design_1_wrapper.sysdef C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk -hwspec C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk -hwspec C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+file copy -force C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/impl_1/design_1_wrapper.sysdef C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk -hwspec C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk -hwspec C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Apr 19 11:37:39 2020] Launched synth_1...
+Run output will be captured here: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/synth_1/runme.log
+[Sun Apr 19 11:37:39 2020] Launched impl_1...
+Run output will be captured here: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Apr 19 11:42:24 2020] Launched synth_1...
+Run output will be captured here: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/synth_1/runme.log
+[Sun Apr 19 11:42:24 2020] Launched impl_1...
+Run output will be captured here: C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/impl_1/runme.log
+file copy -force C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.runs/impl_1/design_1_wrapper.sysdef C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk -hwspec C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk -hwspec C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+delete_bd_objs [get_bd_intf_nets axi_gpio_0_GPIO]
+connect_bd_intf_net [get_bd_intf_ports Leds] [get_bd_intf_pins axi_gpio_0/GPIO]
+set_property location {2229 233} [get_bd_intf_ports Leds]
+set_property location {2235 415} [get_bd_intf_ports Pmod_NIC100]

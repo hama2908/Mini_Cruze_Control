@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Apr 18 19:50:12 2020
+# Process ID: 27504
+# Current directory: C:/Users/fpell/Downloads/Untouched/S4e-APP6-Vivado_2019/APP6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17388 C:\Users\fpell\Downloads\Untouched\S4e-APP6-Vivado_2019\APP6\APP6.xpr
+# Log file: C:/Users/fpell/Downloads/Untouched/S4e-APP6-Vivado_2019/APP6/vivado.log
+# Journal file: C:/Users/fpell/Downloads/Untouched/S4e-APP6-Vivado_2019/APP6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/fpell/Downloads/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/fpell/Downloads/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.srcs/sources_1/bd/design_1/design_1.bd}
+delete_bd_objs [get_bd_nets rst_clk_wiz_1_100M_peripheral_aresetn]
+launch_sdk -workspace C:/Users/fpell/Downloads/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk -hwspec C:/Users/fpell/Downloads/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk/design_1_wrapper.hdf

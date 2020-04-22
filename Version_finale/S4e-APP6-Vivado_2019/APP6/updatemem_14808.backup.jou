@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# updatemem v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# 
+# Start of session at: Sun Apr 19 11:53:53 2020
+# Process ID: 14808
+# Current directory: c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6
+# Command line: updatemem.exe -mode batch -source C:/Xilinx/SDK/2019.1/scripts/updatemem/main.tcl -notrace -tclargs -meminfo C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.mmi -data C:/Xilinx/SDK/2019.1/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc design_1_i/microblaze_0 -bit C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -out C:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/APP6.sdk/design_1_wrapper_hw_platform_0/download.bit -force
+# Log file: c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6/updatemem.log
+# Journal file: c:/Users/fpell/Desktop/Untouched/S4e-APP6-Vivado_2019/APP6\updatemem.jou
+#-----------------------------------------------------------
+source C:/Xilinx/SDK/2019.1/scripts/updatemem/main.tcl -notrace

@@ -1,0 +1,43 @@
+17:03:11 **** Auto Build of configuration Debug for project APP6_2019 ****
+make all 
+'Building file: ../src/cyclone_tcp/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g -I"C:\Mini_Cruze_Max\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\cyclone_tcp" -I"C:\Mini_Cruze_Max\S4e-APP6-Vivado_2019\APP6\APP6.sdk\APP6_2019\src\common" -c -fmessage-length=0 -MT"src/cyclone_tcp/main.o" -flto -I../../standalone_bsp_0/microblaze_0/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/main.d" -MT"src/cyclone_tcp/main.o" -o "src/cyclone_tcp/main.o" "../src/cyclone_tcp/main.c"
+../src/cyclone_tcp/main.c: In function 'systemInit':
+../src/cyclone_tcp/main.c:120:12: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+    error_t error;
+            ^~~~~
+../src/cyclone_tcp/main.c: In function 'SetupInterruptSystem':
+../src/cyclone_tcp/main.c:202:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'uartInit':
+../src/cyclone_tcp/main.c:262:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+../src/cyclone_tcp/main.c:261:15: warning: unused variable 'SentCount' [-Wunused-variable]
+  unsigned int SentCount;
+               ^~~~~~~~~
+../src/cyclone_tcp/main.c:260:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/cyclone_tcp/main.c: In function 'main':
+../src/cyclone_tcp/main.c:353:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+'Finished building: ../src/cyclone_tcp/main.c'
+' '
+'Building target: APP6_2019.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Xlinker -Map=output.map -Xlinker -flto -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--gc-sections -o "APP6_2019.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/main.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP6_2019.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP6_2019.elf  |tee "APP6_2019.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102620	   1876	  14056	 118552	  1cf18	APP6_2019.elf
+'Finished building: APP6_2019.elf.size'
+' '
+
+17:03:20 Build Finished (took 8s.961ms)
+
