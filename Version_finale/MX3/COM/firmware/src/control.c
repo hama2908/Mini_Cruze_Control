@@ -6,25 +6,38 @@
 #include "mot.h"
 #include "control.h"
 
-short distances [6]= {10, 15, 20, 25, 30, 35};
-short vitesses [11]= {0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+
+
 //unsigned char dist_min;
 //unsigned char vmax;
 unsigned char vitesse;
 
+//int Depact_Data()
+//{
+//    
+//}
 
 
-void control_SetValue(unsigned char dist_min, unsigned char vmax)
+
+
+
+
+
+void Set_MOT_Speed(int speed) 
 {
-    dist_set = distances[dist_min];
-    v_set = distances[vmax];
+   MOT_SetPhEnMotor1('1', (unsigned char)speed);
 }
 
-void control_tasks()
-{
 
-}
-
-
-
+//PIDController *createPIDController(double p, double i, double d, int (*pidSource)(void), void (*pidOutput)(int output));
+//PIDController *createPIDController(double p, double i, double d, adc_tasks, Mot_write);
+// 
+//
+//setInputBounds(PIDController *controller, int lower, int upper)
+//((setFeedbackWrapBounds(PIDController *controller, int lower, int upper)))
+//setOutputBounds(PIDController *controller, int lower, int upper)
+//
+// 
+//
+//myPIDController.registerTimeFunction(millis);
 

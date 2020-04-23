@@ -376,5 +376,6 @@ build/default/production/_ext/1360937237/main.o:  \
 ../src/lcd.h  \
 ../src/app_commands.h  \
 ../src/adc.h  \
- ../src/PID.h  \
-../src/mot.h 
+ ../src/mot.h  \
+../src/control.h  \
+../src/PID.h 

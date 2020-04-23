@@ -85,6 +85,8 @@ extern "C" {
     This enumeration defines the valid application states.  These states
     determine the behavior of the application at various times.
 */
+    
+    unsigned long millis(void);
 
 typedef enum
 {

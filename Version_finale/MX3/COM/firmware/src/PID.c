@@ -69,7 +69,7 @@
  * @param (*pidSource) The function pointer for retrieving system feedback.
  * @param (*pidOutput) The function pointer for delivering system output.
  */
-PIDController *createPIDController(double p, double i, double d, int (*pidSource)(void), void (*pidOutput)(int output)) {
+PIDController *createPIDController(double p, double i, double d, int (*pidSource)(void), void (*pidOutput)(int output), unsigned long (*pidtime)(void)) {
 
 	PIDController *controller = malloc(sizeof(PIDController));
 	controller->p = p;
@@ -95,7 +95,7 @@ PIDController *createPIDController(double p, double i, double d, int (*pidSource
 	controller->timeFunctionRegistered = 0;
 	controller->pidSource = pidSource;
 	controller->pidOutput = pidOutput;
-	controller->getSystemTime = NULL;
+	controller->getSystemTime = pidtime;
 	return controller;
 }
 
@@ -315,3 +315,9 @@ void setFeedbackWrapBounds(PIDController *controller, int lower, int upper) {
 	controller->feedbackWrapLowerBound = lower;
 	controller->feedbackWrapUpperBound = upper;
 }
+
+void PID_Init(PIDController* PID)
+{
+    PID = createPIDController(10, 5, 2, adc_tasks, Set_MOT_Speed, millis);
+}
+

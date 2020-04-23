@@ -1,7 +1,13 @@
 #ifndef PID_H
 #define PID_H
-
+#include "mot.h"
+#include "control.h"
+#include "adc.h"
 #include <stdint.h>
+#include "main.h"
+//int P = 10;
+//int I = 5;
+//int D = 2;
 
 typedef struct pid_controller {
 
@@ -38,8 +44,10 @@ typedef struct pid_controller {
 
 } PIDController;
 
-PIDController *createPIDController(double p, double i, double d, int (*pidSource)(void), void (*pidOutput)(int output));
+PIDController* PID;
 
+PIDController *createPIDController(double p, double i, double d, int (*pidSource)(void), void (*pidOutput)(int output), unsigned long (*pidtime)(void));
+void PID_Init(PIDController* PID);
 void tick(PIDController *controller);
 void setEnabled(PIDController *controller, uint8_t e);
 int getProportionalComponent(PIDController *controller);
@@ -54,5 +62,7 @@ void setFeedbackWrapBounds(PIDController *controller, int lower, int upper);
 void setPIDSource(PIDController *controller, int (*pidSource)());
 void setPIDOutput(PIDController *controller, void (*pidOutput)(int output));
 void registerTimeFunction(PIDController *controller, unsigned long (*getSystemTime)(void));
+
+void control_tasks(PIDController *controller, int distance, int vitesse);
 
 #endif // PID_H

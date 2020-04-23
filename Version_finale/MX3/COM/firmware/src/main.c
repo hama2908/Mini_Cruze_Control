@@ -68,8 +68,9 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include "string.h"
 #include <stdio.h>
 #include "adc.h"
-#include "PID.h"
 #include "mot.h"
+#include "control.h"
+#include "PID.h"
 //#include "control.h"
 // *****************************************************************************
 // *****************************************************************************
@@ -118,7 +119,9 @@ MAIN_DATA mainData;
 
 
         static unsigned long int counter=0;
+//        static unsigned long int timer=0;
         static unsigned long int counter_buffer=0;
+        static unsigned long time = 0;
 //      static bool sw0_old; 
 
         int commande_somme_distance;
@@ -129,6 +132,9 @@ MAIN_DATA mainData;
         int commande_distance_buffer[SIZE_BUFFER];
         int commande_vitesse_buffer[SIZE_BUFFER];
         int i = 0;
+        
+short distances [9]= {10, 15, 20, 25, 30, 35, 35, 35, 35};
+short vitesses [11]= {0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
         
 /* Application's LED Task Function */
 //static void LedTask(void) {
@@ -149,7 +155,9 @@ void Buffer_Init()
     }  
 }
 
-void ManageSwitches()
+
+
+void ManageCom()
 {
     if(counter++ >= 5000)
     {
@@ -157,7 +165,14 @@ void ManageSwitches()
         UDP_bytes_to_send = strlen(UDP_Send_Buffer);
         UDP_Send_Packet = true;
         counter = 0;
+        time =+ 1 ;
     }
+}
+//time a horloge (a ameliorer)
+unsigned long millis()
+{
+    
+    return time;
 }
 
 void Moyenne_Mobile()
@@ -173,6 +188,26 @@ void Moyenne_Mobile()
        
        commande_somme_distance = 0;
        commande_somme_vitesse = 0;
+}
+
+
+
+void control_tasks(PIDController *controller, int d, int v)
+{
+    static int old_d = 0;
+    static int old_v = 0;
+    
+    if(v != old_v) {
+        setOutputBounds(controller, 0, vitesses[v]);
+        old_v = v;
+    }
+    if(d != old_d) {
+       controller->target = d;
+        old_d = d;
+    }
+    
+    
+    tick(controller);
 }
 
 void Commande_reception()
@@ -230,7 +265,6 @@ bool USART0_init(void)
  */
 
 
-
 void MAIN_Initialize ( void )
 {
     /* Place the App state machine in its initial state. */
@@ -244,7 +278,7 @@ void MAIN_Initialize ( void )
     ADC_Init();
     MOT_Init(1);
     Buffer_Init();
-//    ACL_Init();
+    PID_Init(PID);
     
 //    RGBLED_Init();
 
@@ -290,11 +324,11 @@ void MAIN_Tasks ( void )
 //            LedTask();
 //            accel_tasks();
             adc_tasks();
-//            control_tasks();
+            control_tasks(PID, commande_distance_filtre, commande_vitesse_filtre);
             UDP_Tasks();
             Commande_reception();
 //            printf();
-            ManageSwitches();
+            ManageCom();
             LED0Toggle();
             JB1Toggle();        //LED heartbeat
             
