@@ -165,7 +165,7 @@ void ManageCom()
         UDP_bytes_to_send = strlen(UDP_Send_Buffer);
         UDP_Send_Packet = true;
         counter = 0;
-        time =+ 1 ;
+        
     }
 }
 //time a horloge (a ameliorer)
@@ -208,6 +208,7 @@ void control_tasks(PIDController *controller, int d, int v)
     
     
     tick(controller);
+    time =+ 1 ;
 }
 
 void Commande_reception()
